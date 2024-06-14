@@ -1,0 +1,38 @@
+{
+	x: 16.0d,
+	y: -4.5d,
+	shape: "octagon",
+	text: [
+		"I should have a couple laying around... it is a shame I am not home; I would be a millionaire! "
+	],
+	dependencies: [
+		"e38ce314",
+		"73d23094"
+	],
+	tasks: [{
+		uid: "a375082c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b518828",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "065dcb0b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "235adcaf",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 7.5d,
+	y: -7.0d,
+	text: [
+		"Combining some longs and glue, I can make a different kind of log pile. Surrounding these with different blocks and lighting them aflame can yield a much higher amount of charcoal. While this does not make wood tar, this is really useful! And a lot cheaper."
+	],
+	dependencies: [
+		"cce9f7c3"
+	],
+	tasks: [{
+		uid: "6e192e47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:wood_pile"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a785317",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "44f69add",
+		type: "random",
+		table: 3
+	}]
+}

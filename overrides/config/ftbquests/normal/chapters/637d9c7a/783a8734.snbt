@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"Campfires are good and all, but I need something that can smelt rocks. Placing a bed of plant fibers, a straw block and some logs in a dirt pit seems able to smelt 8 things at a time."
+	],
+	dependencies: [
+		"45769037"
+	],
+	tasks: [{
+		uid: "9cf9b0b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:kiln_pit"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e2de14b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7b784832",
+		type: "random",
+		table: 0
+	}]
+}

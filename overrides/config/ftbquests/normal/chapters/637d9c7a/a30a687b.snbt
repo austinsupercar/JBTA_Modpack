@@ -1,0 +1,66 @@
+{
+	x: 10.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	text: [
+		"While I cannot make steel, using all the other bricks I have made, I can create a tool that can start a fire just as well and for much longer. "
+	],
+	dependencies: [
+		"af148de1",
+		"ee0a0821"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4782bd2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ade5a309",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6aff69e7",
+		type: "gamestage",
+		title: "Copper age",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tinkersforging:tinkers_anvil/ardite"
+		},
+		auto: "enabled",
+		stage: "copper"
+	},
+	{
+		uid: "44aaca52",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "tinkersforging:book"
+			}
+		}
+	},
+	{
+		uid: "4612a977",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		}
+	}]
+}

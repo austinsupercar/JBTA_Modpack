@@ -1,0 +1,32 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"These crude hammers are not cutting it anymore. I need something stronger! Maybe using all this flint could do the job."
+	],
+	dependencies: [
+		"203b6c16"
+	],
+	tasks: [{
+		uid: "6c627109",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:flint_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a68070e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "cf2ebbae",
+		type: "random",
+		table: 1
+	}]
+}

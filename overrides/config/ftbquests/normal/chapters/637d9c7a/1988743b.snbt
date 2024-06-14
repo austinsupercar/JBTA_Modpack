@@ -1,0 +1,32 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	text: [
+		"After studying the properties of limestone I think I can use it to make an improved and much more useful brick. "
+	],
+	dependencies: [
+		"a8841607"
+	],
+	tasks: [{
+		uid: "9094044a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:rock",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b997221",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "a22f2b15",
+		type: "random",
+		table: 0
+	}]
+}

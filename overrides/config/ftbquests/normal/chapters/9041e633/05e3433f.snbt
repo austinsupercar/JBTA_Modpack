@@ -1,0 +1,31 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	text: [
+		"Combining petroleum-infused iron, Luminessence, and iron makes a pitch-black ingot with similar traits to iron. It is much stronger, though, and has various other strange properties. Using the carpenter, I can make various components. Maybe I can make some useful machine out of this?"
+	],
+	dependencies: [
+		"4a991eb3"
+	],
+	tasks: [{
+		uid: "2bf395a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:material"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8db903c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c4849edd",
+		type: "random",
+		table: 4
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	text: [
+		"The thoughts swirl in my head about how I will move forward in this world. Though to test some of the theories I have, I will need a lot of different resources and a lot of different blocks. The machines necessary to get what I want will be huge, but I believe it is worth the cost!",
+		"",
+		"[Message from Austinsupercar: You will need these for a multiblock generator.]",
+		"",
+		"[Hint: ice cubes can be mined on the snow island north of the platform without silk touch.]"
+	],
+	dependencies: [
+		"d1b57f3e"
+	],
+	tasks: [{
+		uid: "4c0d41c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6b286de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61d3f10d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "d93fdbce",
+		type: "random",
+		table: 3
+	}]
+}

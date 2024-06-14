@@ -1,0 +1,33 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"It looks like my improved smelter has yielded a stone brick. These could be useful for making some basic machines or as a building material."
+	],
+	dependencies: [
+		"554cca35",
+		"07e9305e"
+	],
+	tasks: [{
+		uid: "b98ee881",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 16s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d3aed62",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "0ffbe427",
+		type: "random",
+		table: 0
+	}]
+}

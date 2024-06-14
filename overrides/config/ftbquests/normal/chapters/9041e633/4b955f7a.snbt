@@ -1,0 +1,36 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	shape: "diamond",
+	text: [
+		"I need something harder than even Super diamonds. I can make a refined hardening agent by combining a ton of black iron with diamonds to create a raw pulp and then adding that to the Super diamonds I have created."
+	],
+	dependencies: [
+		"bf51060b",
+		"f97410c0",
+		"ee73f5ce",
+		"086e9ee8"
+	],
+	tasks: [{
+		uid: "3092e208",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 19s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5252abaa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1509a62a",
+		type: "random",
+		table: 4
+	}]
+}

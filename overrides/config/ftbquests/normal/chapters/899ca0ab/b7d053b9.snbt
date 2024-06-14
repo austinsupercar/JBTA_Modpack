@@ -1,0 +1,32 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	text: [
+		"To create machines, I need steel plates. I should make a couple of stacks to make sure."
+	],
+	dependencies: [
+		"531ff3a8"
+	],
+	tasks: [{
+		uid: "f1ce3265",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal",
+			Damage: 38s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b50d929f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "189cf298",
+		type: "random",
+		table: 3
+	}]
+}

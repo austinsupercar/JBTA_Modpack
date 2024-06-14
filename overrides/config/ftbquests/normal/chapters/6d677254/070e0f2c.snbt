@@ -1,0 +1,40 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"A carpenter’s workshop will allow me to make all kinds of wooden things! Maybe I should start making chests now."
+	],
+	dependencies: [
+		"a4572c62",
+		"3b29a58c",
+		"0c75ee2e"
+	],
+	tasks: [{
+		uid: "bc8399b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artisanworktables:workshop",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f4c94d9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "6c7efc52",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a2b1fb7f",
+		type: "random",
+		table: 1
+	}]
+}

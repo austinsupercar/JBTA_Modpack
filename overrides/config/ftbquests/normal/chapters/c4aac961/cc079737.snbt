@@ -1,0 +1,70 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"After working my way up from nuggets, I can finally craft an ingot! The potential that iron brings is huge. "
+	],
+	dependencies: [
+		"cd075c96"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "76ae4f38",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a25cae6f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3d606cf3",
+		type: "gamestage",
+		title: "Iron Age",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "minecraft:iron_ingot"
+		},
+		auto: "enabled",
+		stage: "iron"
+	},
+	{
+		uid: "29c4118a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		}
+	}]
+}

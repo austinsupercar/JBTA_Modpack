@@ -1,0 +1,32 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"With my newly discovered bricks I was able to make a stone pot capable of holding water. All I need to do now is make myself a bucket and fill this pot with water then I can start soaking things like sugar cane."
+	],
+	dependencies: [
+		"70f4441d",
+		"ae306361"
+	],
+	tasks: [{
+		uid: "0bbbb32c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:soaking_pot"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60fbc88d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "22372273",
+		type: "random",
+		table: 0
+	}]
+}

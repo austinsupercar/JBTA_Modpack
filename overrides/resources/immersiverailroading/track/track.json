@@ -1,0 +1,17 @@
+{
+  "types" : [
+    "default",
+    "concrete",
+    "railsonly",
+	"vanilla_track",
+	"redstone_track",
+	"redstone_crossing",
+	"wood_track",
+	"wood_crossing",
+	"highspeed_crossing",
+	"highspeed_track",
+	"ultra_highspeed_crossing",
+	"ultra_highspeed_track",
+	"vanilla_crossing"
+  ]
+}

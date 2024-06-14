@@ -1,0 +1,32 @@
+{
+	x: 15.0d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "Setting up an ME-System now is highly recommended as you will generate alot of resources trying to obtain the next few items.",
+	dependencies: [
+		"55c7ba3f",
+		"86de1384",
+		"478000f2"
+	],
+	tasks: [{
+		uid: "0525f64a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6eaa04a1",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "b6412294",
+		type: "random",
+		table: 6
+	}]
+}

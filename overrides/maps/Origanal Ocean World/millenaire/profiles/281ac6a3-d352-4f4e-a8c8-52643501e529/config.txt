@@ -1,0 +1,6 @@
+player_name=austinsupercar
+donation_mode=false
+culture_reputation=norman,2190
+culture_language=norman,3696
+village_reputations=-20793/73/-6977,21888
+village_diplomacy=-20793/73/-6977,5

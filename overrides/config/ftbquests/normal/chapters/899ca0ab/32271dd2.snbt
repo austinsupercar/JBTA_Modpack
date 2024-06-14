@@ -1,0 +1,55 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	text: [
+		"Well, it is time to make some serious power! Well, not serious power, but having some is better than none at all.",
+		"",
+		"[HINT: The metal press still works (for some reason the recipes are bugged in JEI)!]"
+	],
+	dependencies: [
+		"ffa44d82",
+		"73ed3833",
+		"d1b57f3e"
+	],
+	tasks: [{
+		uid: "ec6e7d3a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_device1",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "685f47a9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "043522d9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device1",
+			tag: {
+				sails: 8
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "4d056e84",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device1"
+		}
+	}]
+}

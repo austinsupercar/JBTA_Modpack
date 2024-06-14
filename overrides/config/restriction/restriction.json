@@ -1,0 +1,32 @@
+{
+  "entries": [
+    {
+      "block": "minecraft:bed",
+      "meta": 0,
+      "ignoreMeta": true,
+      "restrictions": [
+        {
+          "type": "SEESKY",
+          "reverse": true,
+          "ignoreMeta": false
+        }
+      ]
+    },
+    {
+      "block": "minecraft:enchanting_table",
+      "meta": 0,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "NEARBYBLOCKS",
+          "reverse": false,
+          "size": 3,
+          "block": "minecraft:lapis_block",
+          "meta": 0,
+          "ignoreMeta": false,
+          "amount": 4
+        }
+      ]
+    }
+  ]
+}

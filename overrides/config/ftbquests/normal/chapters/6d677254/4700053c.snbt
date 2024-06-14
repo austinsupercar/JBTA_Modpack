@@ -1,0 +1,38 @@
+{
+	x: 17.5d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"Surrounding a bunch of seared bricks and components can make the controller. The most important bit to a full-sized smeltery!"
+	],
+	dependencies: [
+		"e2fe4863",
+		"c6ebf48a"
+	],
+	tasks: [{
+		uid: "3c34f3ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c4056220",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "635ecb2c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "2ee96f7d",
+		type: "random",
+		table: 1
+	}]
+}

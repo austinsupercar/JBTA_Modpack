@@ -1,0 +1,38 @@
+{
+	x: 16.0d,
+	y: -3.5d,
+	text: [
+		"Boy, do these cost a lot of steel...Though they are useful in their own way. I should make a few."
+	],
+	dependencies: [
+		"363aa8dd"
+	],
+	tasks: [{
+		uid: "41e07300",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "steel"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3baad790",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "693ed2af",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0f04cf3b",
+		type: "random",
+		table: 1
+	}]
+}

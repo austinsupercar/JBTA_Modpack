@@ -1,0 +1,36 @@
+{
+	x: 11.5d,
+	y: 0.0d,
+	text: [
+		"Before I can make a large smeltery, making a melter will work just fine."
+	],
+	dependencies: [
+		"31a9f13f"
+	],
+	tasks: [{
+		uid: "85fd957e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tcomplement:melter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b50a372e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c36140af",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f9233613",
+		type: "random",
+		table: 1
+	}]
+}

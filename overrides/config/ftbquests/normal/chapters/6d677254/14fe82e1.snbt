@@ -1,0 +1,37 @@
+{
+	x: 12.0d,
+	y: -3.0d,
+	text: [
+		"The hardest part about this was the diorite and bones. I should find a way to get some, and maybe a mob farm would not hurt."
+	],
+	dependencies: [
+		"0ee6c55c"
+	],
+	tasks: [{
+		uid: "d94e3a86",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:sawmill_blade_obsidian"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b83275c9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8a028b2f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "89d01a4d",
+		type: "random",
+		table: 1
+	}]
+}

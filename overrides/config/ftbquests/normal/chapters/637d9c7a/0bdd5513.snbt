@@ -1,0 +1,15 @@
+{
+	title: "-20794 73 -6977 (West of the platform)",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"[Message from Austinsupercar: You need to go to these coordinates to the west to progress any further! Seriously by not going here you will have a very hard time completing the remaining quests.]"
+	],
+	dependencies: [
+		"09a6072e"
+	],
+	tasks: [{
+		uid: "d873a13a",
+		type: "checkmark"
+	}]
+}

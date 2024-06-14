@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"Drying wheat makes the flammable straw I need for my new and improved smelter."
+	],
+	dependencies: [
+		"45769037"
+	],
+	tasks: [{
+		uid: "839e49fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74ee4cb6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "32c9a905",
+		type: "random",
+		table: 0
+	}]
+}

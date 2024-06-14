@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	text: [
+		"With all these materials needing to go from place to place, I need some kind of train system to transport tons of items at once. Even with the advancements made so far, I need to make a manual rolling machine to get started on creating rails. Though I should work towards making a powered one, For I have much more important tasks to deal with."
+	],
+	dependencies: [
+		"ffe180fa"
+	],
+	tasks: [{
+		uid: "7d17fa60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "railcraft:equipment"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d2c633b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d48d39b4",
+		type: "random",
+		table: 4
+	}]
+}

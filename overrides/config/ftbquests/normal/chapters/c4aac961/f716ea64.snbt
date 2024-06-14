@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"I need to install a drain on my collection tank otherwise I will not be able to extract the tar-like stuff."
+	],
+	dependencies: [
+		"a2f4f434"
+	],
+	tasks: [{
+		uid: "9a078f72",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:tar_drain",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25a56e2c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "a91ddf7c",
+		type: "random",
+		table: 1
+	}]
+}

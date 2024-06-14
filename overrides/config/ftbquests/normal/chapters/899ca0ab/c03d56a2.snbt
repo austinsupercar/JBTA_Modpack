@@ -1,0 +1,33 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"While copper gears and great and all, I need something more durable. Bronze seems to be the best option for my current capabilities."
+	],
+	dependencies: [
+		"5d54b760",
+		"dd5bb554"
+	],
+	tasks: [{
+		uid: "920c2b7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:gear_bronze"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17538e7e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "8452c2c4",
+		type: "random",
+		table: 3
+	}]
+}

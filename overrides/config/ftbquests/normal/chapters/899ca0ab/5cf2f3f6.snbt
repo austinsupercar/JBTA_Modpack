@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"Now that I have the blueprints and materials, I need a workbench to craft them."
+	],
+	dependencies: [
+		"6b27a947",
+		"68b7911c"
+	],
+	tasks: [{
+		uid: "55114d2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device0",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6322b0a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "0776592c",
+		type: "random",
+		table: 3
+	}]
+}

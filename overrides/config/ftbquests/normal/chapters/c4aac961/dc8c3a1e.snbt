@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"Finally, I have the resources needed to make a metal anvil so that I can get into metal working."
+	],
+	dependencies: [
+		"096de449",
+		"bf707d91",
+		"763708ad"
+	],
+	tasks: [{
+		uid: "b6e64b75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tinkersforging:tinkers_anvil/copper"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68bcaeca",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "479ff060",
+		type: "random",
+		table: 1
+	}]
+}

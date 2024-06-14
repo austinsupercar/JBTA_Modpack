@@ -1,0 +1,32 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	shape: "gear",
+	text: [
+		"With so much copper lying around, might as well make gear out of it. It could prove to be useful later."
+	],
+	dependencies: [
+		"8e3ebd33"
+	],
+	tasks: [{
+		uid: "e829ece4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:gear_copper"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54954de4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "fc39862f",
+		type: "random",
+		table: 3
+	}]
+}

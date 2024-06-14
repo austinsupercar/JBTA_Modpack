@@ -1,0 +1,34 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	text: [
+		"Traveling over the ocean so much, I have noticed some black dots at the bottom. Upon investigating, it appears that some of them contain small bits of electrotine. Along with some of the resource ships as well. This seems useful; I should get a block of it!"
+	],
+	dependencies: [
+		"7c9ef9a3",
+		"c03d56a2",
+		"f6fa2405"
+	],
+	tasks: [{
+		uid: "8085bb2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projectred-exploration:stone",
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a669e846",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "69a18d10",
+		type: "random",
+		table: 3
+	}]
+}

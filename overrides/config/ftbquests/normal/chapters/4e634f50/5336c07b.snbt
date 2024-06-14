@@ -1,0 +1,33 @@
+{
+	x: 30.0d,
+	y: 1.0d,
+	text: [
+		"Quest Master is asking me to make a giant stomach for some reason, he says it will help me get the resources I need to progress into space but",
+		"I have a hard time believing him. I hope he doesn't plan to use it to digest me or something. He is giving me a scary look, I better do as he says."
+	],
+	dependencies: [
+		"1aabb71c"
+	],
+	tasks: [{
+		uid: "ca988a71",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:chemical_dusts",
+			Damage: 39s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c15a962",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5e2b727d",
+		type: "random",
+		table: 5
+	}]
+}

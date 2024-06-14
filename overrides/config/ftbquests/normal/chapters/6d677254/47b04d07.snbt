@@ -1,0 +1,37 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	text: [
+		"Getting the parts allows me to make tools, but I still need someplace to put them together."
+	],
+	dependencies: [
+		"b4f2f1b6"
+	],
+	tasks: [{
+		uid: "960652fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8cebe177",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9deb770b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dc3e76e8",
+		type: "random",
+		table: 1
+	}]
+}

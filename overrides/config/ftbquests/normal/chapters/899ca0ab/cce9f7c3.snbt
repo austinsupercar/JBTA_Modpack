@@ -1,0 +1,35 @@
+{
+	x: 5.5d,
+	y: -7.0d,
+	text: [
+		"Having some wire relays would prove to be useful in the future."
+	],
+	dependencies: [
+		"2c3a4d1e",
+		"90979e1a",
+		"d1b57f3e"
+	],
+	tasks: [{
+		uid: "7439c0b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:connector",
+			Damage: 1s
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b677f9b0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "832fd06f",
+		type: "random",
+		table: 3
+	}]
+}

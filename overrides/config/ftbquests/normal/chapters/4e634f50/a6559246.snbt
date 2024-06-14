@@ -1,0 +1,32 @@
+{
+	x: 40.0d,
+	y: 2.0d,
+	text: [
+		"Oh what's this, a new alloy, I wonder what I can do with it?"
+	],
+	dependencies: [
+		"133e9b75"
+	],
+	tasks: [{
+		uid: "d7f82ca3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:alloy_items_tech",
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ca03e03",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "090fafd0",
+		type: "random",
+		table: 5
+	}]
+}

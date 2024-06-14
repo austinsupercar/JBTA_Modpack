@@ -1,0 +1,12 @@
+{
+	title: "Chapter 12: The Storm Lands",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "draconicevolution:infused_obsidian"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

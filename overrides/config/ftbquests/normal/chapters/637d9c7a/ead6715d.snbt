@@ -1,0 +1,31 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	text: [
+		"After cooking my clay bricks, I have got real ones! While I am not saving myself from any wolves, this is rather strong."
+	],
+	dependencies: [
+		"1ed3d9c9"
+	],
+	tasks: [{
+		uid: "d3b43935",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brick"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e10c6638",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "a1e33a3d",
+		type: "random",
+		table: 0
+	}]
+}

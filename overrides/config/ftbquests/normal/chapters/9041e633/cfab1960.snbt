@@ -1,0 +1,32 @@
+{
+	x: 14.0d,
+	y: -2.0d,
+	text: [
+		"Using the Galgador metal, refined diamonds, and nether stars, I can make an ultimate ingot. While this is not unbreakable, the energy it radiates is beyond anything I have ever seen."
+	],
+	dependencies: [
+		"45573151"
+	],
+	tasks: [{
+		uid: "5742b6f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "avaritia:resource",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39dc705b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b7006884",
+		type: "random",
+		table: 4
+	}]
+}

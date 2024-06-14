@@ -1,0 +1,32 @@
+{
+	x: 21.0d,
+	y: 1.0d,
+	text: [
+		"This crystal seems useless in it's current form, perhaps crushing it will give it a use?"
+	],
+	dependencies: [
+		"2a4fe068"
+	],
+	tasks: [{
+		uid: "c81d87df",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:alloy_items_tech",
+			Damage: 27s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "015a4702",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "cffe69fb",
+		type: "random",
+		table: 5
+	}]
+}

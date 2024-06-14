@@ -1,0 +1,30 @@
+
+# Created by Ruins mod version 17.1 Ingame Parser
+# authoring Player: austinsupercar
+
+weight=100
+embed_into_distance=0
+acceptable_target_blocks=sand
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,3,3
+allowable_overhang=0
+max_leveling=2
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+preventRotation=1
+
+rule1=0,100,minecraft:gravel-0
+
+layer
+0,1,1
+1,1,1
+0,1,0
+endlayer
+
+layer
+0,0,0
+0,1,0
+0,0,0
+endlayer
+

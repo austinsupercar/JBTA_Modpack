@@ -1,0 +1,53 @@
+{
+	title: "The Moon",
+	x: 49.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "You need a guidance computer and a planet ID chip in the rocket to go to the moon.",
+	text: [
+		"Well it is time for me to go to the moon, perhaps I should also go to the second moon and look for the author of those anciant texts I have been finding.",
+		"Perhaps he or she is burried with untold riches, I mean, I might find more information about this lost civilization I discovered. "
+	],
+	dependencies: [
+		"e825861c"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "6ae39a1b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:moonturf"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "beecdb86",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:end_portal_frame"
+		},
+		auto: "enabled",
+		stage: "exploration"
+	},
+	{
+		uid: "3e171ba5",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "2a0733e0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		}
+	}]
+}

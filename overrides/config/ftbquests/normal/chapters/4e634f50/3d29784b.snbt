@@ -1,0 +1,33 @@
+{
+	x: 39.0d,
+	y: 0.0d,
+	text: [
+		"Quest Master is at it again, now he is asking me to make upgraded flesh blocks, I wonder what he is up to, maybe he's building a monster or something."
+	],
+	dependencies: [
+		"1494b3d8",
+		"55c1a6b0",
+		"02a88136"
+	],
+	tasks: [{
+		uid: "45167ea3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:outer_stomach_wall_sil"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b53cbe9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "f154889c",
+		type: "random",
+		table: 5
+	}]
+}

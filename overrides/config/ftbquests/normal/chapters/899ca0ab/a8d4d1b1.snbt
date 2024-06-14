@@ -1,0 +1,31 @@
+{
+	x: -5.5d,
+	y: 0.0d,
+	text: [
+		"Finding some should be easy. The properties of it seem to make it useful for almost everything."
+	],
+	dependencies: [
+		"5cba1be5"
+	],
+	tasks: [{
+		uid: "2d146ae1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dcc84d70",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "8e865a7a",
+		type: "random",
+		table: 3
+	}]
+}

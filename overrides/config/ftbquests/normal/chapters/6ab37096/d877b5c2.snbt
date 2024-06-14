@@ -1,0 +1,40 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		"The fibers of vines and sea grass seem like they could make for a useful binding component. If only I had a way to dry them out."
+	],
+	dependencies: [
+		"73aa7d4b"
+	],
+	tasks: [{
+		uid: "e18bb6eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "53ae953f",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "8c4bf9e7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 12s
+		},
+		count: 10
+	}]
+}

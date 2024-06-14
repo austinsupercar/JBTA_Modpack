@@ -1,0 +1,291 @@
+#Name: 2RC6industrial3.zs
+#Author: Austinsupercar
+
+print("Initializing '2RC6industrial3'...");
+
+//Chisel
+
+mods.chisel.Carving.addGroup("railcrafta");
+mods.chisel.Carving.addVariation("railcrafta", <railcraft:brick_abyssal>);
+mods.chisel.Carving.addVariation("railcrafta", <railcraft:brick_abyssal:1>);
+mods.chisel.Carving.addVariation("railcrafta", <railcraft:brick_abyssal:2>);
+mods.chisel.Carving.addVariation("railcrafta", <railcraft:brick_abyssal:3>);
+mods.chisel.Carving.addVariation("railcrafta", <railcraft:brick_abyssal:4>);
+mods.chisel.Carving.addVariation("railcrafta", <railcraft:brick_abyssal:5>);
+
+mods.chisel.Carving.addGroup("railcraftb");
+mods.chisel.Carving.addVariation("railcraftb", <railcraft:brick_bleachedbone>);
+mods.chisel.Carving.addVariation("railcraftb", <railcraft:brick_bleachedbone:1>);
+mods.chisel.Carving.addVariation("railcraftb", <railcraft:brick_bleachedbone:2>);
+mods.chisel.Carving.addVariation("railcraftb", <railcraft:brick_bleachedbone:3>);
+mods.chisel.Carving.addVariation("railcraftb", <railcraft:brick_bleachedbone:4>);
+mods.chisel.Carving.addVariation("railcraftb", <railcraft:brick_bleachedbone:5>);
+
+mods.chisel.Carving.addGroup("railcraftc");
+mods.chisel.Carving.addVariation("railcraftc", <railcraft:brick_bloodstained>);
+mods.chisel.Carving.addVariation("railcraftc", <railcraft:brick_bloodstained:1>);
+mods.chisel.Carving.addVariation("railcraftc", <railcraft:brick_bloodstained:2>);
+mods.chisel.Carving.addVariation("railcraftc", <railcraft:brick_bloodstained:3>);
+mods.chisel.Carving.addVariation("railcraftc", <railcraft:brick_bloodstained:4>);
+mods.chisel.Carving.addVariation("railcraftc", <railcraft:brick_bloodstained:5>);
+
+mods.chisel.Carving.addGroup("railcraftd");
+mods.chisel.Carving.addVariation("railcraftd", <railcraft:brick_frostbound>);
+mods.chisel.Carving.addVariation("railcraftd", <railcraft:brick_frostbound:1>);
+mods.chisel.Carving.addVariation("railcraftd", <railcraft:brick_frostbound:2>);
+mods.chisel.Carving.addVariation("railcraftd", <railcraft:brick_frostbound:3>);
+mods.chisel.Carving.addVariation("railcraftd", <railcraft:brick_frostbound:4>);
+mods.chisel.Carving.addVariation("railcraftd", <railcraft:brick_frostbound:5>);
+
+mods.chisel.Carving.addGroup("railcrafte");
+mods.chisel.Carving.addVariation("railcrafte", <railcraft:brick_infernal>);
+mods.chisel.Carving.addVariation("railcrafte", <railcraft:brick_infernal:1>);
+mods.chisel.Carving.addVariation("railcrafte", <railcraft:brick_infernal:2>);
+mods.chisel.Carving.addVariation("railcrafte", <railcraft:brick_infernal:3>);
+mods.chisel.Carving.addVariation("railcrafte", <railcraft:brick_infernal:4>);
+mods.chisel.Carving.addVariation("railcrafte", <railcraft:brick_infernal:5>);
+
+mods.chisel.Carving.addGroup("railcraftf");
+mods.chisel.Carving.addVariation("railcraftf", <railcraft:brick_quarried>);
+mods.chisel.Carving.addVariation("railcraftf", <railcraft:brick_quarried:1>);
+mods.chisel.Carving.addVariation("railcraftf", <railcraft:brick_quarried:2>);
+mods.chisel.Carving.addVariation("railcraftf", <railcraft:brick_quarried:3>);
+mods.chisel.Carving.addVariation("railcraftf", <railcraft:brick_quarried:4>);
+mods.chisel.Carving.addVariation("railcraftf", <railcraft:brick_quarried:5>);
+
+mods.chisel.Carving.addGroup("railcraftg");
+mods.chisel.Carving.addVariation("railcraftg", <railcraft:brick_sandy>);
+mods.chisel.Carving.addVariation("railcraftg", <railcraft:brick_sandy:1>);
+mods.chisel.Carving.addVariation("railcraftg", <railcraft:brick_sandy:2>);
+mods.chisel.Carving.addVariation("railcraftg", <railcraft:brick_sandy:3>);
+mods.chisel.Carving.addVariation("railcraftg", <railcraft:brick_sandy:4>);
+mods.chisel.Carving.addVariation("railcraftg", <railcraft:brick_sandy:5>);
+
+mods.chisel.Carving.addGroup("railcrafth");
+mods.chisel.Carving.addVariation("railcrafth", <railcraft:brick_red_sandy>);
+mods.chisel.Carving.addVariation("railcrafth", <railcraft:brick_red_sandy:1>);
+mods.chisel.Carving.addVariation("railcrafth", <railcraft:brick_red_sandy:2>);
+mods.chisel.Carving.addVariation("railcrafth", <railcraft:brick_red_sandy:3>);
+mods.chisel.Carving.addVariation("railcrafth", <railcraft:brick_red_sandy:4>);
+mods.chisel.Carving.addVariation("railcrafth", <railcraft:brick_red_sandy:5>);
+
+mods.chisel.Carving.addGroup("railcrafti");
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_nether:1>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_nether:2>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_nether:3>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_nether:4>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_nether:5>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_red_nether:1>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_red_nether:2>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_red_nether:3>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_red_nether:4>);
+mods.chisel.Carving.addVariation("railcrafti", <railcraft:brick_red_nether:5>);
+
+mods.chisel.Carving.addGroup("railcraftj");
+mods.chisel.Carving.addVariation("railcraftj", <railcraft:brick_andesite>);
+mods.chisel.Carving.addVariation("railcraftj", <railcraft:brick_andesite:1>);
+mods.chisel.Carving.addVariation("railcraftj", <railcraft:brick_andesite:3>);
+mods.chisel.Carving.addVariation("railcraftj", <railcraft:brick_andesite:4>);
+mods.chisel.Carving.addVariation("railcraftj", <railcraft:brick_andesite:5>);
+
+mods.chisel.Carving.addGroup("railcraftk");
+mods.chisel.Carving.addVariation("railcraftk", <railcraft:brick_diorite>);
+mods.chisel.Carving.addVariation("railcraftk", <railcraft:brick_diorite:1>);
+mods.chisel.Carving.addVariation("railcraftk", <railcraft:brick_diorite:3>);
+mods.chisel.Carving.addVariation("railcraftk", <railcraft:brick_diorite:4>);
+mods.chisel.Carving.addVariation("railcraftk", <railcraft:brick_diorite:5>);
+
+mods.chisel.Carving.addGroup("railcraftl");
+mods.chisel.Carving.addVariation("railcraftl", <railcraft:brick_granite>);
+mods.chisel.Carving.addVariation("railcraftl", <railcraft:brick_granite:1>);
+mods.chisel.Carving.addVariation("railcraftl", <railcraft:brick_granite:3>);
+mods.chisel.Carving.addVariation("railcraftl", <railcraft:brick_granite:4>);
+mods.chisel.Carving.addVariation("railcraftl", <railcraft:brick_granite:5>);
+
+mods.chisel.Carving.addGroup("railcraftm");
+mods.chisel.Carving.addVariation("railcraftm", <railcraft:brick_pearlized>);
+mods.chisel.Carving.addVariation("railcraftm", <railcraft:brick_pearlized:1>);
+mods.chisel.Carving.addVariation("railcraftm", <railcraft:brick_pearlized:2>);
+mods.chisel.Carving.addVariation("railcraftm", <railcraft:brick_pearlized:3>);
+mods.chisel.Carving.addVariation("railcraftm", <railcraft:brick_pearlized:4>);
+mods.chisel.Carving.addVariation("railcraftm", <railcraft:brick_pearlized:5>);
+
+mods.chisel.Carving.addGroup("railcraftn");
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:1>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:2>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:3>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:4>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:5>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:6>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:7>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:8>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:9>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:10>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:11>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:12>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:13>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:14>);
+mods.chisel.Carving.addVariation("railcraftn", <railcraft:glass:15>);
+
+mods.chisel.Carving.addGroup("railcrafto");
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:1>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:2>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:3>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:4>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:5>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:6>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:7>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:8>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:9>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:10>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:11>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:12>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:13>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:14>);
+mods.chisel.Carving.addVariation("railcrafto", <railcraft:tank_iron_gauge:15>);
+
+mods.chisel.Carving.addGroup("railcraftor");
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:1>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:2>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:3>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:4>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:5>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:6>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:7>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:8>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:9>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:10>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:11>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:12>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:13>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:14>);
+mods.chisel.Carving.addVariation("railcraftor", <railcraft:tank_iron_valve:15>);
+
+mods.chisel.Carving.addGroup("railcraftoe");
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:1>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:2>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:3>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:4>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:5>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:6>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:7>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:8>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:9>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:10>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:11>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:12>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:13>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:14>);
+mods.chisel.Carving.addVariation("railcraftoe", <railcraft:tank_iron_wall:15>);
+
+mods.chisel.Carving.addGroup("railcraftof");
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:1>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:2>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:3>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:4>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:5>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:6>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:7>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:8>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:9>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:10>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:11>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:12>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:13>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:14>);
+mods.chisel.Carving.addVariation("railcraftof", <railcraft:tank_steel_gauge:15>);
+
+mods.chisel.Carving.addGroup("railcraftog");
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:1>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:2>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:3>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:4>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:5>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:6>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:7>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:8>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:9>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:10>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:11>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:12>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:13>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:14>);
+mods.chisel.Carving.addVariation("railcraftog", <railcraft:tank_steel_valve:15>);
+
+mods.chisel.Carving.addGroup("railcraftoh");
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:1>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:2>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:3>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:4>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:5>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:6>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:7>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:8>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:9>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:10>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:11>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:12>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:13>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:14>);
+mods.chisel.Carving.addVariation("railcraftoh", <railcraft:tank_steel_wall:15>);
+
+mods.chisel.Carving.addGroup("railcraftoi");
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:1>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:2>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:3>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:4>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:5>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:6>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:7>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:8>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:9>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:10>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:11>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:12>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:13>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:14>);
+mods.chisel.Carving.addVariation("railcraftoi", <railcraft:reinforced_concrete:15>);
+
+mods.chisel.Carving.addGroup("railcraftoj");
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:1>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:2>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:3>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:4>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:5>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:6>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:7>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:8>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:9>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:10>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:11>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:12>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:13>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:14>);
+mods.chisel.Carving.addVariation("railcraftoj", <railcraft:post_metal:15>);
+
+mods.chisel.Carving.addGroup("railcraftok");
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:1>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:2>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:3>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:4>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:5>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:6>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:7>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:8>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:9>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:10>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:11>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:12>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:13>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:14>);
+mods.chisel.Carving.addVariation("railcraftok", <railcraft:post_metal_platform:15>);

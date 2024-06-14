@@ -1,0 +1,31 @@
+{
+	x: 39.0d,
+	y: 1.0d,
+	text: [
+		"This new resource seems to be just what I need to complete my enhanced machine caseing."
+	],
+	dependencies: [
+		"1c7f8671"
+	],
+	tasks: [{
+		uid: "2c5f31ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:structuremachine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9147f23",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "c589b378",
+		type: "random",
+		table: 5
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"The heat this Glowing substance emits seems to be enough to harden this grout into a new type of brick."
+	],
+	dependencies: [
+		"6a960473",
+		"a0128f04"
+	],
+	tasks: [{
+		uid: "f8338136",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb00dffc",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "039b8be3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ffc9e950",
+		type: "random",
+		table: 1
+	}]
+}

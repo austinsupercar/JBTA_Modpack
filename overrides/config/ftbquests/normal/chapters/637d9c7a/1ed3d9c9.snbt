@@ -1,0 +1,32 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	text: [
+		"To make bricks, I need to form clay into a brick-shape. Perhaps using a stick as the center and sticking clay together using my pulp can allow me to make something that will work."
+	],
+	dependencies: [
+		"bd5236c0"
+	],
+	tasks: [{
+		uid: "fe58f207",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 24s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e52b4a21",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "5618c665",
+		type: "random",
+		table: 0
+	}]
+}

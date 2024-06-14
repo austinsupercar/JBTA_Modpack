@@ -1,0 +1,33 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	text: [
+		"While I jumped in excitement, I failed to realize that I had to make the electricity go from the Kinetic Dynamo to the carpenter. Well, that should not be too hard to do with the use of some copper."
+	],
+	dependencies: [
+		"2c3a4d1e",
+		"f0f54d94"
+	],
+	tasks: [{
+		uid: "7b8ebf6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:connector"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "377ef07a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "9b351d14",
+		type: "random",
+		table: 3
+	}]
+}

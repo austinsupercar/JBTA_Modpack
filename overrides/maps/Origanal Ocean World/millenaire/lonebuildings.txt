@@ -1,0 +1,8 @@
+Apomonomeno Boske Probaton;-20689/64/-6876;lonesheepfarm_x;byzantines;
+Lost Maya Corn Farm;-19377/59/-6793;lonemayancornfarm;mayan;
+Tour de l'Achimiste;-20644/80/-7264;alchemisttower;norman;
+Anomalie Une;-20727/64/-7309;anomalyone;norman;austinsupercar
+Anomalie Deux;-20719/65/-7414;anomalytwo;norman;austinsupercar
+Anomalie Trois;-20590/65/-7390;anomalythree;norman;austinsupercar
+Iglu;-18699/69/-8121;loneiglu2;inuits;
+Nanuk Mitjuktipa;-18047/80/-8158;polarbearcave;inuits;

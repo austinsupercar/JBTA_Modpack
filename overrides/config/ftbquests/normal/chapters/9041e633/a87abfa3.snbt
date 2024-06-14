@@ -1,0 +1,34 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		"Combining the eyes with the reinforced metal, I can make lumps of Galgador. It feels ... evil, but it must be my imagination. Combining these lumps yields regular metal, which can be made into some useful items. Combining them again gives me a large lump of the metal. Doing so a final time gives me a Galgador ingot. Now, this is TRULY unbreakable."
+	],
+	dependencies: [
+		"f66705e1",
+		"06bcc7f3"
+	],
+	tasks: [{
+		uid: "d8e23fa9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 49s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "904f65aa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c67be31a",
+		type: "random",
+		table: 4
+	}]
+}

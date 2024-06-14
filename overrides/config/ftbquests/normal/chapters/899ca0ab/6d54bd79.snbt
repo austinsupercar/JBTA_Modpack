@@ -1,0 +1,33 @@
+{
+	x: 6.5d,
+	y: -4.0d,
+	text: [
+		"Combining wood with ash and creosote oil makes it very useful. The wood and ash make sense but getting creosote oil requires me to make a coke oven. I should make one if I have not done so already!"
+	],
+	dependencies: [
+		"baf21466",
+		"73ed3833",
+		"d1b57f3e"
+	],
+	tasks: [{
+		uid: "404199a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:treated_wood"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b79921d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "ee60ba2a",
+		type: "random",
+		table: 3
+	}]
+}

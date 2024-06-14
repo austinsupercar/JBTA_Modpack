@@ -1,0 +1,35 @@
+{
+	x: 38.0d,
+	y: 2.0d,
+	text: [
+		"If I want to make better alloys I better make a machine for it."
+	],
+	dependencies: [
+		"1c7f8671"
+	],
+	tasks: [{
+		uid: "c5652ec2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:machines_d",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efab1d0b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "90ca54c0",
+		type: "random",
+		table: 5
+	}]
+}

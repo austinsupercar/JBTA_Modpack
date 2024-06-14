@@ -1,0 +1,13 @@
+{
+	title: "Chapter 13: The Maze of Enlightenment (Bonus Chapter) ",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "avaritia:resource",
+		Damage: 5s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

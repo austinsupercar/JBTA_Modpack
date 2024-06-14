@@ -1,0 +1,32 @@
+{
+	x: 40.0d,
+	y: 0.0d,
+	text: [
+		"This new alloy I have mad seems strong enough to assemble rockes, perhaps I can make gears out of it and build some sort of machine to do this task for me."
+	],
+	dependencies: [
+		"a6559246"
+	],
+	tasks: [{
+		uid: "dda377d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:alloy_parts",
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84bfd4c3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "47237305",
+		type: "random",
+		table: 5
+	}]
+}

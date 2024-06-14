@@ -1,0 +1,19 @@
+{
+  "name": "Vanilla Crossing",
+  "models": {
+    ">0": "immersiverailroading:models/track/vanilla_crossing/vanilla_crossing.obj"
+  },
+  "materials": {
+    "TIE": [{
+      "item": "railcraft:tie",
+      "cost": 1
+    },{
+      "item": "ore:plankWood",
+      "cost": 1
+    }],
+    "RAIL": [{
+      "item": "railcraft:rail",
+      "cost": 1
+    }]
+  }
+}

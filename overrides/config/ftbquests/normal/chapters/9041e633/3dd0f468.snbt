@@ -1,0 +1,32 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	text: [
+		"To get started, I should make an iron gear."
+	],
+	dependencies: [
+		"3f61badf"
+	],
+	tasks: [{
+		uid: "edcf5066",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "railcraft:gear",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad9b4201",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aa047952",
+		type: "random",
+		table: 4
+	}]
+}

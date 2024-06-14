@@ -1,0 +1,35 @@
+{
+	x: 9.0d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"Combining these eyes of ender and the star I have made, I have surprised myself with what came out. I call it an ender star due to the similar ender properties it now demonstrates. It seems to be more powerful than before as well. I get goosebumps at the thought of what I can create with this."
+	],
+	dependencies: [
+		"0432e4ce",
+		"2113a242",
+		"3c4ae2bd"
+	],
+	tasks: [{
+		uid: "f01e439b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:material",
+			Damage: 40s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2331206a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f29ceae6",
+		type: "random",
+		table: 4
+	}]
+}

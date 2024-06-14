@@ -1,0 +1,31 @@
+{
+	x: 42.0d,
+	y: -2.0d,
+	text: [
+		"Now things are getting interesting, this new furnace should allow me to smelt things at a much higher tempreture than before."
+	],
+	dependencies: [
+		"082e7498"
+	],
+	tasks: [{
+		uid: "ffd5182b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:arcfurnace"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ec707f9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "b0f6c3d2",
+		type: "random",
+		table: 5
+	}]
+}

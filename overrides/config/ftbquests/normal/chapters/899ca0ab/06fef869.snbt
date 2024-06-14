@@ -1,0 +1,51 @@
+{
+	x: 16.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"I have come a long way, and it is about time I start making a more official lab for all the research I will be doing!"
+	],
+	dependencies: [
+		"1119ad9b"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "c75d7a15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:laboratory"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48cdd9aa",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e88b723c",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "foundry:machine",
+			Damage: 8s
+		},
+		auto: "enabled",
+		stage: "Industrial"
+	},
+	{
+		uid: "af4f4179",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		}
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "Chapter 4: A Monument Frozen in Time",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:prismarine",
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

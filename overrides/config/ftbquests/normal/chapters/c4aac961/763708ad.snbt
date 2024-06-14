@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	text: [
+		"Message From Austinsupercar: Talk to Quest Master!"
+	],
+	dependencies: [
+		"fb4fb756"
+	],
+	tasks: [{
+		uid: "ada20474",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gamestagebooks:fisherman"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e156dd50",
+		type: "random",
+		table: 1
+	}]
+}

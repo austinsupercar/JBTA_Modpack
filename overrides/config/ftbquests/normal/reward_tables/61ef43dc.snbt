@@ -1,0 +1,148 @@
+{
+	title: "Draconic Age Rewards",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_fuel"
+		},
+		count: 4,
+		weight: 100
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_fuel",
+			Damage: 2s
+		},
+		weight: 100
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_matter"
+		},
+		weight: 128
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_matter",
+			Damage: 1s
+		},
+		weight: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "auxiliumequivalence:matter"
+		},
+		weight: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "auxiliumequivalence:matter",
+			Damage: 1s
+		},
+		weight: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "auxiliumequivalence:matter",
+			Damage: 2s
+		},
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "auxiliumequivalence:matter",
+			Damage: 3s
+		},
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "auxiliumequivalence:matter",
+			Damage: 4s
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mos_neutronium_compound_ingot"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_age_rewards"
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_age_rewards"
+			}
+		},
+		count: 2,
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_age_rewards"
+			}
+		},
+		count: 3,
+		weight: 25
+	}],
+	loot_crate: {
+		string_id: "draconic_age_rewards",
+		color: 15663869,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

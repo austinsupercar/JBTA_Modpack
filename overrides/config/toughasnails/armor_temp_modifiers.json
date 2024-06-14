@@ -1,0 +1,47 @@
+[
+  {
+    "names": [
+      "toughasnails:jelled_slime_helmet",
+      "toughasnails:jelled_slime_chestplate",
+      "toughasnails:jelled_slime_leggings",
+      "toughasnails:jelled_slime_boots"
+    ],
+    "modifier": -1
+  },
+  {
+    "names": [
+      "toughasnails:wool_helmet",
+      "toughasnails:wool_chestplate",
+      "toughasnails:wool_leggings",
+      "toughasnails:wool_boots"
+    ],
+    "modifier": 1
+  },
+  {
+    "names": [
+      "better_diving:diving_mask",
+      "better_diving:standard_o2_tank",
+      "better_diving:wetsuit_leggings",
+      "better_diving:fins"
+    ],
+    "modifier": 1
+  },
+  {
+    "names": [
+      "better_diving:rebreather",
+      "better_diving:high_capacity_o2_tank",
+      "better_diving:improved_wetsuit_leggings",
+      "better_diving:ultra_glide_fins"
+    ],
+    "modifier": 2
+  },
+  {
+    "names": [
+      "better_diving:reinforced_diving_mask",
+      "better_diving:reinforced_o2_tank",
+      "better_diving:reinforced_wetsuit_leggings",
+      "better_diving:reinforced_fins"
+    ],
+    "modifier": 3
+  }
+]

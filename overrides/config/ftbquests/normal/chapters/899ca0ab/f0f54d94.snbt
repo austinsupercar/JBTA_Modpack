@@ -1,0 +1,34 @@
+{
+	x: 3.5d,
+	y: -5.0d,
+	text: [
+		"My very first machine that has a practical use! This should make my life so much easier with crafting things I have struggled with in the past. I should use this frequently."
+	],
+	dependencies: [
+		"d1b57f3e",
+		"2c3a4d1e",
+		"32271dd2",
+		"ffa44d82"
+	],
+	tasks: [{
+		uid: "9b3b6f4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:carpenter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78e66eee",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "37bd7ef0",
+		type: "random",
+		table: 3
+	}]
+}

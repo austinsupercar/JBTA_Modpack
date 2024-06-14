@@ -1,0 +1,33 @@
+{
+	x: 7.5d,
+	y: 4.0d,
+	text: [
+		"After combining all my hard work, I have got refractory clay! If I can make this into some bricks, I could make much better machines and perhaps better tools!"
+	],
+	dependencies: [
+		"2dc8fd35",
+		"44cf5f09"
+	],
+	tasks: [{
+		uid: "ae9ef511",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b106466",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "fbe65b39",
+		type: "random",
+		table: 0
+	}]
+}

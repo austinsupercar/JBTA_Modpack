@@ -1,0 +1,37 @@
+{
+	x: 16.5d,
+	y: 0.5d,
+	text: [
+		"Blocks that can withstand the heat of lava and any liquid metal. I should make tons of these. The larger the smeltery, the more I can smelt."
+	],
+	dependencies: [
+		"a2a14212"
+	],
+	tasks: [{
+		uid: "004dd828",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70f7e256",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c08c6c19",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d175eb5a",
+		type: "random",
+		table: 1
+	}]
+}

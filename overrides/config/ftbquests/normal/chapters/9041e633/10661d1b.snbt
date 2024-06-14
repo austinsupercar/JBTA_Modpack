@@ -1,0 +1,52 @@
+{
+	x: 15.5d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"While the ingot is of great use to me, I need it in block form for what I plan to do next."
+	],
+	dependencies: [
+		"cfab1960"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "31d8b888",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "avaritia:block_resource",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f15b482e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "1429c85b",
+		type: "gamestage",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "props:props",
+			Damage: 1879s
+		},
+		auto: "enabled",
+		stage: "modern"
+	},
+	{
+		uid: "cfaf6016",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		}
+	}]
+}

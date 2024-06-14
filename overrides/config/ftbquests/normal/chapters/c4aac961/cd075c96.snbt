@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"Well it looks like I need to turn these nuggets into shards and work a pile of 9 of them to make an iron ingot."
+	],
+	dependencies: [
+		"7ea25a83"
+	],
+	tasks: [{
+		uid: "5ae569d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 19s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15570d53",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "e893b6ea",
+		type: "random",
+		table: 1
+	}]
+}

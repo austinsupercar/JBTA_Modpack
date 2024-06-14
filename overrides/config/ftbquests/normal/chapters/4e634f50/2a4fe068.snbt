@@ -1,0 +1,32 @@
+{
+	x: 20.0d,
+	y: 1.0d,
+	text: [
+		"Now that I have this crystal what should I do with it?"
+	],
+	dependencies: [
+		"b4b21387"
+	],
+	tasks: [{
+		uid: "0c55d8a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:alloy_items_tech",
+			Damage: 28s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ada2a8bd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d7d77723",
+		type: "random",
+		table: 5
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	text: [
+		"To make all the fancy machines and blueprints I need a designer’s table."
+	],
+	dependencies: [
+		"a8d4d1b1"
+	],
+	tasks: [{
+		uid: "3f9f3ff6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artisanworktables:workshop",
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca762fad",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "c180c698",
+		type: "random",
+		table: 3
+	}]
+}

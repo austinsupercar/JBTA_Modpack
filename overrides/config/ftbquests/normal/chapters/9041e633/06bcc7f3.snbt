@@ -1,0 +1,32 @@
+{
+	x: 11.0d,
+	y: -2.0d,
+	text: [
+		"Surrounding eyes of ender with this new metal and blaze rods makes an almost terrifying orange-eye. I have labeled this unknown beast as Galgador."
+	],
+	dependencies: [
+		"846efdbb"
+	],
+	tasks: [{
+		uid: "b19cfc56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 45s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85510fd8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "dfcbafb3",
+		type: "random",
+		table: 4
+	}]
+}

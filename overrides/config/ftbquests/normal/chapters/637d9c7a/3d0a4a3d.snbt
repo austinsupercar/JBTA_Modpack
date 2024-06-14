@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"Combining the stone rocks I have collected, perhaps I can create a block of cobblestone. Maybe this has uses other than fashion?"
+	],
+	dependencies: [
+		"783a8734"
+	],
+	tasks: [{
+		uid: "f3ccba16",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19854fcb",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "cb2e11ad",
+		type: "random",
+		table: 0
+	}]
+}

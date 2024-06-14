@@ -1,0 +1,47 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"To know what shape I need the parts to be in, I need a table to make the stencils. Though it seems only oak wood will work. (Message from RoyallyDawson: Quest does not have OreDir. For other stencil tables)."
+	],
+	dependencies: [
+		"b4f2f1b6"
+	],
+	tasks: [{
+		uid: "c139bf5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1e51e60",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f4b49490",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "70220572",
+		type: "random",
+		table: 1
+	}]
+}

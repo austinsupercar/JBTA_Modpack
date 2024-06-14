@@ -1,0 +1,33 @@
+{
+	x: 8.5d,
+	y: 4.0d,
+	text: [
+		"I have officially made a brick capable of withstanding a high enough temperature to smelt iron if only I had a better fire starter so that I can actually work on getting iron.",
+		"[Note: I’d recommend you make a brick mold with your first one]"
+	],
+	dependencies: [
+		"9f1f3235"
+	],
+	tasks: [{
+		uid: "7a2d9bbb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5cc4b878",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "1d1d5ed0",
+		type: "random",
+		table: 0
+	}]
+}

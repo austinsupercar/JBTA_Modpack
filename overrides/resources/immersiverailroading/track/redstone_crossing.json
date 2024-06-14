@@ -1,0 +1,19 @@
+{
+  "name": "Redstone Crossing",
+  "models": {
+    ">0": "immersiverailroading:models/track/redstone_crossing/redstone_crossing.obj"
+  },
+  "materials": {
+    "TIE": [{
+      "item": "railcraft:tie",
+      "cost": 1
+    },{
+      "item": "ore:plankWood",
+      "cost": 1
+    }],
+    "RAIL": [{
+      "item": "railcraft:rail|1",
+      "cost": 1
+    }]
+  }
+}

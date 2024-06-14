@@ -1,0 +1,33 @@
+{
+	x: 6.5d,
+	y: -6.0d,
+	text: [
+		"Ash is a by-product of this new method of making charcoal, but it still has many uses."
+	],
+	dependencies: [
+		"f465c960",
+		"cce9f7c3",
+		"d1b57f3e"
+	],
+	tasks: [{
+		uid: "5a6a03c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:ash"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05e5b670",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "e11153c7",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"Before I can get into metal working with my new anvil, I need to make a special hammer capable of withstanding the shock produced by pounding metal into the shapes I want."
+	],
+	dependencies: [
+		"dc8c3a1e"
+	],
+	tasks: [{
+		uid: "061f1623",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tinkersforging:hammer/stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f65606c3",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "a6daba8d",
+		type: "random",
+		table: 1
+	}]
+}

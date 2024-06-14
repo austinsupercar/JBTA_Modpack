@@ -1,0 +1,12 @@
+{
+	title: "Chapter 1: Nothingness",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "jarm:oak_raft"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,722 @@
+<!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:lens</itemStack>
+			<itemStack>libvulpes:productplate;1;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:atmanalyser</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>advancedrocketry:lens</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>libvulpes:motor</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<itemStack>minecraft:glass;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="10">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>libvulpes:productplate;1;4</itemStack>
+			<itemStack>libvulpes:productplate;1;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="60">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>minecraft:emerald</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="10">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>libvulpes:productplate;1;2</itemStack>
+			<itemStack>libvulpes:productplate;1;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>minecraft:gold_ingot</itemStack>
+			<itemStack>opencomputers:component;1;17</itemStack>
+			<itemStack>advancedrocketry:wafer</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>minecraft:gold_ingot</itemStack>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>advancedrocketry:wafer</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>minecraft:feather</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>minecraft:leather_boots</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>minecraft:diamond</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>minecraft:fire_charge</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>opencomputers:material;1;9</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>libvulpes:productplate;1;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:biomechanger</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:beaconfinder</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>advancedrocketry:spacestationchip</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:elevatorchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="50">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>minecraft:ender_eye</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:productrod;2;4</itemStack>
+			<itemStack>libvulpes:productrod;1;7</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+			<itemStack>draconicevolution:chaotic_core;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="10">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>minecraft:dye;1;4</itemStack>
+			<itemStack>libvulpes:productplate;1;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>libvulpes:productrod;1;1</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<itemStack>minecraft:glass;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;5</itemStack>
+			<itemStack>minecraft:iron_bars;3</itemStack>
+			<itemStack>libvulpes:productsheet;6;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:carbonscrubbercartridge</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;6</itemStack>
+			<itemStack>minecraft:glass_pane</itemStack>
+			<itemStack>libvulpes:productfan;1;6</itemStack>
+			<itemStack>minecraft:comparator</itemStack>
+			<itemStack>minecraft:redstone_torch;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:sealdetector</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;7</itemStack>
+			<itemStack>minecraft:diamond</itemStack>
+			<itemStack>libvulpes:productplate;2;9</itemStack>
+			<itemStack>libvulpes:productrod;1;7</itemStack>
+			<itemStack>libvulpes:motor</itemStack>
+			<itemStack>advancedrocketry:moonturf</itemStack>
+			<itemStack>immersiveengineering:material;2;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:jackhammer</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;8</itemStack>
+			<itemStack>minecraft:glass_pane;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:lens</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;9</itemStack>
+			<itemStack>minecraft:string</itemStack>
+			<itemStack>immersiveengineering:metal;1;38</itemStack>
+			<itemStack>advancedrocketry:pressuretank</itemStack>
+			<itemStack>advancedrocketry:pressuretank</itemStack>
+			<itemStack>minecraft:lever;2</itemStack>
+			<itemStack>minecraft:fire_charge;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:jetpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;10</itemStack>
+			<itemStack>immersiveengineering:railgun</itemStack>
+			<itemStack>rockhounding_chemistry:misc_items;1;13</itemStack>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:basiclasergun</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;11</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:structuretower</itemStack>
+			<itemStack>libvulpes:battery;2;1</itemStack>
+			<itemStack>libvulpes:productgem;2</itemStack>
+			<itemStack>advancedrocketry:rocketmotor;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:hovercraft</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;12</itemStack>
+			<itemStack>libvulpes:productrod;1;6</itemStack>
+			<itemStack>immersiveengineering:metal;4;38</itemStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productfan;1;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;5</itemStack>
+			<itemStack>immersiveengineering:metal;1;8</itemStack>
+			<itemStack>immersiveengineering:metal;2;38</itemStack>
+			<itemStack>libvulpes:productrod;4;6</itemStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productgear;1;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;6</itemStack>
+			<itemStack>libvulpes:productingot;1;7</itemStack>
+			<itemStack>libvulpes:productplate;2;7</itemStack>
+			<itemStack>libvulpes:productrod;4;7</itemStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productgear;1;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;13</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;14</itemStack>
+			<itemStack>libvulpes:productgem</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;15</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+			<itemStack>advancedrocketry:lens;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts</itemStack>
+			<itemStack>advancedrocketry:ic;2;1</itemStack>
+			<itemStack>libvulpes:productrod;1;4</itemStack>
+			<itemStack>advancedrocketry:orescanner</itemStack>
+			<itemStack>libvulpes:productsheet;3;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;1</itemStack>
+			<itemStack>libvulpes:productrod;2;7</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>libvulpes:productsheet;6;9</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satellite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;2</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteidchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;3</itemStack>
+			<itemStack>advancedrocketry:ic;2</itemStack>
+			<itemStack>advancedrocketry:satelliteidchip</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:planetidchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;39</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;4</itemStack>
+			<itemStack>minecraft:dye;2;10</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:glass_pane</itemStack>
+			<itemStack>minecraft:glowstone_dust;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:misc</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts</itemStack>
+			<itemStack>libvulpes:productrod;4;1</itemStack>
+			<itemStack>immersiveengineering:metal;1;39</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:sawbladeiron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;1</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>libvulpes:linker</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spacestationchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:asteroidchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;3</itemStack>
+			<itemStack>minecraft:glass_pane</itemStack>
+			<itemStack>libvulpes:productrod;3;1</itemStack>
+			<itemStack>minecraft:wool;3</itemStack>
+			<itemStack>immersiveengineering:metal;2;39</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spacehelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;4</itemStack>
+			<itemStack>libvulpes:productfan;1;6</itemStack>
+			<itemStack>advancedrocketry:fueltank</itemStack>
+			<itemStack>libvulpes:productrod;1;1</itemStack>
+			<itemStack>minecraft:wool;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spacechestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;15</itemStack>
+			<itemStack>libvulpes:productrod;1;1</itemStack>
+			<itemStack>minecraft:wool;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spaceleggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;14</itemStack>
+			<itemStack>libvulpes:productrod;1;1</itemStack>
+			<itemStack>minecraft:wool;2</itemStack>
+			<itemStack>immersiveengineering:metal;2;39</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spaceboots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;35</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;13</itemStack>
+			<itemStack>immersiveengineering:metal;6;38</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:smallairlockdoor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;5</itemStack>
+			<itemStack>libvulpes:productrod;7;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:structuretower</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;6</itemStack>
+			<itemStack>libvulpes:productplate;3;7</itemStack>
+			<itemStack>immersiveengineering:metal;3;8</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:rocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;7</itemStack>
+			<itemStack>advancedrocketry:productplate;3</itemStack>
+			<itemStack>advancedrocketry:productingot;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:advrocketmotor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;8</itemStack>
+			<itemStack>immersiveengineering:metal;2;38</itemStack>
+			<itemStack>libvulpes:productrod;4;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:fueltank</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;9</itemStack>
+			<itemStack>minecraft:wool;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:seat</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;10</itemStack>
+			<itemStack>advancedrocketry:sawbladeiron</itemStack>
+			<itemStack>immersiveengineering:metal;4;39</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:sawblade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;11</itemStack>
+			<itemStack>advancedrocketry:productingot</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productnugget</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;12</itemStack>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productnugget;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;13</itemStack>
+			<itemStack>advancedrocketry:productingot</itemStack>
+			<itemStack>advancedrocketry:productrod;4</itemStack>
+			<itemStack>advancedrocketry:productplate;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productgear</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;15</itemStack>
+			<itemStack>advancedrocketry:productingot;1;1</itemStack>
+			<itemStack>advancedrocketry:productrod;4;1</itemStack>
+			<itemStack>advancedrocketry:productplate;2;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productgear;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;14</itemStack>
+			<itemStack>advancedrocketry:productingot;9</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:metal0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts</itemStack>
+			<itemStack>advancedrocketry:productingot;9;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:metal0;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;1</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>minecraft:lever;2</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>libvulpes:battery;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:orescanner</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;2</itemStack>
+			<itemStack>minecraft:redstone;3</itemStack>
+			<itemStack>minecraft:glowstone_dust;3</itemStack>
+			<itemStack>immersiveengineering:metal;3;40</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satellitepowersource</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;3</itemStack>
+			<itemStack>advancedrocketry:satellitepowersource;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satellitepowersource;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;28</itemStack>
+			<itemStack>rockhounding_chemistry:chemical_dusts;1;4</itemStack>
+			<itemStack>minecraft:glass_pane;3</itemStack>
+			<itemStack>minecraft:glowstone_dust</itemStack>
+			<itemStack>immersiveengineering:metal;1;40</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

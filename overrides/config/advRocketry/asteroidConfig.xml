@@ -1,0 +1,44 @@
+<Asteroids>
+	<asteroid name="Iron Nickel Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="minecraft:iron_ore" chance="15" />
+		<ore itemStack="immersiveengineering:ore 4" chance="15" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Stone Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.01" richnessVariability="0.5">
+		<ore itemStack="minecraft:iron_ore" chance="15" />
+		<ore itemStack="immersiveengineering:ore 4" chance="2" />
+		<ore itemStack="minecraft:redstone_ore" chance="2" />
+	</asteroid>
+	<asteroid name="Ore Rich Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability=".25" richness="0.5" richnessVariability="0.5">
+		<ore itemStack="geolosys:ore" chance="20" />
+		<ore itemStack="geolosys:ore 1" chance="20" />
+		<ore itemStack="geolosys:ore 2" chance="20" />
+		<ore itemStack="geolosys:ore 3" chance="15" />
+		<ore itemStack="geolosys:ore 4" chance="20" />
+		<ore itemStack="geolosys:ore 5" chance="20" />
+		<ore itemStack="geolosys:ore 6" chance="15" />
+		<ore itemStack="geolosys:ore 7" chance="20" />
+		<ore itemStack="geolosys:ore 8" chance="20" />
+		<ore itemStack="geolosys:ore 9" chance="20" />
+		<ore itemStack="geolosys:ore 10" chance="20" />
+		<ore itemStack="geolosys:ore_vanilla" chance="20" />
+		<ore itemStack="geolosys:ore_vanilla 1" chance="15" />
+		<ore itemStack="geolosys:ore_vanilla 2" chance="20" />
+		<ore itemStack="geolosys:ore_vanilla 3" chance="20" />
+		<ore itemStack="geolosys:ore_vanilla 4" chance="15" />
+		<ore itemStack="geolosys:ore_vanilla 5" chance="20" />
+		<ore itemStack="geolosys:ore_vanilla 6" chance="20" />
+		<ore itemStack="libvulpes:ore0" chance="20" />
+	</asteroid>
+	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_ore" chance="25" />
+		<ore itemStack="libvulpes:ore0 10" chance="5" />
+	</asteroid>
+	<asteroid name="Comet" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.25" richness="0.9" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_ore" chance="25" />
+		<ore itemStack="minecraft:snow" chance="75" />
+		<ore itemStack="minecraft:ice" chance="75" />
+		<ore itemStack="minecraft:packed_ice" chance="75" />
+		<ore itemStack="libvulpes:ore0 10" chance="15" />
+	</asteroid>
+</Asteroids>

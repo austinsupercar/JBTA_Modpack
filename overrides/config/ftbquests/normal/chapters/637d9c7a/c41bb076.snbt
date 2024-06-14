@@ -1,0 +1,32 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	text: [
+		"Some materials are harder to break with my hand, especially after accidentally placing down the blocks I have created. As I do not have the materials to make anything special, perhaps I could tie up some basic materials in hopes of getting something that works."
+	],
+	dependencies: [
+		"09a6072e"
+	],
+	tasks: [{
+		uid: "42b287bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39bc5433",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "50caa8f8",
+		type: "random",
+		table: 0
+	}]
+}

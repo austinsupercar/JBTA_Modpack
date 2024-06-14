@@ -1,0 +1,38 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Sticks are too fragile to be used for tools perhaps I can get around this problem if I tie 2 sticks together."
+	],
+	dependencies: [
+		"f614edd2"
+	],
+	tasks: [{
+		uid: "1d5dc964",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:breaking_stick"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2e03d7e",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	},
+	{
+		uid: "96bb4305",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:breaking_stick"
+		},
+		count: 4
+	}]
+}

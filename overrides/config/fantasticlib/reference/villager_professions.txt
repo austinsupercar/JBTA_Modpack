@@ -1,0 +1,11 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+stevescarts:santa
+forestry:arborist
+forestry:apiarist
+railcraft:trackman
+immersiveengineering:engineer

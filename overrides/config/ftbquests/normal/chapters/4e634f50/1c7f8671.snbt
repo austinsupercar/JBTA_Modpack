@@ -1,0 +1,31 @@
+{
+	x: 37.0d,
+	y: 1.0d,
+	text: [
+		"Well what do you know, I actully got something useful from Quest Master's strange invention."
+	],
+	dependencies: [
+		"eb4941de"
+	],
+	tasks: [{
+		uid: "890a4517",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:broken_down_organic_matter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d8107b6",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "a9a3d4e4",
+		type: "random",
+		table: 5
+	}]
+}

@@ -1,0 +1,71 @@
+{
+	title: "Lives Choice",
+	loot_size: 1,
+	rewards: [{
+		title: "1 life",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:dragon_heart"
+		},
+		command: "/lives set @p 1",
+		type: "command"
+	},
+	{
+		title: "3 lives :)",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		},
+		command: "/lives set @p 3",
+		type: "command"
+	},
+	{
+		title: "5 lives :/",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_apple",
+			Damage: 1s
+		},
+		command: "/lives set @p 5",
+		type: "command"
+	},
+	{
+		title: "7 lives",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_apple"
+		},
+		command: "/lives set @p 7",
+		type: "command"
+	},
+	{
+		title: "10 lives :(",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:apple_baked"
+		},
+		command: "/lives set @p 10",
+		type: "command"
+	},
+	{
+		title: "InfiniteLives:'(",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:apple"
+		},
+		command: "/lives disable",
+		type: "command"
+	}]
+}

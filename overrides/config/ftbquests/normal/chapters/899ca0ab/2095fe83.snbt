@@ -1,0 +1,33 @@
+{
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"Using the components, I can make a Redstone Engineering Block. This should be useful for crafting simple machines or creating large complex ones. I should prepare for making more in the future."
+	],
+	dependencies: [
+		"e2435aef",
+		"d87d0d27"
+	],
+	tasks: [{
+		uid: "2c054ac8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9911a8de",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "dc28aecc",
+		type: "random",
+		table: 3
+	}]
+}

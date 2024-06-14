@@ -1,0 +1,33 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	text: [
+		"Melting down glass in my smeltery and putting it into my casting table yields a glass pane. This is rather useful to use as a more refined material in things that need glass. I can also stick it in the thermionic fabricator!"
+	],
+	dependencies: [
+		"73ed3833",
+		"c03d56a2",
+		"f6fa2405"
+	],
+	tasks: [{
+		uid: "00f8052a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass_pane"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "779d769d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4cfefd30",
+		type: "random",
+		table: 3
+	}]
+}

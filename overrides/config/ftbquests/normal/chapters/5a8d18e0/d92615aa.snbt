@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	shape: "square",
+	can_repeat: true,
+	tasks: [{
+		uid: "a520bb4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:sign_k"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fef7019a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Chapter 5: Into the Earth",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:deeper_stone"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

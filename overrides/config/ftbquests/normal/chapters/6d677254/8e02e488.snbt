@@ -1,0 +1,36 @@
+{
+	x: 17.0d,
+	y: -2.0d,
+	text: [
+		"This seems like a good way to channel liquids."
+	],
+	dependencies: [
+		"befe06e8"
+	],
+	tasks: [{
+		uid: "78edd577",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:channel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dafe95f1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8c1e5837",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3b6fd508",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -7.0d,
+	y: -0.5d,
+	text: [
+		"Now that I am making some nice machinery, it is time I get into smelting some ores. The most common is copper so I should look for some underground."
+	],
+	dependencies: [
+		"9be386a1"
+	],
+	tasks: [{
+		uid: "0d0b1412",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "geolosys:cluster",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "better_diving:copper_ore"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b63857db",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "bcc313f7",
+		type: "random",
+		table: 1
+	}]
+}

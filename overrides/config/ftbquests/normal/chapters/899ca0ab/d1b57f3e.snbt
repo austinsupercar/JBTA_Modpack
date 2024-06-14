@@ -1,0 +1,32 @@
+{
+	x: 5.5d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		"Combining all the previous steps, I can make a sturdy casing for the machines."
+	],
+	dependencies: [
+		"73ed3833"
+	],
+	tasks: [{
+		uid: "9f2febc0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:sturdy_machine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cdf12589",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "882cf7a1",
+		type: "random",
+		table: 3
+	}]
+}

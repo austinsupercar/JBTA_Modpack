@@ -1,0 +1,38 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "better_diving:limestone_outcrop"
+	},
+	x: 8.5d,
+	y: 2.0d,
+	text: [
+		"Although I cannot process iron ore yet it appears that one type of iron ore that spawns in huge veins can be smashed with bricks and combined with flint to make an improved fire starter.",
+		"[Note: You obtain iron from Limestone Outcrops scattered at the bottom of the sea]"
+	],
+	dependencies: [
+		"55b15f49"
+	],
+	tasks: [{
+		uid: "8d1f7f3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "geolosys:cluster"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d26fdead",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "a0418600",
+		type: "random",
+		table: 0
+	}]
+}

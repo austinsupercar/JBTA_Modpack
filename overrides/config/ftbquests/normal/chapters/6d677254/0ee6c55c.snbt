@@ -1,0 +1,38 @@
+{
+	x: 13.0d,
+	y: -4.0d,
+	shape: "octagon",
+	text: [
+		"Combining copper and aluminum creates a very useful alloy! I should make a couple of ingots before continuing."
+	],
+	dependencies: [
+		"b289be9b"
+	],
+	tasks: [{
+		uid: "d9233f63",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7531835",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "ecca88cb",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4b13e0d2",
+		type: "random",
+		table: 1
+	}]
+}

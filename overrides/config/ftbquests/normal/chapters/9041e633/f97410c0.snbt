@@ -1,0 +1,31 @@
+{
+	x: 7.5d,
+	y: 3.5d,
+	text: [
+		"This machine proves to be very useful to advance further in this world as it allows me to melt metal at a higher temperature."
+	],
+	dependencies: [
+		"3abe3595"
+	],
+	tasks: [{
+		uid: "c6ea25ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "foundry:burnerheater"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d61d4472",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f22fdd6b",
+		type: "random",
+		table: 4
+	}]
+}

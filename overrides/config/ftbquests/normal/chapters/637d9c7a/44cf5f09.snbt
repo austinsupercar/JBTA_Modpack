@@ -1,0 +1,32 @@
+{
+	x: 6.5d,
+	y: 4.0d,
+	text: [
+		"Crushing flint and soaking it yields some flint clay. While it does nothing on its own, I could combine it with other materials to make something far more useful. "
+	],
+	dependencies: [
+		"b1387d1a"
+	],
+	tasks: [{
+		uid: "4d79c6c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eab57f36",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "cbd8fd48",
+		type: "random",
+		table: 0
+	}]
+}

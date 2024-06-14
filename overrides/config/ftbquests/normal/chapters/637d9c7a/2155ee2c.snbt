@@ -1,0 +1,58 @@
+{
+	title: "Time to raid the dungeon!",
+	x: 8.5d,
+	y: -1.0d,
+	text: [
+		"I’ve been finding strange books hidden beneath the waves a few of which I re-located to my lab. These books seem to give instructions on how to make and use new materials and tools.",
+		"[Hint: Check The Ender Crystals!]"
+	],
+	dependencies: [
+		"98d67802"
+	],
+	tasks: [{
+		uid: "71feff2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d4ab9fed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gamestagebooks:prospector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "40062d4e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gamestagebooks:survivalist"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04b05bfa",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "49525802",
+		type: "random",
+		table: 0
+	}]
+}

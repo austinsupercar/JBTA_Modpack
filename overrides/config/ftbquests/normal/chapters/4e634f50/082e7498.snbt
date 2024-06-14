@@ -1,0 +1,31 @@
+{
+	x: 41.0d,
+	y: -2.0d,
+	text: [
+		"I need better plates to continue, this modified piston should do the trick."
+	],
+	dependencies: [
+		"6c023c19"
+	],
+	tasks: [{
+		uid: "76645543",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:platepress"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff7b4b9c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "ff8c0ed0",
+		type: "random",
+		table: 5
+	}]
+}

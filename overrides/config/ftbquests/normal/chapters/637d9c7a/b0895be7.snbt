@@ -1,0 +1,31 @@
+{
+	x: 6.5d,
+	y: -1.0d,
+	text: [
+		"I have no idea how to turn trees into paper, and I have gotten bored, so perhaps using pulp and drying it out can make me some? I wonder what I am going to draw…"
+	],
+	dependencies: [
+		"b9328c78"
+	],
+	tasks: [{
+		uid: "7f754b03",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:paper"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8201a86b",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "ce6d29a2",
+		type: "random",
+		table: 0
+	}]
+}

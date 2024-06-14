@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"This bloomery is relatively inefficient but It should do at least 64 iron ore at a time."
+	],
+	dependencies: [
+		"f716ea64",
+		"705af2a4"
+	],
+	tasks: [{
+		uid: "ca411a98",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:bloomery"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "284f5da1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "53da2ca3",
+		type: "random",
+		table: 1
+	}]
+}

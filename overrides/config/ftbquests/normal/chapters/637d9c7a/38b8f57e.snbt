@@ -1,0 +1,33 @@
+{
+	x: 2.5d,
+	y: -0.5d,
+	text: [
+		"Using the pickaxe I have made on the anvil, I can smash the masonry bricks into smaller rods. These are much stronger than wood and could make for some useful tools."
+	],
+	dependencies: [
+		"c2921bb7",
+		"c41bb076"
+	],
+	tasks: [{
+		uid: "fcfa12f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 27s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "166990f8",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "f7034724",
+		type: "random",
+		table: 0
+	}]
+}

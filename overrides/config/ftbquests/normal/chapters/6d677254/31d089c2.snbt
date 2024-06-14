@@ -1,0 +1,43 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"Crafting this will allow me to shape wood better than anything I could do with my hands"
+	],
+	dependencies: [
+		"070e0f2c"
+	],
+	tasks: [{
+		uid: "633feb85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artisanworktables:artisans_framing_hammer_copper"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artisanworktables:artisans_framing_hammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07d94866",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "210887e0",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a74ed3f3",
+		type: "random",
+		table: 1
+	}]
+}

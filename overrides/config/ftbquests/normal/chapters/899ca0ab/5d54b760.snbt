@@ -1,0 +1,31 @@
+{
+	x: 4.5d,
+	y: -2.0d,
+	text: [
+		"Pistons prove extremely useful in creating machines or components for them. I should plan on making a lot of these in the future."
+	],
+	dependencies: [
+		"dd5bb554"
+	],
+	tasks: [{
+		uid: "64dbc58e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:piston"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "686db72b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "7b16eaa3",
+		type: "random",
+		table: 3
+	}]
+}

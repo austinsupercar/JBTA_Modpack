@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"My design for an iron bloomery calls for tarred boards. I noticed a sticky residue left over when I converted wood into charcoal. ",
+		"Maybe installing a collection tank to the bottom of any future charcoal pit will allow me to collect this tar-like substance."
+	],
+	dependencies: [
+		"a2f4f434"
+	],
+	tasks: [{
+		uid: "4c9f0931",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:tar_collector",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9a107a2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9f899561",
+		type: "random",
+		table: 1
+	}]
+}

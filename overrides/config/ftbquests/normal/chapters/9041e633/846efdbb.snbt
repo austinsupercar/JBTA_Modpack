@@ -1,0 +1,32 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	text: [
+		"I have combined the star and Ender ingots to create a beautiful glowing ingot. It seems to be the same as before but ... more powerful."
+	],
+	dependencies: [
+		"851d8d3e"
+	],
+	tasks: [{
+		uid: "b78bbf8c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:material",
+			Damage: 48s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "832685fc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e8fc5738",
+		type: "random",
+		table: 4
+	}]
+}

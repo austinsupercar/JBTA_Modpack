@@ -1,0 +1,12 @@
+{
+	title: "Chapter 6: The Library",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:bookshelf"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

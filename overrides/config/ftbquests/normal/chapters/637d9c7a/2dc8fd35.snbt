@@ -1,0 +1,32 @@
+{
+	x: 7.5d,
+	y: 3.0d,
+	text: [
+		"Soaking the quicklime I have made gives me slaked lime. Mixed with some other resources, I am confident that I can make something stronger than masonry bricks."
+	],
+	dependencies: [
+		"55b15f49"
+	],
+	tasks: [{
+		uid: "2a05fc14",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a13f5a3d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "d3659573",
+		type: "random",
+		table: 0
+	}]
+}

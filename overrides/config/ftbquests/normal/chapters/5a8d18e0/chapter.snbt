@@ -1,0 +1,12 @@
+{
+	title: "Selling Coins",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "millenaire:denieror"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

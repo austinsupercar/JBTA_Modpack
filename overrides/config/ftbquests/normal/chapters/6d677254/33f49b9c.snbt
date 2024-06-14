@@ -1,0 +1,40 @@
+{
+	x: 14.5d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"I need a cast if I am to make ingots from the smeltery. Perhaps I can use this to make tools as well."
+	],
+	dependencies: [
+		"b5b57d85",
+		"c9b1be2b",
+		"e02d2717",
+		"1f09e257"
+	],
+	tasks: [{
+		uid: "f0a23da0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast_custom"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42d7f8fb",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "971f2601",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a023527d",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		"Workbenches only go so far, and I had a few of them break on me. Making a crafting table would make crafting much easier and less stressful! goodbye, hammers."
+	],
+	dependencies: [
+		"3a53a5bb"
+	],
+	tasks: [{
+		uid: "c7efdb20",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:crafting_table"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "938b83f2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7c67a68f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "25631930",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	text: [
+		"Simple machine casings are not enough. I need something more flexible and stronger than before. Using silicon as a base, I think I can achieve this."
+	],
+	dependencies: [
+		"27942624"
+	],
+	tasks: [{
+		uid: "4ac1ddf7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "modularmachinery:blockcasing",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9cd277b4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "b215c4f9",
+		type: "random",
+		table: 5
+	}]
+}

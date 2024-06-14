@@ -1,0 +1,47 @@
+{
+	x: 5.5d,
+	y: -2.0d,
+	text: [
+		"Half the fun of making tools is making the parts! Though it seems only Oak will work. (Message from RoyallyDawson: Quest does not have OreDir. For other tool part builders)."
+	],
+	dependencies: [
+		"b4f2f1b6"
+	],
+	tasks: [{
+		uid: "b157c1f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd7b401f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "cd115015",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dacc33ff",
+		type: "random",
+		table: 1
+	}]
+}

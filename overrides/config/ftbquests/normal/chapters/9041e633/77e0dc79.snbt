@@ -1,0 +1,33 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"Upon killing those strange, tall, and black creatures called endermen, I occasionally get ender pearls. Ignoring my feelings about ... what ... they may be, I seem to teleport wherever they land upon throwing them. I want to tap further into this strange substance. With the help of using Yellorium and black iron, I can make these ender pearls into an ingot. "
+	],
+	dependencies: [
+		"763c6f97"
+	],
+	tasks: [{
+		uid: "4ac584db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:material",
+			Damage: 36s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f8c83a9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0f9bbf2a",
+		type: "random",
+		table: 4
+	}]
+}

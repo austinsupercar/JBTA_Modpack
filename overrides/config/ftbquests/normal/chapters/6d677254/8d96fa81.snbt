@@ -1,0 +1,40 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"Making this will allow me to make other useful things. Maybe this could unlock repairable tools?"
+	],
+	dependencies: [
+		"eac42c09",
+		"c1e79292",
+		"31d089c2"
+	],
+	tasks: [{
+		uid: "6a66b4d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artisanworktables:workshop",
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6e2995b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "313f38de",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "987eebc4",
+		type: "random",
+		table: 1
+	}]
+}

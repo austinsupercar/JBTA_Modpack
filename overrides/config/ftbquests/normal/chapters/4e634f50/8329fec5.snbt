@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	dependencies: [
+		"06cdf749",
+		"1b268d1b"
+	],
+	tasks: [{
+		uid: "ccdff0dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:misc_blocks_a"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c4003d0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "5a4eeca3",
+		type: "random",
+		table: 5
+	}]
+}

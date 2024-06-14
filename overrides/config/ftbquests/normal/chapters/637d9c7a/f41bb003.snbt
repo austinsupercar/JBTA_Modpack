@@ -1,0 +1,34 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"Soaking sugarcane in water for 48 seconds produces a pulp which could be used to make paper or as a primitive glue. I need to start a sugar cane farm sometime.",
+		"[Note: Sugarcane drops from sand.]"
+	],
+	dependencies: [
+		"38b8f57e",
+		"8d1feabc"
+	],
+	tasks: [{
+		uid: "76e25526",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 25s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a7efaad",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "ba38e08c",
+		type: "random",
+		table: 0
+	}]
+}

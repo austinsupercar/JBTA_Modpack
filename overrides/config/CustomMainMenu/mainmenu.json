@@ -1,0 +1,266 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:modpack.png",
+            "posX" : -125,
+            "posY" : -95,
+            "width" : 250,
+            "height" : 80,
+            "alignment" : "center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        }, 
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 2,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 2,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },	
+        "Youtube":
+        {
+            "text" : "Want a Server?",
+            "posX" : -100,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.akliz.net/jbta"
+            }
+        },		
+		"Curse":
+        {
+            "text" : "Official Discord",
+            "posX" : 2,
+            "posY" : 50,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/fKjghCF"
+            }
+        },		
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 75,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },	
+        "extra":
+        {
+            "text" : "Alternative Map",
+            "posX" : -100,
+            "posY" : 100,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.curseforge.com/minecraft/modpacks/journey-beyond-the-abyss/files/3011239"
+            }
+        },
+		"server":
+        {
+            "text" : "Official Server",
+            "posX" : 2,
+            "posY" : 100,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+            "texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "connectToServer",
+                "ip" : "69.25.207.55:46970"
+            }
+        },
+        "language":
+        {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"tooltip": "Language",
+			"alignment" : "center",
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"texture" : "mainmenu:lang.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }	
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -65,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -19,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "Journey Beyond the Abyss",
+            "posX" : 3,
+            "posY" : -25,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"newsLine1":{
+			"text" : "",
+            "posX" : -140,
+            "posY" : 5,
+			"fontSize" : 1.3,
+			"color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "top_right"
+		},
+		"newsLine2":{
+			"text" : "",
+            "posX" : -140,
+            "posY" : 19,
+			"fontSize" : 1.3,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "top_right"
+		},
+		"newsLine3":{
+			"text" : "",
+            "posX" : -140,
+            "posY" : 33,
+			"fontSize" : .8,
+            "color" : -1,
+			"hoverColor" : 13158400,
+            "alignment" : "top_right"
+		}
+    },
+    
+    "other":
+    {        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["mainmenu:screenshot1.png","mainmenu:screenshot2.png","mainmenu:screenshot3.png","mainmenu:screenshot4.png","mainmenu:screenshot5.png","mainmenu:screenshot6.png","mainmenu:screenshot7.png","mainmenu:screenshot8.png","mainmenu:screenshot9.png","mainmenu:screenshot10.png","mainmenu:screenshot11.png","mainmenu:screenshot12.png","mainmenu:screenshot13.png","mainmenu:screenshot14.png","mainmenu:screenshot15.png","mainmenu:screenshot16.png","mainmenu:screenshot17.png","mainmenu:screenshot18.png","mainmenu:screenshot19.png","mainmenu:screenshot20.png","mainmenu:screenshot21.png","mainmenu:screenshot22.png","mainmenu:screenshot23.png","mainmenu:screenshot24.png","mainmenu:screenshot25.png","mainmenu:screenshot26.png","mainmenu:screenshot27.png","mainmenu:screenshot28.png","mainmenu:screenshot29.png","mainmenu:screenshot30.png","mainmenu:screenshot31.png","mainmenu:screenshot32.png","mainmenu:screenshot33.png","mainmenu:screenshot34.png","mainmenu:screenshot35.png","mainmenu:screenshot36.png","mainmenu:screenshot37.png","mainmenu:screenshot38.png","mainmenu:screenshot39.png","mainmenu:screenshot40.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+	x: 8.5d,
+	y: 1.0d,
+	text: [
+		"Using the paper and charcoal I have collected, I can make a basic filter. This filter may hold many uses."
+	],
+	dependencies: [
+		"7d71e1a5"
+	],
+	tasks: [{
+		uid: "26fb1414",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "toughasnails:charcoal_filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9cb79d9f",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "58f079a4",
+		type: "random",
+		table: 0
+	}]
+}

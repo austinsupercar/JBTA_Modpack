@@ -1,0 +1,33 @@
+{
+	x: 6.5d,
+	y: 2.0d,
+	shape: "diamond",
+	text: [
+		"Another alloy is necessary. It seems to demonstrate similar characteristics to electrum but slightly weaker."
+	],
+	dependencies: [
+		"3dd0f468"
+	],
+	tasks: [{
+		uid: "bf7c148a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 162s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "745131ec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "92f060ee",
+		type: "random",
+		table: 4
+	}]
+}

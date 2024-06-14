@@ -1,0 +1,36 @@
+{
+	x: 9.5d,
+	y: -0.5d,
+	text: [
+		"Making metal tools need a smeltery to melt them. Making the smeltery is another project entirely."
+	],
+	dependencies: [
+		"2ae648ca"
+	],
+	tasks: [{
+		uid: "feec6268",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:soil"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6b1c90f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "88e486ee",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9f8b05f1",
+		type: "random",
+		table: 1
+	}]
+}

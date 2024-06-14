@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"Using black iron, Luminessence, and reinforced crafting tables, I can make a more advanced table. While this is not too impressive, I can easily scale this by adding more black iron to it."
+	],
+	dependencies: [
+		"c8fe6bbf"
+	],
+	tasks: [{
+		uid: "24d0eed4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:table_basic"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a7c621b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9976ba9a",
+		type: "random",
+		table: 4
+	}]
+}

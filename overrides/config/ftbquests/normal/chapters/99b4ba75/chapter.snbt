@@ -1,0 +1,18 @@
+{
+	title: "Chapter 8: The Fires of Industry",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersiverailroading:item_rolling_stock",
+		tag: {
+			defID: "rolling_stock/locomotives/class_38.json",
+			display: {
+				Name: "§rClass 38"
+			}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

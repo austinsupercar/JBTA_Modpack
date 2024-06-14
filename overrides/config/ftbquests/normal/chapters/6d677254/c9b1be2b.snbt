@@ -1,0 +1,36 @@
+{
+	x: 13.0d,
+	y: -1.5d,
+	text: [
+		"An important part for making a smeltery!"
+	],
+	dependencies: [
+		"30835f0e"
+	],
+	tasks: [{
+		uid: "d8e8dda1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:faucet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ecc5a09",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "00df36d5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bf5393bc",
+		type: "random",
+		table: 1
+	}]
+}

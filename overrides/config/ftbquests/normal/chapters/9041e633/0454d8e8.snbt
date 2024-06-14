@@ -1,0 +1,32 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Using the ender crafter I have made, I can make a simple PCB. While it has tons of possible uses, I need something larger for what I want to achieve."
+	],
+	dependencies: [
+		"0f575aa0"
+	],
+	tasks: [{
+		uid: "8ba3d0ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e01c0376",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "914e643c",
+		type: "random",
+		table: 4
+	}]
+}

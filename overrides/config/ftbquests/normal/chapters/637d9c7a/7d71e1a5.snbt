@@ -1,0 +1,32 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	text: [
+		"I noticed when I fill a pit with any number of log piles, light one of them on fire and quickly cover the pit back up I get a black substance that I’m pretty sure is charcoal."
+	],
+	dependencies: [
+		"2155ee2c"
+	],
+	tasks: [{
+		uid: "03f9e8c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e96f2f4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "f084ea1f",
+		type: "random",
+		table: 0
+	}]
+}

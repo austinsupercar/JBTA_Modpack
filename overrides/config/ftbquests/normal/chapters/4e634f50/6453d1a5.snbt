@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	text: [
+		"My advanced crafting table does not cut it. I need something far more effective that can infuse materials into each other."
+	],
+	dependencies: [
+		"a4227e13"
+	],
+	tasks: [{
+		uid: "24cb772e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:crafting_core"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c4ce8d2",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "d202396a",
+		type: "random",
+		table: 5
+	}]
+}

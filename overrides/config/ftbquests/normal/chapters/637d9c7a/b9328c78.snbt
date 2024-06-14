@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"Using the small bits of dirt I collect from the land, I can compress them into blocks using the compacting bin. Now I can make a pit kiln anywhere I want!"
+	],
+	dependencies: [
+		"de296be7"
+	],
+	tasks: [{
+		uid: "18142ea1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1eddee7d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "5aca7484",
+		type: "random",
+		table: 0
+	}]
+}

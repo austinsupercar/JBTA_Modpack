@@ -1,0 +1,37 @@
+{
+	x: 5.5d,
+	y: -3.0d,
+	text: [
+		"Patterns take up a lot of space. I need somewhere to store them."
+	],
+	dependencies: [
+		"b4f2f1b6"
+	],
+	tasks: [{
+		uid: "e51b02ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00d94ce8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4394e022",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6578da52",
+		type: "random",
+		table: 1
+	}]
+}

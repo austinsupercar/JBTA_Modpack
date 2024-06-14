@@ -1,0 +1,51 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	description: "This machine works without a server block despite what the manual says. (Left-click to scroll through possible molds.)",
+	text: [
+		"If I want to make more advanced machine I need to start by making a machine that can build better parts."
+	],
+	dependencies: [
+		"320a7d29"
+	],
+	tasks: [{
+		uid: "8af172b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:machines_a",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "daa3f696",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gbook:guidebook",
+			tag: {
+				Book: "rockhounding_chemistry:xml/chembook.xml"
+			}
+		}
+	},
+	{
+		uid: "467d87c6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "32e5a636",
+		type: "random",
+		table: 5
+	}]
+}

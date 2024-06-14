@@ -1,0 +1,12 @@
+{
+	title: "Chapter 2: I Need Space",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:planks"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

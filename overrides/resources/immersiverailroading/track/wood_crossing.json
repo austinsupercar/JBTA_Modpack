@@ -1,0 +1,19 @@
+{
+  "name": "Wood Crossing",
+  "models": {
+    ">0": "immersiverailroading:models/track/wood_crossing/wood_crossing.obj"
+  },
+  "materials": {
+    "TIE": [{
+      "item": "railcraft:tie",
+      "cost": 1
+    },{
+      "item": "ore:plankWood",
+      "cost": 1
+    }],
+    "RAIL": [{
+      "item": "railcraft:rail|2",
+      "cost": 1
+    }]
+  }
+}

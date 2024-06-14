@@ -1,0 +1,31 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"This crucible should be good enough to melt clay so that I may process flint into a hardener."
+	],
+	dependencies: [
+		"e4c3b356"
+	],
+	tasks: [{
+		uid: "39b6efa9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:stone_crucible"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7343ed26",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "a56e819a",
+		type: "random",
+		table: 0
+	}]
+}

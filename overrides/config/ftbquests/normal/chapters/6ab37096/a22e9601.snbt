@@ -1,0 +1,74 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"This tinder should be good enough to start a fire. All I need now is some wood and something to light it with.",
+		"[Note: Campfires can be used to cook raw meat.]"
+	],
+	dependencies: [
+		"ace5ab62"
+	],
+	tasks: [{
+		uid: "e5bdb2a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:tinder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "750fd466",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "578effb3",
+		type: "gamestage",
+		title: "Inventory Crafting",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:crafting_table"
+		},
+		auto: "enabled",
+		stage: "inventorycrafting"
+	},
+	{
+		uid: "39d957ad",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 14s
+		},
+		count: 16
+	},
+	{
+		uid: "043fdf17",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 12
+	},
+	{
+		uid: "7822d7e2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		}
+	}]
+}

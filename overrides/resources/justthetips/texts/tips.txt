@@ -1,0 +1,8 @@
+New ages will be unlocked as you progress.
+You can dive into the trench to get to new dimensions.
+Structures of knowledge have custom mobs.
+Skill books unlock new mods when you right click with one in your hand.
+Skill books can be found in structures of knowledge.
+Skill books cannot be read until you unlock the correct age.
+There is an island due west of the platform.
+ME Systems will be unlocked during the exploration age.

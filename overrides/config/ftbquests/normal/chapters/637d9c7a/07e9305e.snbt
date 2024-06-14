@@ -1,0 +1,32 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"Putting a few cobble blocks in the pit kiln allowed me to create Stone. This Stone is a lot stronger and sturdier than cobblestone; maybe I could make tools out of it eventually?"
+	],
+	dependencies: [
+		"d5af7c3d",
+		"3d0a4a3d"
+	],
+	tasks: [{
+		uid: "791f2a4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16640774",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "d4046e52",
+		type: "random",
+		table: 0
+	}]
+}

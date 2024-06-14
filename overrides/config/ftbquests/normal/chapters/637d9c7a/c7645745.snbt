@@ -1,0 +1,31 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"Gathering and drying wheat is a pain. Now that I have access to bricks, I can make an oven that functions like the pit kiln without the need for straw or the fire hazard."
+	],
+	dependencies: [
+		"fc5931b2"
+	],
+	tasks: [{
+		uid: "eac07444",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:stone_kiln"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cec02754",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "35df23e2",
+		type: "random",
+		table: 0
+	}]
+}

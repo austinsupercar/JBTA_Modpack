@@ -1,0 +1,31 @@
+{
+	x: 7.5d,
+	y: -2.0d,
+	text: [
+		"Making a block that harnesses the power of ender pearls and focuses them on a single point proves to be more useful than simply making a table. It also appears that the ender-pearl never runs out of energy! Though it can only provide so much at one time. I should make a couple of these and surround the Ender crafter I have made."
+	],
+	dependencies: [
+		"77e0dc79"
+	],
+	tasks: [{
+		uid: "7e958337",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:ender_alternator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89b5ce2e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c9113f4a",
+		type: "random",
+		table: 4
+	}]
+}

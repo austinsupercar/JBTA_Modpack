@@ -1,0 +1,21 @@
+{
+	x: 11.0d,
+	y: -2.0d,
+	text: [
+		"Message from Austinsupercar: If you made all the machines listed you may continue. If not, don't cheat!"
+	],
+	dependencies: [
+		"78d3fb82",
+		"c1a35831",
+		"ef9f85bb",
+		"91f647d0",
+		"96f80af0",
+		"42b2b908",
+		"baac2027",
+		"8eae89a0"
+	],
+	tasks: [{
+		uid: "2a9a7f8b",
+		type: "checkmark"
+	}]
+}

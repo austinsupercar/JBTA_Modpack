@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		"Combining the masonry bricks with the pulp that I have acquired gives me a solid block. While this is a little pricey, it can melt items, and it is way more durable than anything else I have made."
+	],
+	dependencies: [
+		"edcb491b"
+	],
+	tasks: [{
+		uid: "034b0532",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:stone_bricks"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f5374a4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "69d42311",
+		type: "random",
+		table: 0
+	}]
+}

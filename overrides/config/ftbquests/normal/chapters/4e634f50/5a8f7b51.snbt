@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	text: [
+		"While this does nothing alone, it is the brain of the larger machines I plan to create!",
+		"I should get started by making a circuit fabricator and a crystal matrix reactor with my crystal matrix blocks."
+	],
+	dependencies: [
+		"fc2c0db4"
+	],
+	tasks: [{
+		uid: "b280ab2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "modularmachinery:blockcontroller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4cc28027",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "394be7a8",
+		type: "random",
+		table: 5
+	}]
+}

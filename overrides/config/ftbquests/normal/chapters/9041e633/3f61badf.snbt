@@ -1,0 +1,33 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	text: [
+		"I need much stronger gears that can work in different ways at different sizes. The start of this process is making a couple of gear bushings."
+	],
+	dependencies: [
+		"117cd735"
+	],
+	tasks: [{
+		uid: "d338b377",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "railcraft:gear",
+			Damage: 3s
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d3f0581",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2bf59556",
+		type: "random",
+		table: 4
+	}]
+}

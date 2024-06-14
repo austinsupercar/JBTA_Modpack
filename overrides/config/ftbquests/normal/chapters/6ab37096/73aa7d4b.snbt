@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Please read",
+	text: [
+		"Message from Austinsupercar: Thank you for downloading Journey Beyond the Abyss! Most recipes are hidden until you unlock them by completing quests. This modpack is story based so some progression points are locked until you reveal more of the story.",
+		"On that note, good luck and don't get eaten by a Grue."
+	],
+	tasks: [{
+		uid: "a4eba3a0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "76e67708",
+		type: "choice",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "nolives:heart"
+		},
+		auto: "disabled",
+		table: 11
+	}]
+}

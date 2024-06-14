@@ -1,0 +1,32 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"By making the main component gold instead of iron and adding more black iron to the basic crafting table, I have effectively expanded it. I can craft many more complex items with this."
+	],
+	dependencies: [
+		"186b4e47"
+	],
+	tasks: [{
+		uid: "71d54372",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:table_advanced"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b9c6c58",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "234326e6",
+		type: "random",
+		table: 4
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 9.5d,
+	y: 0.5d,
+	text: [
+		"Oooo shiny! Maybe I can replace my torches with this."
+	],
+	dependencies: [
+		"4fb87ad9"
+	],
+	tasks: [{
+		uid: "e245d55a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone_dust"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd5b446c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9e971546",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "33c33d8e",
+		type: "random",
+		table: 1
+	}]
+}

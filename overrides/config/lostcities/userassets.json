@@ -1,0 +1,22 @@
+[
+  {
+    "type": "worldstyle",
+    "name": "austinsupercar",
+    "outsidestyle": "outside_chisel",
+    "citystyles": [
+      {
+        "factor": 0.5,
+        "citystyle": "citystyle_standard"
+      },
+      {
+        "factor": 9.0,
+        "biomes": [
+          "mesa",
+          "mesa_rock",
+          "mesa_clear_rock"
+        ],
+        "citystyle": "citystyle_chisel_desert"
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	text: [
+		"When I combine steel rods with glowstone in the fabricator, I can make what I call a blaze rod for its hot light. Using super diamonds and ender ingots, I can make what I can only classify is, as a star. It emits crazy amounts of energy! I can only imagine what this can be used for."
+	],
+	dependencies: [
+		"77e0dc79"
+	],
+	tasks: [{
+		uid: "0f1ab06a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_star"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ce5e289",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "467057fa",
+		type: "random",
+		table: 4
+	}]
+}

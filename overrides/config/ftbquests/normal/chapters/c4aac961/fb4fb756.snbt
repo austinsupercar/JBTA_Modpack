@@ -1,0 +1,41 @@
+{
+	x: -6.0d,
+	y: -0.5d,
+	text: [
+		"Copper has a low enough melting point that a simple pit kiln should be able to process the ore."
+	],
+	dependencies: [
+		"30aea17c"
+	],
+	tasks: [{
+		uid: "1a56445a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "geolosys:ingot"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d70076f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "43707eca",
+		type: "random",
+		table: 1
+	}]
+}

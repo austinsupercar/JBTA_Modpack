@@ -1,0 +1,33 @@
+{
+	x: 9.5d,
+	y: -1.0d,
+	text: [
+		"Using the Termoionic fabricator, I can combine iron and electrotine. Upon sticking it in the fabricator again, I can get an interesting, vibrant blue alloy out of it. However, this does require a super diamond mold to cast the ingot. (The super diamond is not consumed.)"
+	],
+	dependencies: [
+		"28246599",
+		"de3e8703"
+	],
+	tasks: [{
+		uid: "bedb7289",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projectred-core:resource_item",
+			Damage: 104s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07b43ec1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d86a26c1",
+		type: "random",
+		table: 3
+	}]
+}

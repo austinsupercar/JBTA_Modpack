@@ -1,0 +1,35 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"My plans require a much larger crafting table, but the regular one needs more reinforcement before I can truly expand it. Using the black iron, I can do so."
+	],
+	dependencies: [
+		"a6faf8a2",
+		"4b190025",
+		"28ffbceb",
+		"05e3433f"
+	],
+	tasks: [{
+		uid: "448b24dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:crafting_table"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55e11ca5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aa30fde8",
+		type: "random",
+		table: 4
+	}]
+}

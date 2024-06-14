@@ -1,0 +1,33 @@
+{
+	x: 9.5d,
+	y: -3.0d,
+	text: [
+		"Using the Termoionic fabricator, I can combine iron and redstone. Upon sticking it in the fabricator again, I can get an interesting, vibrant red alloy out of it. However, this does require a super diamond mold to cast the ingot. (The super diamond is not consumed.)"
+	],
+	dependencies: [
+		"28246599",
+		"f6fa2405"
+	],
+	tasks: [{
+		uid: "35ecfaa5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projectred-core:resource_item",
+			Damage: 103s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2ed70b0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4cb7a0f5",
+		type: "random",
+		table: 3
+	}]
+}

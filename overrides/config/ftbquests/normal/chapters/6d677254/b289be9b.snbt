@@ -1,0 +1,39 @@
+{
+	x: 14.0d,
+	y: -4.0d,
+	shape: "octagon",
+	text: [
+		"The usefulness of this workshop is beyond my understanding. I can make all kinds of armor and components! I may even be able to make a tool forge…"
+	],
+	dependencies: [
+		"ed7c9afd",
+		"aab428a1"
+	],
+	tasks: [{
+		uid: "9d8ec5ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artisanworktables:workshop",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "013206f7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "04cf3010",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d542cbeb",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Highspeed Track",
+  "models": {
+    ">0": "immersiverailroading:models/track/highspeed_track/highspeed_track.obj"
+  },
+  "materials": {
+    "TIE": [{
+      "item": "railcraft:tie|1",
+      "cost": 1
+    },{
+      "item": "ore:plankWood",
+      "cost": 1
+    }],
+    "RAIL": [{
+      "item": "railcraft:rail|3",
+      "cost": 1
+    }]
+  }
+}

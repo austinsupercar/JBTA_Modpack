@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"With all this energy I am creating, I need to make a pedestal to contain it."
+	],
+	dependencies: [
+		"a4227e13"
+	],
+	tasks: [{
+		uid: "312c6477",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extendedcrafting:pedestal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75a4f729",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "2ceca076",
+		type: "random",
+		table: 5
+	}]
+}

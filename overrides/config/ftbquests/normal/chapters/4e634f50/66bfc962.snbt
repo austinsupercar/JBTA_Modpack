@@ -1,0 +1,32 @@
+{
+	x: 39.0d,
+	y: -1.0d,
+	text: [
+		"Quest Master is now starting to scare me now, he keeps giving me that look like he is watching my every action.",
+		"I fear he is planning something evil but I don't know what."
+	],
+	dependencies: [
+		"3d29784b"
+	],
+	tasks: [{
+		uid: "5ebcaad3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:inner_stomach_wall_sil"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cef1f3b4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "5e5f3a38",
+		type: "random",
+		table: 5
+	}]
+}

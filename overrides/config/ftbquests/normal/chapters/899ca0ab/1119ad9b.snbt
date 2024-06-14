@@ -1,0 +1,33 @@
+{
+	x: 13.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"Combining the alloys I made with the petroleum I obtained using the machines I have made, I can make an infused ingot! While this is very expensive, it can make very useful materials. I should prepare to make some more of these in the future."
+	],
+	dependencies: [
+		"58108316"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e23882f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:oil_ingot"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0629999",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b9d6f52a",
+		type: "random",
+		table: 3
+	}]
+}

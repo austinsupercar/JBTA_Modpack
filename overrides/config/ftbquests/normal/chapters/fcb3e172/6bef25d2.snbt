@@ -1,0 +1,15 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "draconicevolution:awakened_core"
+	},
+	x: -3.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "86cf59fc",
+		type: "gamestage",
+		stage: "draconic"
+	}]
+}

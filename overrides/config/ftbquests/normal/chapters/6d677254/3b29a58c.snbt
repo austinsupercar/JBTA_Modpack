@@ -1,0 +1,37 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"I need a stronger version of the twine to keep up with all the new tools I want to make. I do not want my sword falling apart mid-battle."
+	],
+	dependencies: [
+		"a51eaa07"
+	],
+	tasks: [{
+		uid: "b2eaf331",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 26s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e9f518b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "eda27565",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "2728e59e",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	text: [
+		"I have done so much with tools; perhaps I can make custom armor as well?"
+	],
+	dependencies: [
+		"b4f2f1b6"
+	],
+	tasks: [{
+		uid: "b0e5ebf1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:armorstation"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "771bc66c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b922fa9c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8bc9349c",
+		type: "random",
+		table: 1
+	}]
+}

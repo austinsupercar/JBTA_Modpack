@@ -1,0 +1,32 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"Its high time I made a better pickaxe so that I can mine harder stone. I believe I can convert flint into a usable form with my primitive anvil. "
+	],
+	dependencies: [
+		"c7645745"
+	],
+	tasks: [{
+		uid: "bf1cc19e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2802af9c",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "ae3c2358",
+		type: "random",
+		table: 0
+	}]
+}

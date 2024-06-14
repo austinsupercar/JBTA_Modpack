@@ -1,0 +1,19 @@
+{
+  "name": "Ultra Highspeed Crossing",
+  "models": {
+    ">0": "immersiverailroading:models/track/ultra_highspeed_crossing/ultra_highspeed_crossing.obj"
+  },
+  "materials": {
+    "TIE": [{
+      "item": "railcraft:tie|1",
+      "cost": 1
+    },{
+      "item": "ore:plankWood",
+      "cost": 1
+    }],
+    "RAIL": [{
+      "item": "railcraft:rail|4",
+      "cost": 1
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Clay has many uses! I need to collect some to get started. The ocean holds plenty."
+	],
+	dependencies: [
+		"f41bb003"
+	],
+	tasks: [{
+		uid: "5f339e39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:clay_ball"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "041aa85c",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "a2e29de4",
+		type: "random",
+		table: 0
+	}]
+}

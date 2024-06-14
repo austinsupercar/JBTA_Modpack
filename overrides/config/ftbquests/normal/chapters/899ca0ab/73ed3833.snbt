@@ -1,0 +1,35 @@
+{
+	x: 5.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"Combining bronze gears, electrum, and lots of steel, I can make some heavy engineering blocks. This should be the final step before I can start getting into creating machines that use energy! How exciting."
+	],
+	dependencies: [
+		"5d54b760",
+		"ffa44d82",
+		"c03d56a2"
+	],
+	tasks: [{
+		uid: "3ea49118",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fe17534",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7f7ee4dd",
+		type: "random",
+		table: 3
+	}]
+}

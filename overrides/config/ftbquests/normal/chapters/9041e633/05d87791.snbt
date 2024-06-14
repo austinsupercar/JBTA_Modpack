@@ -1,0 +1,32 @@
+{
+	x: 9.5d,
+	y: 2.0d,
+	text: [
+		"Putting this refined hardener over a couple of iron ingots makes a hardened mesh. This will be very useful for creating drills or other materials."
+	],
+	dependencies: [
+		"4b955f7a"
+	],
+	tasks: [{
+		uid: "4f397933",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 20s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5754601",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "985edcb0",
+		type: "random",
+		table: 4
+	}]
+}

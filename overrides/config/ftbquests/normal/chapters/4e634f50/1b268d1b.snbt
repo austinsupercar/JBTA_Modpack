@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	dependencies: [
+		"419e8563"
+	],
+	tasks: [{
+		uid: "bc4b2903",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:circuitfab"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d90dff43",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "5d2be4a4",
+		type: "random",
+		table: 5
+	}]
+}

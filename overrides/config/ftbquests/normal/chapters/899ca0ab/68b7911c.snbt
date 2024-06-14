@@ -1,0 +1,35 @@
+{
+	x: -4.5d,
+	y: -2.0d,
+	text: [
+		"The first thing I want to craft is the blueprint for components. This requires a blank design pattern and a crafting table."
+	],
+	dependencies: [
+		"d4b34229"
+	],
+	tasks: [{
+		uid: "c402283f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "413e2591",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "f0e78b17",
+		type: "random",
+		table: 3
+	}]
+}

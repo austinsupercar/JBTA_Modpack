@@ -1,0 +1,32 @@
+{
+	x: 8.5d,
+	y: -2.0d,
+	text: [
+		"In the abyss, diamonds are so plentiful but so useless aside from making tools! I need something ... better. I will call it a super diamond! Adding electrotine and redstone to a block of diamond seems to make it strong enough for what I need."
+	],
+	dependencies: [
+		"de3e8703",
+		"f6fa2405"
+	],
+	tasks: [{
+		uid: "307f18f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:super_diamond"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4649aea1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d1819e43",
+		type: "random",
+		table: 3
+	}]
+}

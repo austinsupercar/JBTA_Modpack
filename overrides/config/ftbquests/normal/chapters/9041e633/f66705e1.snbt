@@ -1,0 +1,33 @@
+{
+	x: 10.5d,
+	y: 2.0d,
+	shape: "diamond",
+	text: [
+		"Using the hardener, iron, and mesh, I can make stabilized metal. Combining 9 of these stabilized metal yields a reinforced ingot. This thing seems almost unbreakable!"
+	],
+	dependencies: [
+		"05d87791"
+	],
+	tasks: [{
+		uid: "ac4596b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 22s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52314c5d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aa6fabc7",
+		type: "random",
+		table: 4
+	}]
+}

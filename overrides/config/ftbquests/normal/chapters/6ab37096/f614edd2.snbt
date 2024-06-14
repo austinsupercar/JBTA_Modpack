@@ -1,0 +1,40 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Now that I figured out how to dry these wet fibers maybe I can use them to make myself some rope."
+	],
+	dependencies: [
+		"63e65bee"
+	],
+	tasks: [{
+		uid: "19cfd592",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 14s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f0710d8",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	},
+	{
+		uid: "478f0db2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:material",
+			Damage: 14s
+		},
+		count: 4
+	}]
+}

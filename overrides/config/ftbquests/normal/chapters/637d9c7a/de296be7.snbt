@@ -1,0 +1,31 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		"With my new glue-like substance I can make a compacting bin that I can use to make dirt more efficiently."
+	],
+	dependencies: [
+		"f41bb003"
+	],
+	tasks: [{
+		uid: "67b7b23e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:compacting_bin"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "deea84fa",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "a728fea9",
+		type: "random",
+		table: 0
+	}]
+}

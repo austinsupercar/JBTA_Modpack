@@ -1,0 +1,38 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	text: [
+		"To produce better circuits I am going to have to build alot of machines to produce a material called silicone.",
+		"I'm going to need a special table to help me set up my machines."
+	],
+	dependencies: [
+		"0b25e093"
+	],
+	tasks: [{
+		uid: "adaf7f89",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rockhounding_chemistry:machines_f",
+			tag: {
+				Energy: 0,
+				Fuel: 0
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d7a1338",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "502d1767",
+		type: "random",
+		table: 5
+	}]
+}

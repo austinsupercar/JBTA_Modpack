@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	text: [
+		"Now that I got a coke oven, I need something to make it. This Engineer’s hammer can be used to make the basic immersive engineering machines."
+	],
+	dependencies: [
+		"e883feb1"
+	],
+	tasks: [{
+		uid: "bd300fac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c1e0fc59",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "fb0f389d",
+		type: "random",
+		table: 3
+	}]
+}

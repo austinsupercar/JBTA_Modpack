@@ -1,0 +1,36 @@
+{
+	x: 12.0d,
+	y: -4.0d,
+	text: [
+		"It almost feels like a real one but requires a cog to work. The better the cog, the better the hopper!"
+	],
+	dependencies: [
+		"0ee6c55c"
+	],
+	tasks: [{
+		uid: "ff008f15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:mechanical_hopper"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c722425b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d85a0bcd",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "aa7b62d3",
+		type: "random",
+		table: 1
+	}]
+}

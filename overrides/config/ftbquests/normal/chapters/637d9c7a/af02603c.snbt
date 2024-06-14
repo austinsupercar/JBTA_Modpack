@@ -1,0 +1,33 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"Looking through gravel, I have found various kinds of rocks; combining similar types yields a new stone altogether."
+	],
+	dependencies: [
+		"d5af7c3d",
+		"07e9305e"
+	],
+	tasks: [{
+		uid: "3ad3eed9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15fa9f72",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "aea23a2e",
+		type: "random",
+		table: 0
+	}]
+}

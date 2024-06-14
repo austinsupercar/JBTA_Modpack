@@ -1,0 +1,16 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "projecte:item.pe_matter",
+		Damage: 1s
+	},
+	x: -4.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "0b0faa87",
+		type: "gamestage",
+		stage: "emc"
+	}]
+}

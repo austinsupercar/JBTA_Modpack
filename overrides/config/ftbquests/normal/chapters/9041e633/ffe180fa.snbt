@@ -1,0 +1,32 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	text: [
+		"With the advanced PCB, I can finally start making programmable machinery! If I use this right, I can automate many tedious tasks in a relatively short time. "
+	],
+	dependencies: [
+		"0454d8e8"
+	],
+	tasks: [{
+		uid: "0fba2ad3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "stevescarts:modulecomponents",
+			Damage: 16s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48cf116b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "24a350f4",
+		type: "random",
+		table: 4
+	}]
+}

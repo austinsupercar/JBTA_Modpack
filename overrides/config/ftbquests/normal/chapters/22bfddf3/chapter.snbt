@@ -1,0 +1,12 @@
+{
+	title: "Chapter 11: A Grim Fate",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:end_portal_frame"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

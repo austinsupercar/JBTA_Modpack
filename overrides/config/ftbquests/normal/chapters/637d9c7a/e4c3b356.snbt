@@ -1,0 +1,31 @@
+{
+	x: 6.5d,
+	y: 2.0d,
+	text: [
+		"Buckets are great but having liquid storage in my base would be even better. Additionally, this could be useful for other things."
+	],
+	dependencies: [
+		"ead6715d"
+	],
+	tasks: [{
+		uid: "79316556",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "pyrotech:tank"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f5347d1",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "93c21197",
+		type: "random",
+		table: 0
+	}]
+}

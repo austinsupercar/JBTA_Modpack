@@ -1,0 +1,38 @@
+{
+	x: 17.0d,
+	y: -3.0d,
+	shape: "octagon",
+	text: [
+		"The sight almost brings me to tears. I hope I do not drop it into lava-"
+	],
+	dependencies: [
+		"cfd6707f",
+		"8e02e488"
+	],
+	tasks: [{
+		uid: "3064c0d0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bucket"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "142d61da",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3b05c447",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "385f2025",
+		type: "random",
+		table: 1
+	}]
+}

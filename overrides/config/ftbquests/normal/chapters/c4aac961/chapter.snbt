@@ -1,0 +1,12 @@
+{
+	title: "Chapter 3: Beneath the Wind and Waves ",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:deep_stone"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

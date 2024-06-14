@@ -1,0 +1,33 @@
+{
+	x: 7.5d,
+	y: -5.0d,
+	text: [
+		"Using some engineering blocks, tin, gold, and glass, I can make my next useful machine. Melting down glass or Redstone gives me access to crafting a ton of new items! I wonder what I should make, though."
+	],
+	dependencies: [
+		"f465c960",
+		"d1b57f3e",
+		"d3b5a246"
+	],
+	tasks: [{
+		uid: "01f00bc3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forestry:fabricator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3fe82f1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "b6b67103",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,620 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:dragon_egg|0",
+      "emc": 50000
+    },
+    {
+      "item": "alchemistry:element|1",
+      "emc": 1
+    },
+    {
+      "item": "alchemistry:element|2",
+      "emc": 2
+    },
+    {
+      "item": "alchemistry:element|3",
+      "emc": 3
+    },
+    {
+      "item": "alchemistry:element|4",
+      "emc": 4
+    },
+    {
+      "item": "alchemistry:element|5",
+      "emc": 5
+    },
+    {
+      "item": "alchemistry:element|6",
+      "emc": 6
+    },
+    {
+      "item": "alchemistry:element|7",
+      "emc": 7
+    },
+    {
+      "item": "alchemistry:element|8",
+      "emc": 8
+    },
+    {
+      "item": "alchemistry:element|9",
+      "emc": 9
+    },
+    {
+      "item": "alchemistry:element|10",
+      "emc": 10
+    },
+    {
+      "item": "alchemistry:element|11",
+      "emc": 11
+    },
+    {
+      "item": "alchemistry:element|12",
+      "emc": 12
+    },
+    {
+      "item": "alchemistry:element|13",
+      "emc": 13
+    },
+    {
+      "item": "alchemistry:element|14",
+      "emc": 14
+    },
+    {
+      "item": "alchemistry:element|15",
+      "emc": 15
+    },
+    {
+      "item": "alchemistry:element|16",
+      "emc": 16
+    },
+    {
+      "item": "alchemistry:element|17",
+      "emc": 17
+    },
+    {
+      "item": "alchemistry:element|18",
+      "emc": 18
+    },
+    {
+      "item": "forestry:logs.vanilla.fireproof.1|0",
+      "emc": 0
+    },
+    {
+      "item": "alchemistry:element|19",
+      "emc": 19
+    },
+    {
+      "item": "alchemistry:element|20",
+      "emc": 20
+    },
+    {
+      "item": "alchemistry:element|21",
+      "emc": 21
+    },
+    {
+      "item": "alchemistry:element|22",
+      "emc": 22
+    },
+    {
+      "item": "alchemistry:element|23",
+      "emc": 23
+    },
+    {
+      "item": "alchemistry:element|24",
+      "emc": 24
+    },
+    {
+      "item": "alchemistry:element|25",
+      "emc": 25
+    },
+    {
+      "item": "alchemistry:element|26",
+      "emc": 26
+    },
+    {
+      "item": "alchemistry:element|27",
+      "emc": 27
+    },
+    {
+      "item": "alchemistry:element|28",
+      "emc": 28
+    },
+    {
+      "item": "alchemistry:element|29",
+      "emc": 29
+    },
+    {
+      "item": "alchemistry:element|30",
+      "emc": 30
+    },
+    {
+      "item": "alchemistry:element|31",
+      "emc": 31
+    },
+    {
+      "item": "alchemistry:element|32",
+      "emc": 32
+    },
+    {
+      "item": "alchemistry:element|33",
+      "emc": 33
+    },
+    {
+      "item": "alchemistry:element|34",
+      "emc": 34
+    },
+    {
+      "item": "alchemistry:element|35",
+      "emc": 35
+    },
+    {
+      "item": "alchemistry:element|36",
+      "emc": 36
+    },
+    {
+      "item": "alchemistry:element|37",
+      "emc": 37
+    },
+    {
+      "item": "alchemistry:element|38",
+      "emc": 38
+    },
+    {
+      "item": "alchemistry:element|39",
+      "emc": 39
+    },
+    {
+      "item": "alchemistry:element|40",
+      "emc": 40
+    },
+    {
+      "item": "alchemistry:element|41",
+      "emc": 41
+    },
+    {
+      "item": "alchemistry:element|42",
+      "emc": 42
+    },
+    {
+      "item": "alchemistry:element|43",
+      "emc": 43
+    },
+    {
+      "item": "alchemistry:element|44",
+      "emc": 44
+    },
+    {
+      "item": "alchemistry:element|45",
+      "emc": 45
+    },
+    {
+      "item": "alchemistry:element|46",
+      "emc": 46
+    },
+    {
+      "item": "alchemistry:element|47",
+      "emc": 47
+    },
+    {
+      "item": "alchemistry:element|48",
+      "emc": 48
+    },
+    {
+      "item": "alchemistry:element|49",
+      "emc": 49
+    },
+    {
+      "item": "alchemistry:element|50",
+      "emc": 50
+    },
+    {
+      "item": "alchemistry:element|51",
+      "emc": 51
+    },
+    {
+      "item": "alchemistry:element|52",
+      "emc": 52
+    },
+    {
+      "item": "alchemistry:element|53",
+      "emc": 53
+    },
+    {
+      "item": "alchemistry:element|55",
+      "emc": 55
+    },
+    {
+      "item": "alchemistry:element|56",
+      "emc": 56
+    },
+    {
+      "item": "alchemistry:element|57",
+      "emc": 57
+    },
+    {
+      "item": "alchemistry:element|58",
+      "emc": 58
+    },
+    {
+      "item": "alchemistry:element|59",
+      "emc": 59
+    },
+    {
+      "item": "alchemistry:element|60",
+      "emc": 60
+    },
+    {
+      "item": "alchemistry:element|61",
+      "emc": 61
+    },
+    {
+      "item": "alchemistry:element|62",
+      "emc": 62
+    },
+    {
+      "item": "alchemistry:element|63",
+      "emc": 63
+    },
+    {
+      "item": "alchemistry:element|64",
+      "emc": 64
+    },
+    {
+      "item": "alchemistry:element|65",
+      "emc": 65
+    },
+    {
+      "item": "alchemistry:element|66",
+      "emc": 66
+    },
+    {
+      "item": "alchemistry:element|67",
+      "emc": 67
+    },
+    {
+      "item": "alchemistry:element|68",
+      "emc": 68
+    },
+    {
+      "item": "alchemistry:element|69",
+      "emc": 69
+    },
+    {
+      "item": "alchemistry:element|70",
+      "emc": 70
+    },
+    {
+      "item": "alchemistry:element|71",
+      "emc": 71
+    },
+    {
+      "item": "alchemistry:element|72",
+      "emc": 72
+    },
+    {
+      "item": "alchemistry:element|73",
+      "emc": 73
+    },
+    {
+      "item": "alchemistry:element|74",
+      "emc": 74
+    },
+    {
+      "item": "alchemistry:element|75",
+      "emc": 75
+    },
+    {
+      "item": "alchemistry:element|76",
+      "emc": 76
+    },
+    {
+      "item": "alchemistry:element|77",
+      "emc": 77
+    },
+    {
+      "item": "alchemistry:element|78",
+      "emc": 78
+    },
+    {
+      "item": "alchemistry:element|79",
+      "emc": 79
+    },
+    {
+      "item": "alchemistry:element|80",
+      "emc": 80
+    },
+    {
+      "item": "alchemistry:element|81",
+      "emc": 81
+    },
+    {
+      "item": "alchemistry:element|82",
+      "emc": 82
+    },
+    {
+      "item": "alchemistry:element|83",
+      "emc": 83
+    },
+    {
+      "item": "alchemistry:element|84",
+      "emc": 84
+    },
+    {
+      "item": "alchemistry:element|85",
+      "emc": 85
+    },
+    {
+      "item": "alchemistry:element|86",
+      "emc": 86
+    },
+    {
+      "item": "alchemistry:element|87",
+      "emc": 87
+    },
+    {
+      "item": "alchemistry:element|88",
+      "emc": 88
+    },
+    {
+      "item": "alchemistry:element|89",
+      "emc": 89
+    },
+    {
+      "item": "alchemistry:element|90",
+      "emc": 90
+    },
+    {
+      "item": "alchemistry:element|91",
+      "emc": 91
+    },
+    {
+      "item": "alchemistry:element|92",
+      "emc": 92
+    },
+    {
+      "item": "alchemistry:element|93",
+      "emc": 93
+    },
+    {
+      "item": "alchemistry:element|94",
+      "emc": 94
+    },
+    {
+      "item": "alchemistry:element|95",
+      "emc": 95
+    },
+    {
+      "item": "alchemistry:element|96",
+      "emc": 96
+    },
+    {
+      "item": "alchemistry:element|97",
+      "emc": 97
+    },
+    {
+      "item": "alchemistry:element|98",
+      "emc": 98
+    },
+    {
+      "item": "alchemistry:element|99",
+      "emc": 99
+    },
+    {
+      "item": "alchemistry:element|100",
+      "emc": 100
+    },
+    {
+      "item": "alchemistry:element|102",
+      "emc": 102
+    },
+    {
+      "item": "alchemistry:element|103",
+      "emc": 103
+    },
+    {
+      "item": "alchemistry:element|105",
+      "emc": 105
+    },
+    {
+      "item": "alchemistry:element|104",
+      "emc": 104
+    },
+    {
+      "item": "alchemistry:element|101",
+      "emc": 101
+    },
+    {
+      "item": "alchemistry:element|106",
+      "emc": 106
+    },
+    {
+      "item": "alchemistry:element|107",
+      "emc": 107
+    },
+    {
+      "item": "alchemistry:element|108",
+      "emc": 108
+    },
+    {
+      "item": "alchemistry:element|109",
+      "emc": 109
+    },
+    {
+      "item": "alchemistry:element|109",
+      "emc": 109
+    },
+    {
+      "item": "alchemistry:element|110",
+      "emc": 110
+    },
+    {
+      "item": "alchemistry:element|111",
+      "emc": 111
+    },
+    {
+      "item": "alchemistry:element|112",
+      "emc": 112
+    },
+    {
+      "item": "alchemistry:element|113",
+      "emc": 113
+    },
+    {
+      "item": "alchemistry:element|114",
+      "emc": 114
+    },
+    {
+      "item": "alchemistry:element|115",
+      "emc": 115
+    },
+    {
+      "item": "alchemistry:element|116",
+      "emc": 116
+    },
+    {
+      "item": "alchemistry:element|117",
+      "emc": 117
+    },
+    {
+      "item": "alchemistry:element|118",
+      "emc": 118
+    },
+    {
+      "item": "alchemistry:element|54",
+      "emc": 54
+    },
+    {
+      "item": "alchemistry:element|120",
+      "emc": 120
+    },
+    {
+      "item": "alchemistry:element|126",
+      "emc": 126
+    },
+    {
+      "item": "alchemistry:element|164",
+      "emc": 164
+    },
+    {
+      "item": "alchemistry:element|172",
+      "emc": 172
+    },
+    {
+      "item": "alchemistry:element|173",
+      "emc": 173
+    },
+    {
+      "item": "alchemistry:element|300",
+      "emc": 300
+    },
+    {
+      "item": "alchemistry:element|310",
+      "emc": 310
+    },
+    {
+      "item": "alchemistry:element|320",
+      "emc": 320
+    },
+    {
+      "item": "alchemistry:element|340",
+      "emc": 340
+    },
+    {
+      "item": "alchemistry:element|350",
+      "emc": 350
+    },
+    {
+      "item": "alchemistry:element|390",
+      "emc": 390
+    },
+    {
+      "item": "alchemistry:element|400",
+      "emc": 400
+    },
+    {
+      "item": "alchemistry:element|420",
+      "emc": 420
+    },
+    {
+      "item": "alchemistry:element|440",
+      "emc": 440
+    },
+    {
+      "item": "alchemistry:element|460",
+      "emc": 460
+    },
+    {
+      "item": "alchemistry:element|480",
+      "emc": 480
+    },
+    {
+      "item": "alchemistry:element|500",
+      "emc": 500
+    },
+    {
+      "item": "alchemistry:element|520",
+      "emc": 520
+    },
+    {
+      "item": "alchemistry:element|540",
+      "emc": 540
+    },
+    {
+      "item": "alchemistry:element|560",
+      "emc": 560
+    },
+    {
+      "item": "alchemistry:element|580",
+      "emc": 580
+    },
+    {
+      "item": "alchemistry:element|600",
+      "emc": 600
+    },
+    {
+      "item": "alchemistry:element|620",
+      "emc": 620
+    },
+    {
+      "item": "alchemistry:element|640",
+      "emc": 640
+    },
+    {
+      "item": "alchemistry:element|660",
+      "emc": 660
+    },
+    {
+      "item": "alchemistry:element|680",
+      "emc": 680
+    },
+    {
+      "item": "alchemistry:element|700",
+      "emc": 700
+    },
+    {
+      "item": "alchemistry:element|720",
+      "emc": 720
+    },
+    {
+      "item": "alchemistry:element|740",
+      "emc": 740
+    },
+    {
+      "item": "alchemistry:element|760",
+      "emc": 760
+    },
+    {
+      "item": "alchemistry:element|780",
+      "emc": 780
+    },
+    {
+      "item": "alchemistry:element|800",
+      "emc": 800
+    },
+    {
+      "item": "alchemistry:element|999",
+      "emc": 999
+    }
+  ]
+}

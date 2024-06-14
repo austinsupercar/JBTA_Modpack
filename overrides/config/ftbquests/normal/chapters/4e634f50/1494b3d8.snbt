@@ -1,0 +1,32 @@
+{
+	x: 38.0d,
+	y: 0.0d,
+	text: [
+		"Why haven't I made a cpu yet? All computers need a cpu to function!"
+	],
+	dependencies: [
+		"1c7f8671"
+	],
+	tasks: [{
+		uid: "d7da7c51",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "opencomputers:component",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42ebd1fb",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4371e277",
+		type: "random",
+		table: 5
+	}]
+}

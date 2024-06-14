@@ -1,0 +1,31 @@
+{
+	x: 13.0d,
+	y: -2.0d,
+	text: [
+		"Molding super diamonds around a petroleum-infused ingot, I can make a beautiful, refined diamond. However, I do not feel that this is my limit. "
+	],
+	dependencies: [
+		"a87abfa3"
+	],
+	tasks: [{
+		uid: "58b54ca6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:gem_h"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64476f4f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "42998327",
+		type: "random",
+		table: 4
+	}]
+}

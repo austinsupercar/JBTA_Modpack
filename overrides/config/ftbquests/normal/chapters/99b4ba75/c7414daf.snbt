@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "If you happen to miss and island when you land your rocket on the ather you will be teleported back to the overworld. :) (I'd recommend launching multipal rocket at diffirent locations in the overworld to find a place to land.)",
+	dependencies: [
+		"e1eea761"
+	],
+	tasks: [{
+		uid: "a9126a2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "aether_legacy:ambrosium_shard"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4bdb4939",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "065af2cb",
+		type: "random",
+		table: 6
+	}]
+}

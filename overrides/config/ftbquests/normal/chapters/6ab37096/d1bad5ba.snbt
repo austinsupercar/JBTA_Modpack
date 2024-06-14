@@ -1,0 +1,36 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	shape: "square",
+	description: "YOU NEED TO CRAFT THE FLINT AND TINDER TO CONTINUE!",
+	dependencies: [
+		"6777315c"
+	],
+	tasks: [{
+		uid: "70eff0b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1facbfd8",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "b2ff2694",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 12
+	}]
+}

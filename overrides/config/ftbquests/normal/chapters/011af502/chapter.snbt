@@ -1,0 +1,12 @@
+{
+	title: "Chapter 9: Below the Ocean",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:stone"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

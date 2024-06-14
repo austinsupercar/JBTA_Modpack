@@ -1,0 +1,32 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	text: [
+		"Using the steel plates and some copper, I can make machines. Maybe I should stock up on these."
+	],
+	dependencies: [
+		"b7d053b9"
+	],
+	tasks: [{
+		uid: "73e01c99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:material",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0de9a60f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "9fc9a84f",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,30 @@
+==========================
+items:
+==========================
+
+sign7 to sign19: 
+These were items that were in the 1.7.10 versions of custom npcs which I needed for this adventure map (THEY ARE STILL AVALIBLE IN A CURSE DOWNLOADABLE VERSION OF THE MOD).
+
+iridium_infused_uranium_ingot, mos_neutronium_compound_ingot, strong_iridium_infused_uranium_ingot, and red_compound_ingot:
+INSPIRED by textures from the 1.7.10 HBM nuclear tech mod (This is a good mod, download it!).
+https://www.curseforge.com/minecraft/mc-mods/hbms-nuclear-tech-mod
+
+==========================
+Blocks:
+==========================
+
+All variants of inner, outer, and sinking stomach walls:
+From More Fun Quicksands mod which is public domain at the time of this writing.
+https://www.curseforge.com/minecraft/mc-mods/more-fun-quicksand-mod
+
+organicd, organice and organicf:
+https://commons.wikimedia.org/wiki/File:Stomach_endoscopy_1.jpg#mw-jump-to-license
+The immage was cropped
+
+Sign 7 - 19 were from an older version of Custom NPC's.
+
+==========================
+fluids:
+==========================
+
+Black and grey templates are filtered immages from More Fun Quicksand mod as well.
