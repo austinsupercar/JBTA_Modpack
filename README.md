@@ -20,8 +20,10 @@ The pack is divided into 13 chapters, each chapter containing its own unique cha
 After reading all that, you might think that this pack was made for experienced players, but the pack itself is structured for any kind of player, both new or old. So long as you can think outside the box, you can do wonders!
 
 ================================================================== 
+
 Goals of the pack:
 1: To provide an immersive, hard, enjoyable, and never before seen Ocean survival modpack.
 2: To give players an understanding of what a “hard” modpack is
 3: To build a community around creating mod, packs, and having fun playing them!
+
 ==================================================================
