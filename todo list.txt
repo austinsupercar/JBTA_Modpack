@@ -1,0 +1,25 @@
+1: Re-Stage Uninspected miniral
+2: If possible give chisels infinite durability.
+3: The Alloy furnces electrum and bronze are unknown items at the start of chapter 7, all other products are not, so I guess that is an oversight.
+4: Disable low immunity if possible.
+5: Remove diamond to silicon test recipe or make use different fluid for input.
+6: Note aether and bedrock dungeon location in quest book (chapter 7).
+7: Make heating coil chunk curruption warning if hadn't done so yet.
+8: Make wood coin to other coin conversions (recipe for block from ftb quests that lets you auto submit items)?
+9: Disable thirst system (alredy done in source).
+10: Make silicone + ore directory to rockhounding dust conversion recipes.
+11: Add automated dye making recipe.
+12: Add note on block that builds rockhounding multiblocks for the player to say it does that.
+13: Make stone rods from masonry bricks automatable (carpenter?).
+14: Fix Typos:
+
+From Chief Quest Master's initial dialogue (new worlds only):
+
+Where -> We're
+spotter -> spotted
+
+15: Reduce the silicone cost of AR machine frames in chapter 7.
+16: Remove the simple storage network remote and auto crafters (it's crafting terminal).
+17: Add AE2 factory path to chapter 7.
+18: Remove Refined Storage.
+19: Fix cobblestone recipe conflict in granite/iron anvil!
