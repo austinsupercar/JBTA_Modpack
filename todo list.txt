@@ -23,3 +23,23 @@ spotter -> spotted
 17: Add AE2 factory path to chapter 7.
 18: Remove Simple Storage.
 19: Fix cobblestone recipe conflict in granite/iron anvil!
+------------------------------------------------------------
+1: 
+2: 
+3: 
+4: 
+5: 
+6: 
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: 
+17: 
+18: 
+19: 
