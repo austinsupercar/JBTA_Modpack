@@ -1,7 +1,7 @@
 1: 
 2: 
 3: 
-4: Remove diamond to silicon test recipe or make use different fluid for input.
+4: 
 5: Note aether and bedrock dungeon location in quest book (chapter 7).
 6: Make heating coil chunk curruption warning if hadn't done so yet.
 7: Make wood coin to other coin conversions (recipe for block from ftb quests that lets you auto submit items)?
@@ -19,7 +19,7 @@
 1: Re-Staged Uninspected miniral
 2: Gave chisels infinite durability.
 3: Disabled low immunity if possible.
-4: 
+4: Removed diamond to silicon test recipe (was broken).
 5: 
 6: 
 7: 
