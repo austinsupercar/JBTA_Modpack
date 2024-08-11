@@ -176,7 +176,6 @@ mods.MobStages.addStage("electrical", "weeping-angels:weepingangel");
 //industrial
 mods.ItemStages.stageModItems("industrial", "extendedcrafting");
 mods.ItemStages.stageModItems("industrial", "waystones");
-mods.ItemStages.stageModItems("industrial", "storagenetwork");
 mods.ItemStages.stageModItems("TrainEngineer", "railcraft");
 mods.ItemStages.stageModItems("TrainEngineer", "stevescarts");
 mods.ItemStages.stageModItems("CarpenterB", "chiselsandbits");
@@ -185,7 +184,6 @@ mods.ItemStages.stageModItems("BlacksmithD", "foundry");
 
 mods.recipestages.Recipes.setRecipeStageByMod("industrial", "extendedcrafting");
 mods.recipestages.Recipes.setRecipeStageByMod("industrial", "waystones");
-mods.recipestages.Recipes.setRecipeStageByMod("industrial", "storagenetwork");
 mods.recipestages.Recipes.setRecipeStageByMod("TrainEngineer", "railcraft");
 mods.recipestages.Recipes.setRecipeStageByMod("TrainEngineer", "stevescarts");
 mods.recipestages.Recipes.setRecipeStageByMod("CarpenterB", "chiselsandbits");
