@@ -739,5 +739,3 @@ RecipeBuilder.get("chemist")
     [<rockhounding_chemistry:chemical_items:25>, <rockhounding_chemistry:chemical_items:25>, <rockhounding_chemistry:chemical_items:25>]])
   .addOutput(<rockhounding_chemistry:misc_items:23>)
   .create();
-
-mods.immersiveengineering.Mixer.addRecipe(<liquid:silicone> * 500, <liquid:silicone> * 100, [<minecraft:diamond>, <rockhounding_chemistry:chemical_items:11>], 2048);
