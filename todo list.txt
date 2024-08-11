@@ -11,7 +11,7 @@
 11: Add note on block that builds rockhounding multiblocks for the player to say it does that.
 12: Make stone rods from masonry bricks automatable (carpenter?).
 13: 
-14: Reduce the silicone cost of AR machine frames in chapter 7.
+14: 
 15: Fix cobblestone recipe conflict in granite/iron anvil!
 16: 
 17: Add AE2 factory path to chapter 7.
@@ -29,6 +29,6 @@
 11: 
 12: 
 13: Fixed typos in initial Quest Master dialog.
-14: 
+14: Reduced the silicone cost of AR machine frames and open computers stuff significantly.
 15: 
 16: Removed Simple Storage, added AE2 drives and channels to industrial age.
