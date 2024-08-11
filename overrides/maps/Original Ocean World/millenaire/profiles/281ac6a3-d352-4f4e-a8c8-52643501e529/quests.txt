@@ -1,1 +1,2 @@
-quest:alchemist_1_introknight;step:0;startTime:4568000;currentStepStartTime:4568000;villager:startvillager,535878589388479852,-20793/73/-6977
+quest:alchemist_1_introknight;step:0;startTime:4706000;currentStepStartTime:4706000;villager:startvillager,535878589388479852,-20793/73/-6977
+quest:spiders;step:0;startTime:4709000;currentStepStartTime:4709000;villager:startvillager,2007732318255825675,-20793/73/-6977;villager:wife,675624639071588865,-20793/73/-6977;villager:miner,4410381143825546977,-20793/73/-6977

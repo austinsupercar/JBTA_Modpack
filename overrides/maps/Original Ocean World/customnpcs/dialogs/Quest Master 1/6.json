@@ -47,7 +47,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "There hasn’t been a single airplane or boat sighting since our ancestors first landed here, with the exceptions of a few ghost ships spotter just offshore.",
+    "DialogText": "There hasn’t been a single airplane or boat sighting since our ancestors first landed here, with the exceptions of a few ghost ships spotted just offshore.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -64,7 +64,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1587609222121L,
+        "TimePast": 1723344451866L,
         "Time": 0L,
         "Subject": ""
     }

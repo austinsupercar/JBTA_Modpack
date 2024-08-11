@@ -47,7 +47,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Where all stranded here so I don’t see how we could be of any help. ",
+    "DialogText": "We're all stranded here so I don’t see how we could be of any help. ",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -64,7 +64,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1589576074063L,
+        "TimePast": 1723344417666L,
         "Time": 0L,
         "Subject": ""
     }
