@@ -1,13 +1,13 @@
 {
-	x: -2.0d,
-	y: 1.0d,
+	x: -1.0d,
+	y: 0.0d,
 	shape: "rsquare",
 	description: "This machine works without a server block despite what the manual says. (Left-click to scroll through possible molds.)",
 	text: [
 		"If I want to make more advanced machine I need to start by making a machine that can build better parts."
 	],
 	dependencies: [
-		"320a7d29"
+		"1b268d1b"
 	],
 	tasks: [{
 		uid: "8af172b4",

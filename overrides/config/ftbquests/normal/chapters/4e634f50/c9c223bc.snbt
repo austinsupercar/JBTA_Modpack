@@ -5,8 +5,10 @@
 		"Finally! After all this time I have made a printer circuit board, now I can make a computer, I wonder if I can go even further with my design?"
 	],
 	dependencies: [
-		"d5199550"
+		"d5199550",
+		"61c0414e"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "9050d892",
 		type: "item",

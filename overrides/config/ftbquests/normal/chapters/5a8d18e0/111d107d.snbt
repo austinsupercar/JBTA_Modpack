@@ -1,5 +1,5 @@
 {
-	x: -1.0d,
+	x: -2.0d,
 	y: 0.0d,
 	shape: "square",
 	can_repeat: true,
@@ -12,11 +12,12 @@
 			},
 			id: "contenttweaker:sign_l"
 		}],
+		count: 2L,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "75c0d7e5",
 		type: "ftbmoney:money",
-		ftb_money: 50L
+		ftb_money: 100L
 	}]
 }

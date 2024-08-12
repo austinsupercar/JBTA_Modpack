@@ -3,20 +3,21 @@
 3: 
 4: 
 5: Note aether and bedrock dungeon location in quest book (chapter 7).
-6: Make heating coil chunk curruption warning if hadn't done so yet.
+6: Make heating coil chunk curruption warning if hadn't done so yet. 
 7: Make wood coin to other coin conversions (recipe for block from ftb quests that lets you auto submit items)?
 8: 
-9: Make silicone + ore directory to rockhounding dust conversion recipes.
-10: Add automated dye making recipe.
+9: 
+10: 
 11: Add note on block that builds rockhounding multiblocks for the player to say it does that.
-12: Make stone rods from masonry bricks automatable (carpenter?).
+12: 
 13: 
 14: 
-15: Fix cobblestone recipe conflict in granite/iron anvil!
-16: 
-17: Add AE2 factory path to chapter 7.
+15: 
+16: Add AE2 factory path to chapter 7.
 ------------------------------------------------------------
-1: Re-Staged Uninspected miniral
+Journey Beyond the Abyss 2.4.0:
+
+1: Re-Staged Uninspected miniral and AE2 items.
 2: Gave chisels infinite durability.
 3: Disabled low immunity if possible.
 4: Removed diamond to silicon test recipe (was broken).
@@ -24,11 +25,10 @@
 6: 
 7: 
 8: Disabled thirst system.
-9: 
-10: 
+9: Added silicone + ore directory to rockhounding dust conversion recipes.
+10: Added crusher dye making recipes.
 11: 
-12: 
+12: Made stone rods from masonry bricks automatable via conversion from the more automatable versions of stone rods.
 13: Fixed typos in initial Quest Master dialog.
 14: Reduced the silicone cost of AR machine frames and open computers stuff significantly.
-15: 
-16: Removed Simple Storage, added AE2 drives and channels to industrial age.
+15: Removed Simple Storage, added AE2 drives and channels to industrial age.

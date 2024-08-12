@@ -1,6 +1,6 @@
 {
-	x: -2.0d,
-	y: 2.0d,
+	x: -3.0d,
+	y: 1.0d,
 	shape: "rsquare",
 	text: [
 		"My advanced crafting table does not cut it. I need something far more effective that can infuse materials into each other."

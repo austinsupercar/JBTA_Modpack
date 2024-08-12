@@ -12,11 +12,12 @@
 			},
 			id: "contenttweaker:sign_h"
 		}],
+		count: 16L,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "b520ea8c",
 		type: "ftbmoney:money",
-		ftb_money: 5L
+		ftb_money: 80L
 	}]
 }

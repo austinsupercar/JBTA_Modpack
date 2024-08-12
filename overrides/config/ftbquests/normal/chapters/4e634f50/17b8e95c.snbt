@@ -1,12 +1,11 @@
 {
-	x: -1.0d,
+	x: 0.0d,
 	y: -1.0d,
 	shape: "rsquare",
 	text: [
 		"Time for me to put my circuit fabricator to good use, I got the feeling that I will also use the crystal matrix reactor soon."
 	],
 	dependencies: [
-		"5a8f7b51",
 		"fd5743e8"
 	],
 	tasks: [{

@@ -553,3 +553,584 @@ RecipeBuilder.get("engineer")
     [null, null, <tconstruct:metal:2>, null, null]])
   .addOutput(<waystones:warp_stone>)
   .create();
+
+//AE2
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:iron_ingot>, <appliedenergistics2:material:24>, <minecraft:iron_ingot>],
+    [<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>],
+    [<minecraft:iron_ingot>, <appliedenergistics2:material:24>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:drive>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:35>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:storage_cell_1k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:36>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:storage_cell_4k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:37>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:storage_cell_16k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:38>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:storage_cell_64k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:54>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:fluid_storage_cell_1k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:55>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:fluid_storage_cell_4k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:56>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:fluid_storage_cell_16k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [<minecraft:redstone>, <appliedenergistics2:material:57>, <minecraft:redstone>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:fluid_storage_cell_64k>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:140>, <ore:crystalCertusQuartz>, <ore:crystalCertusQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
+    [<buildcraftsilicon:redstone_chipset>, <buildcraftsilicon:redstone_chipset>, null, null, null]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:16> * 4)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:16>, <ore:wool>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:36>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:36>, <minecraft:redstone>, <minecraft:glowstone_dust>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:56>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeWhite>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:40> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeOrange>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:41> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeMagenta>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:42> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeLightBlue>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:43> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeYellow>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:44> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeLime>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:45> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeBlack>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:55> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:ingotIron>, <appliedenergistics2:quartz_glass>, <ore:ingotIron>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:oil_ingot>, <appliedenergistics2:quartz_glass>],
+    [<ore:ingotIron>, <appliedenergistics2:quartz_glass>, <ore:ingotIron>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:energy_acceptor>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:crystalCertusQuartz>, <contenttweaker:super_diamond>, <ore:crystalCertusQuartz>],
+    [<contenttweaker:super_diamond>, <appliedenergistics2:quartz_glass>, <contenttweaker:super_diamond>],
+    [<ore:crystalCertusQuartz>, <contenttweaker:super_diamond>, <ore:crystalCertusQuartz>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:energy_cell>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:energy_cell>.withTag({}), <appliedenergistics2:energy_cell>.withTag({}), <appliedenergistics2:energy_cell>.withTag({})],
+    [<appliedenergistics2:energy_cell>.withTag({}), <appliedenergistics2:material:23>, <appliedenergistics2:energy_cell>.withTag({})],
+    [<appliedenergistics2:energy_cell>.withTag({}), <appliedenergistics2:energy_cell>.withTag({}), <appliedenergistics2:energy_cell>.withTag({})]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:dense_energy_cell>.withTag({}))
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:ingotIron>, <appliedenergistics2:material:43>, <ore:ingotIron>],
+    [null, <minecraft:piston>, null]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:260>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:ingotIron>, <appliedenergistics2:material:43>, <ore:ingotIron>],
+    [<ore:gemLapis>, <minecraft:piston>, <ore:gemLapis>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:261>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemLapis>, <appliedenergistics2:material:44>, <ore:gemLapis>],
+    [<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:241>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemLapis>, null, null, null, <ore:gemLapis>],
+    [null, <ore:ingotIron>, <ore:gemLapis>, <ore:ingotIron>, null],
+    [<minecraft:piston>, <appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>, <minecraft:sticky_piston>],
+    [null, <ore:ingotIron>, <ore:gemLapis>, <ore:ingotIron>, null],
+    [<ore:gemLapis>, null, null, null, <ore:gemLapis>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:221>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [null, <appliedenergistics2:material:44>, null],
+    [<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:240>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [null, <ore:ingotIron>, <appliedenergistics2:quartz_glass>, <ore:ingotIron>, null],
+    [<minecraft:piston>, <appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>, <minecraft:sticky_piston>],
+    [null, <ore:ingotIron>, <appliedenergistics2:quartz_glass>, <ore:ingotIron>, null]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:220>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [null, <minecraft:redstone>, null],
+    [<appliedenergistics2:part:16>, <minecraft:lever>, <appliedenergistics2:part:16>],
+    [null, <minecraft:redstone>, null]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:80>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:80>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:100>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:redstone_torch>, <ore:gemLapis>, <appliedenergistics2:material:23>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:281>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:redstone_torch>, <appliedenergistics2:material:23>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:280>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<contenttweaker:super_diamond>],
+    [<buildcraftsilicon:redstone_chipset:2>],
+    [<immersiveengineering:material:27>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:22>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<contenttweaker:super_diamond>],
+    [<buildcraftsilicon:redstone_chipset:3>],
+    [<immersiveengineering:material:27>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:23>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<contenttweaker:super_diamond>],
+    [<buildcraftsilicon:redstone_chipset:4>],
+    [<immersiveengineering:material:27>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:24>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:redstone>, <ore:crystalCertusQuartz>, <minecraft:redstone>],
+    [<ore:crystalCertusQuartz>, <appliedenergistics2:material:22>, <ore:crystalCertusQuartz>],
+    [<minecraft:redstone>, <ore:crystalCertusQuartz>, <minecraft:redstone>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:35>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:redstone>, <appliedenergistics2:material:23>, <minecraft:redstone>],
+    [<appliedenergistics2:material:35>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:35>],
+    [<minecraft:redstone>, <appliedenergistics2:material:35>, <minecraft:redstone>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:36>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:glowstone_dust>, <appliedenergistics2:material:23>, <minecraft:glowstone_dust>],
+    [<appliedenergistics2:material:36>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:36>],
+    [<minecraft:glowstone_dust>, <appliedenergistics2:material:36>, <minecraft:glowstone_dust>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:37>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:glowstone_dust>, <appliedenergistics2:material:23>, <minecraft:glowstone_dust>],
+    [<appliedenergistics2:material:37>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:37>],
+    [<minecraft:glowstone_dust>, <appliedenergistics2:material:37>, <minecraft:glowstone_dust>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:38>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemLapis>, <ore:crystalCertusQuartz>, <ore:gemLapis>],
+    [<ore:crystalCertusQuartz>, <appliedenergistics2:material:22>, <ore:crystalCertusQuartz>],
+    [<ore:gemLapis>, <ore:crystalCertusQuartz>, <ore:gemLapis>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:54>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemLapis>, <appliedenergistics2:material:23>, <ore:gemLapis>],
+    [<appliedenergistics2:material:54>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:54>],
+    [<ore:gemLapis>, <appliedenergistics2:material:54>, <ore:gemLapis>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:55>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemLapis>, <appliedenergistics2:material:23>, <ore:gemLapis>],
+    [<appliedenergistics2:material:55>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:55>],
+    [<ore:gemLapis>, <appliedenergistics2:material:55>, <ore:gemLapis>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:56>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemLapis>, <appliedenergistics2:material:23>, <ore:gemLapis>],
+    [<appliedenergistics2:material:56>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:56>],
+    [<ore:gemLapis>, <appliedenergistics2:material:56>, <ore:gemLapis>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:57>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+    [<ore:crystalCertusQuartz>, <ore:crystalCertusQuartz>, <ore:crystalCertusQuartz>],
+    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:140> * 3)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyePink>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:46> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeGray>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:47> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeLightGray>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:48> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeCyan>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:49> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyePurple>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:50> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeBlue>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:51> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeBrown>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:52> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeGreen>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:53> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <ore:dyeRed>, <appliedenergistics2:part:56>],
+    [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:54> * 8)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:ingotGold>, <ore:ingotIron>, null],
+    [<minecraft:redstone>, <appliedenergistics2:material:23>, <ore:ingotIron>],
+    [<ore:ingotGold>, <ore:ingotIron>, null]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:25> * 2)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemDiamond>, <ore:ingotIron>, null],
+    [<minecraft:redstone>, <appliedenergistics2:material:23>, <ore:ingotIron>],
+    [<ore:gemDiamond>, <ore:ingotIron>, null]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:28> * 2)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<extendedcrafting:crafting_table>, <appliedenergistics2:material:25>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:53>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:crystalCertusQuartz>, <appliedenergistics2:material:25>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:27>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<contenttweaker:oil_ingot>, <appliedenergistics2:material:28>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:30>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:wool>, <appliedenergistics2:material:28>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:29>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<minecraft:redstone_torch>, <appliedenergistics2:material:28>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:31>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:part:380>, <ore:gemLapis>, <appliedenergistics2:material:22>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:520>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<appliedenergistics2:material:43>, <appliedenergistics2:part:180>, <appliedenergistics2:material:22>, <appliedenergistics2:material:44>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:380>)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:crystalCertusQuartz>, <ore:blockGlass>, <ore:crystalCertusQuartz>],
+    [<ore:blockGlass>, <ore:crystalCertusQuartz>, <ore:blockGlass>],
+    [<ore:crystalCertusQuartz>, <ore:blockGlass>, <ore:crystalCertusQuartz>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:quartz_glass> * 4)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:gemQuartz>, <contenttweaker:super_diamond>, <appliedenergistics2:material:22>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:44> * 2)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [<ore:crystalCertusQuartz>, <contenttweaker:super_diamond>, <appliedenergistics2:material:22>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:material:43> * 2)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShaped([
+    [null, <minecraft:glowstone_dust>, <appliedenergistics2:quartz_glass>],
+    [<ore:ingotIron>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+    [null, <minecraft:glowstone_dust>, <appliedenergistics2:quartz_glass>]])
+  .setFluid(<liquid:biodiesel> * 100)
+  .addOutput(<appliedenergistics2:part:180> * 3)
+  .create();
+  
+recipes.addShaped(<pyrotech:material:27> * 4, [[<ore:rodStone>, <ore:rodStone>], [<ore:rodStone>, <ore:rodStone>]]);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye>, <minecraft:red_mushroom>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:1>, <minecraft:red_flower>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:2>, <minecraft:cactus>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:3>, <minecraft:brown_mushroom>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:5>, <minecraft:red_flower:2>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:6>, <minecraft:red_flower:4>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:7>, <minecraft:red_flower:8>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:8>, <minecraft:red_flower:3>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:9>, <minecraft:red_flower:7>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:10>, <minecraft:sapling>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:11>, <minecraft:yellow_flower>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:12>, <minecraft:red_flower:1>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:13>, <minecraft:red_flower:6>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:14>, <minecraft:red_flower:5>, 200);

@@ -1,0 +1,12 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	description: "Alternative Path, Work In Progress!",
+	dependencies: [
+		"320a7d29"
+	],
+	tasks: [{
+		uid: "06f8b9e1",
+		type: "checkmark"
+	}]
+}

@@ -1,6 +1,7 @@
 {
 	x: -5.5d,
 	y: 0.0d,
+	description: "WARNING: DO NOT PLACE THE HEATING COIL UNLESS YOU LIKE WORLD CORRUPTION! It should be used only as a crafting ingrediant.",
 	text: [
 		"Finding some should be easy. The properties of it seem to make it useful for almost everything."
 	],
@@ -17,6 +18,17 @@
 			id: "minecraft:redstone"
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "34a9890f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "toughasnails:temperature_coil",
+			Damage: 1s
+		}]
 	}],
 	rewards: [{
 		uid: "dcc84d70",

@@ -1,12 +1,12 @@
 {
-	x: -3.0d,
-	y: -1.0d,
+	x: -2.0d,
+	y: 2.0d,
 	shape: "rsquare",
 	text: [
 		"Simple machine casings are not enough. I need something more flexible and stronger than before. Using silicon as a base, I think I can achieve this."
 	],
 	dependencies: [
-		"27942624"
+		"320a7d29"
 	],
 	tasks: [{
 		uid: "4ac1ddf7",

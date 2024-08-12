@@ -1,0 +1,25 @@
+{
+	x: 52.5d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Hint: Place the aether portal frame near the spawn platform, this is where you will find the next dungeon structure (it’s close to the location the exit portal will appear if placed near the spawn platform).",
+	text: [
+		""
+	],
+	dependencies: [
+		"29f9cd76"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "34ffa8cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "aether_legacy:aether_portal_frame"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
