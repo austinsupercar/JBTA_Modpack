@@ -416,7 +416,7 @@
             <generateGeodes>false</generateGeodes>
             <artifact>draconicevolution:draconic_core 0 1</artifact>
         </planet>
-        <planet DIMID="465" name="Sol-465">
+        <planet DIMID="465" name="RileyK">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -458,7 +458,7 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="467" name="Sol-467">
+        <planet DIMID="467" name="12th Century Fox">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -519,7 +519,7 @@
             </planet>
             <oceanBlock>minecraft:lava</oceanBlock>
         </planet>
-        <planet DIMID="452" name="Sol-452">
+        <planet DIMID="452" name="mrfancyshmancy">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -656,7 +656,7 @@
                 <biomeIds>minecraft:mutated_redwood_taiga_hills,minecraft:birch_forest,minecraft:stone_beach,minecraft:ocean,minecraft:beaches</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="470" name="Sol-470">
+        <planet DIMID="470" name="BreakfastNoodles">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -738,7 +738,7 @@
             <biomeIds>minecraft:extreme_hills,minecraft:extreme_hills_with_trees,minecraft:mutated_extreme_hills,minecraft:mutated_extreme_hills_with_trees</biomeIds>
             <fillerBlock>minecraft:diamond_block</fillerBlock>
         </planet>
-        <planet DIMID="459" name="Sol-459">
+        <planet DIMID="459" name="Metalit">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -900,7 +900,7 @@
         <star blackHole="false" separation="5.0" size="1.0" temp="150"/>
         <star blackHole="false" separation="5.0" size="1.0" temp="150"/>
         <star blackHole="true" separation="5.0" size="1.0" temp="150"/>
-        <planet DIMID="480" name="Sol-480">
+        <planet DIMID="480" name="oliverstr">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -999,7 +999,7 @@
             <generateGeodes>false</generateGeodes>
             <artifact>contenttweaker:gem_i 0 1</artifact>
         </planet>
-        <planet DIMID="498" name="Sol-498">
+        <planet DIMID="498" name="Hitedo">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -1079,7 +1079,7 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="484" name="Sol-484">
+        <planet DIMID="484" name="EvilSpaceBunny">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -1199,7 +1199,7 @@
                 <biomeIds>minecraft:stone_beach,netheroverload:nether_swamp,minecraft:jungle,minecraft:jungle_edge,advancedrocketry:marsh</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="502" name="Sol-502">
+        <planet DIMID="502" name="Bermangolu">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -1239,7 +1239,7 @@
             </planet>
             <oceanBlock>minecraft:lava</oceanBlock>
         </planet>
-        <planet DIMID="473" name="Sol-473">
+        <planet DIMID="473" name="Sean">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -1396,7 +1396,7 @@
             <generateGeodes>false</generateGeodes>
             <biomeIds>minecraft:jungle,minecraft:jungle_hills</biomeIds>
         </planet>
-        <planet DIMID="490" name="Sol-490">
+        <planet DIMID="490" name="BitNBlock">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -1556,7 +1556,7 @@
     </star>
     <star blackHole="false" name="Wrenny2000" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="800" y="640">
         <star blackHole="false" separation="5.0" size="1.0" temp="100"/>
-        <planet DIMID="515" name="Sol-515">
+        <planet DIMID="515" name="Junes Blue">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -1654,7 +1654,7 @@
             <generateGeodes>true</generateGeodes>
             <biomeIds>advancedrocketry:hotdryrock</biomeIds>
         </planet>
-        <planet DIMID="519" name="Sol-519">
+        <planet DIMID="519" name="Powah">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -1733,7 +1733,7 @@
                 <biomeIds>minecraft:desert,netheroverload:nether_forest,minecraft:roofed_forest,minecraft:birch_forest_hills,beneath:the_beneath</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="504" name="Sol-504">
+        <planet DIMID="504" name="TheNewGuy">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -1871,7 +1871,7 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="511" name="Sol-511">
+        <planet DIMID="511" name="Doctor Professor">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -2007,7 +2007,7 @@
                 <generateGeodes>false</generateGeodes>
             </planet>
         </planet>
-        <planet DIMID="544" name="Sol-544">
+        <planet DIMID="544" name="ILIKEPIEFOO2">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -2148,7 +2148,7 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="551" name="Sol-551">
+        <planet DIMID="551" name="VETIES">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -2169,7 +2169,7 @@
             <biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
             <oceanBlock>minecraft:lava</oceanBlock>
         </planet>
-        <planet DIMID="552" name="Sol-552">
+        <planet DIMID="552" name="Lakki3a4">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -2248,7 +2248,7 @@
                 <biomeIds>minecraft:mutated_plains,minecraft:mutated_birch_forest,minecraft:mutated_redwood_taiga_hills,minecraft:deep_ocean,minecraft:forest_hills</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="523" name="Sol-523">
+        <planet DIMID="523" name="Leamas">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -2385,7 +2385,7 @@
                 <biomeIds>minecraft:beaches,minecraft:forest,minecraft:mesa,minecraft:mutated_birch_forest_hills,minecraft:mesa_rock</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="556" name="Sol-556">
+        <planet DIMID="556" name="Brid">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -2485,7 +2485,7 @@
             </planet>
             <oceanBlock>minecraft:water</oceanBlock>
         </planet>
-        <planet DIMID="561" name="Sol-561">
+        <planet DIMID="561" name="Alerus Telperion">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -2543,7 +2543,7 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="530" name="Sol-530">
+        <planet DIMID="530" name="Quantum Fluctuations">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -2684,7 +2684,7 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="564" name="Sol-564">
+        <planet DIMID="564" name="oly2o6">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -2927,7 +2927,7 @@
         </planet>
     </star>
     <star blackHole="false" name="DarkenedSky" numGasGiants="0" numPlanets="0" size="1.0" temp="80" x="600" y="360">
-        <planet DIMID="578" name="Sol-578">
+        <planet DIMID="578" name="Alk">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -2948,7 +2948,7 @@
             <biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
             <oceanBlock>minecraft:lava</oceanBlock>
         </planet>
-        <planet DIMID="579" name="Sol-579">
+        <planet DIMID="579" name="laureled">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -3045,7 +3045,7 @@
             <generateGeodes>false</generateGeodes>
             <biomeIds>advancedrocketry:oceanspires</biomeIds>
         </planet>
-        <planet DIMID="566" name="Sol-566">
+        <planet DIMID="566" name="spiderwisdom">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -3068,7 +3068,7 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
         </planet>
-        <planet DIMID="567" name="Sol-567">
+        <planet DIMID="567" name="tamaized">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -3210,7 +3210,7 @@
                 <biomeIds>minecraft:mesa_clear_rock,minecraft:mutated_swampland,minecraft:mutated_jungle_edge,minecraft:forest_hills,minecraft:mutated_mesa_rock</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="574" name="Sol-574">
+        <planet DIMID="574" name="timbroglio">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -3292,7 +3292,7 @@
         </planet>
     </star>
     <star blackHole="false" name="ConnorJT03" numGasGiants="0" numPlanets="0" size="1.0" temp="30" x="500" y="250">
-        <planet DIMID="592" name="Sol-592">
+        <planet DIMID="592" name="tirsty">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -3374,7 +3374,7 @@
                 <oceanBlock>advancedrocketry:oxygenfluid</oceanBlock>
             </planet>
         </planet>
-        <planet DIMID="596" name="Sol-596">
+        <planet DIMID="596" name="darkarcana">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>

@@ -2,13 +2,13 @@
 2: 
 3: 
 4: 
-5: Note aether and bedrock dungeon location in quest book (chapter 7).
-6: Make heating coil chunk curruption warning if hadn't done so yet. 
-7: Make wood coin to other coin conversions (recipe for block from ftb quests that lets you auto submit items)?
+5: 
+6:  
+7: 
 8: 
 9: 
 10: 
-11: Add note on block that builds rockhounding multiblocks for the player to say it does that.
+11: 
 12: 
 13: 
 14: 
@@ -17,17 +17,17 @@
 ------------------------------------------------------------
 Journey Beyond the Abyss 2.4.0:
 
-1: Re-Staged Uninspected miniral and AE2 items.
+1: Re-Staged Uninspected miniral and some AE2 items.
 2: Gave chisels infinite durability.
 3: Disabled low immunity if possible.
 4: Removed diamond to silicon test recipe (was broken).
-5: 
-6: 
-7: 
+5: Noted aether dungeon location.
+6: Added heating coil warning to quest book.
+7: Made wood coin submission require 64 wood coins.
 8: Disabled thirst system.
 9: Added silicone + ore directory to rockhounding dust conversion recipes.
 10: Added crusher dye making recipes.
-11: 
+11: Added note on block that builds rockhounding multiblocks for the player to say it does that.
 12: Made stone rods from masonry bricks automatable via conversion from the more automatable versions of stone rods.
 13: Fixed typos in initial Quest Master dialog.
 14: Reduced the silicone cost of AR machine frames and open computers stuff significantly.
