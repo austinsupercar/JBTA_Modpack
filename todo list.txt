@@ -1,6 +1,25 @@
-1: 
-2: 
-3: 
+Journey Beyond the Abyss 2.5.0:
+
+1: Added alternate path to chapter 7. (refractory/masonry bricks for buildings)
+
+Building Types: 
+
+Market Place, Factory, Mining Pit, Farm, Tree Farm, Animal Farm, Town Hall
+
+
+
+
+
+
+
+
+
+
+
+
+
+2: Added Custom Culture to millenaire.
+3: Added new Planets and renamed some of the old ones.
 4: 
 5: 
 6:  
@@ -13,7 +32,7 @@
 13: 
 14: 
 15: 
-16: Add AE2 factory path to chapter 7.
+16: 
 ------------------------------------------------------------
 Journey Beyond the Abyss 2.4.0:
 
@@ -32,3 +51,15 @@ Journey Beyond the Abyss 2.4.0:
 13: Fixed typos in initial Quest Master dialog.
 14: Reduced the silicone cost of AR machine frames and open computers stuff significantly.
 15: Removed Simple Storage, added AE2 drives and channels to industrial age.
+
+
+I read that as  t3 chips, lol. Flu brain strikes hard.
+Yes, please. Three steps to the basic board that then gets used for the chips, the transistors and whatnot else is rough. For one, at this point I made Forestry, Engineering and Ender pcbs. I kinda would like to use these some more.
+Here are two unfinished idea: The cards can be made in a carpenter from the Engineering logic boards using hydrofluoric acid (or hydrochloric) for the etching process. Maybe with a 2:1  or 3:1 ratio old card to new card with some SiN, copper wires, gold, electrotine and redstone. Also keep the original recipe but make the last step give out 5 or so cards.
+The idea being: you use the circuit fabricator to make a big board with space for several circuit cards (step 1), harden it (step 2), put the basic electronics in and then cut it into the individual cards (step 3). IMO that would fit with the multistep process, the SiN investment (larger board needs to me more durable) and just the sheer size of the machine! A carpenter is smoll, it can just make a single card but the CF is big and can work the bulk materials more efficiently.
+At the moment, the process also constantly uses a CVD chamber and the lab crusher. With the CF that is three machines that also have other uses. Especially with the fabricator, this just eats time and needs constant shuffling for very little gain. Also there are huge energy costs. 
+My suggestion would lead to two possible ways, either you build up a parallel production refining lower tech things you might have automated at a lower efficiency or you take the high tech route that utilizes the the new expensive materials but but gives out more basic products per craft.
+
+While I am at it, maybe make the transistor recipe give several transistors (2-3) per craft, please?
+
+With the t3 circuits I just miss the "you make it the hard way once n then there opens a better way" feeling of all the other major crafting chains (crystal matrix, superdiamonds, metals, chemicals ... ). And I will need thousands of chips going forward with better cables, electric motors, new machines etc. so automation for the substrate is necessary, I think.
