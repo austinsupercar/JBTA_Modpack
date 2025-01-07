@@ -4,7 +4,11 @@ Journey Beyond the Abyss 2.5.0:
 
 Building Types: 
 
-Market Place, Factory, Mining Pit, Farm, Tree Farm, Animal Farm, Town Hall
+Lab (shop/crafter), Factory (shop/crafter), Mining Pit, Melter (processor), Farm, Tree Farm, Animal Farm, Town Hall (shop), House, Possibly Builder
+
+Leader of village: Mad Scientist
+
+
 
 
 
