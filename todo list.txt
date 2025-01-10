@@ -20,11 +20,11 @@ Possibly Builder
 
 Leader of village: Mad Scientist
 
-Journey Beyond the Abyss 2.4.5:
+Journey Beyond the Abyss 2.4.4:
 
 1: Added new Planets and renamed some of the old ones.
-2: 
-3: 
+2: Added optimization mods recommended by Metalit
+3: mixin.dynamic_resources to false in its config
 4:  
 5: 
 6: 
@@ -57,6 +57,7 @@ Journey Beyond the Abyss 2.4.0:
 
 
 I read that as  t3 chips, lol. Flu brain strikes hard.
+
 Yes, please. Three steps to the basic board that then gets used for the chips, the transistors and whatnot else is rough. For one, at this point I made Forestry, Engineering and Ender pcbs. I kinda would like to use these some more.
 Here are two unfinished idea: The cards can be made in a carpenter from the Engineering logic boards using hydrofluoric acid (or hydrochloric) for the etching process. Maybe with a 2:1  or 3:1 ratio old card to new card with some SiN, copper wires, gold, electrotine and redstone. Also keep the original recipe but make the last step give out 5 or so cards.
 The idea being: you use the circuit fabricator to make a big board with space for several circuit cards (step 1), harden it (step 2), put the basic electronics in and then cut it into the individual cards (step 3). IMO that would fit with the multistep process, the SiN investment (larger board needs to me more durable) and just the sheer size of the machine! A carpenter is smoll, it can just make a single card but the CF is big and can work the bulk materials more efficiently.
