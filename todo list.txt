@@ -1,32 +1,33 @@
 Journey Beyond the Abyss 2.5.0:
 
 1: Added alternate path to chapter 7. (refractory/masonry bricks for buildings)
+2: Added Custom Culture to millenaire.
 
 Building Types: 
 
-Lab (shop/crafter), Factory (shop/crafter), Mining Pit, Melter (processor), Farm, Tree Farm, Animal Farm, Town Hall (shop), House, Possibly Builder
+Lab (shop/crafter),
+Factory (shop/crafter) (starts with pyrotech stuff, can be upgraded all the way to semiconductor factory for cheap circuits),
+Market (Shop),
+Bee Keeper (magically produces bee products, better bee breeding stuff at higher levels, expensive hut), 
+Miniral Processor (breaks down uninspected miniral), 
+Melter (processor), 
+Multi Farm, 
+Tree Farm, 
+Animal Farm, 
+Town Hall (shop), 
+House, 
+Possibly Builder
 
 Leader of village: Mad Scientist
 
+Journey Beyond the Abyss 2.4.5:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-2: Added Custom Culture to millenaire.
-3: Added new Planets and renamed some of the old ones.
-4: 
+1: Added new Planets and renamed some of the old ones.
+2: 
+3: 
+4:  
 5: 
-6:  
+6: 
 7: 
 8: 
 9: 
@@ -35,8 +36,6 @@ Leader of village: Mad Scientist
 12: 
 13: 
 14: 
-15: 
-16: 
 ------------------------------------------------------------
 Journey Beyond the Abyss 2.4.0:
 
