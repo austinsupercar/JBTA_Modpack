@@ -9,7 +9,7 @@ Lab (shop/crafter),
 Factory (shop/crafter) (starts with pyrotech stuff, can be upgraded all the way to semiconductor factory for cheap circuits),
 Market (Shop),
 Bee Keeper (magically produces bee products, better bee breeding stuff at higher levels, expensive hut), 
-Miniral Processor (breaks down uninspected miniral), 
+Miniral Processor (breaks down uninspected miniral into good loot crate stile blocks, new item that can be "melted" into silicone for sale), 
 Melter (processor), 
 Multi Farm, 
 Tree Farm, 
@@ -23,19 +23,11 @@ Leader of village: Mad Scientist
 Journey Beyond the Abyss 2.4.4:
 
 1: Added new Planets and renamed some of the old ones.
-2: Added optimization mods recommended by Metalit
-3: mixin.dynamic_resources to false in its config
-4:  
-5: 
-6: 
-7: 
-8: 
-9: 
-10: 
-11: 
-12: 
-13: 
-14: 
+2: Added optimization mods recommended by Metalit.
+3: Made diamond sword and above/equivalent able to cut stomach wall blocks.
+4: Added fabricator recipes for a few base open computers circuits.
+5: Added some carpenter recipes for processing uninspected miniral.
+6: Increased amount of RF/t steam turbine and wind generator from industrial renewal produces.
 ------------------------------------------------------------
 Journey Beyond the Abyss 2.4.0:
 
