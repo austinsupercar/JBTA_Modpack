@@ -270,7 +270,7 @@ mods.forestry.Carpenter.addRecipe(<rockhounding_chemistry:alloy_items_tech:27> *
 mods.forestry.Carpenter.addRecipe(<rockhounding_chemistry:alloy_items_tech:15> * 8, [[<ore:dustNimonic>, <rockhounding_chemistry:uninspected_mineral>]], 5, <liquid:silicone> * 100);
 mods.forestry.Carpenter.addRecipe(<rockhounding_chemistry:alloy_items_tech:3> * 8, [[<ore:dustScal>, <rockhounding_chemistry:uninspected_mineral>]], 5, <liquid:silicone> * 100);
 
-//Thermal Fabricator
+//Thermal Fabricator Open Computers
 
 mods.forestry.ThermionicFabricator.addCast(<opencomputers:material:6>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:nuggetGold>, <opencomputers:material:4>, <ore:nuggetGold>], [null, <projectred-core:resource_item:105>, null]], <liquid: glass> * 10, <opencomputers:material:9>);
 mods.forestry.ThermionicFabricator.addCast(<opencomputers:material:2>, [[<rockhounding_chemistry:alloy_items_tech:27>, <contenttweaker:super_diamond>, <ore:ingotGold>]], <liquid: glass> * 10, <opencomputers:material:9>);
