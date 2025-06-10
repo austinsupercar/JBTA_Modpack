@@ -8,7 +8,7 @@
 	},
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: "factory",
+	default_quest_shape: "factory_round",
 	images: [{
 		x: 6.5d,
 		y: 1.0d,
