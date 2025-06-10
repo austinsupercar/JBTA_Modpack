@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: 2.0d,
-	shape: "rsquare",
+	shape: "factory",
 	text: [
 		"I need a table to begin getting into chemicals with all these materials within my grasp. To both further my understanding of this world and create complex formulas and tables. "
 	],

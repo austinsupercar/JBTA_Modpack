@@ -1,7 +1,7 @@
 {
 	x: -3.0d,
 	y: 0.0d,
-	shape: "rsquare",
+	shape: "factory",
 	text: [
 		"With all this energy I am creating, I need to make a pedestal to contain it."
 	],

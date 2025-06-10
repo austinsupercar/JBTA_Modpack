@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: 1.0d,
-	shape: "rsquare",
+	shape: "factory",
 	text: [
 		"This server should help me run my machines more effectivly. I will probably need it for more advanced machines."
 	],

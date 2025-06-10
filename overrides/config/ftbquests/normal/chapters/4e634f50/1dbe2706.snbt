@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: -3.0d,
-	shape: "rsquare",
+	shape: "factory",
 	dependencies: [
 		"6ca97d72"
 	],

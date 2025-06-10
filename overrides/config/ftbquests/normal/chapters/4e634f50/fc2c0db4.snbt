@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: 2.0d,
-	shape: "rsquare",
+	shape: "factory",
 	text: [
 		"Simple machine casings are not enough. I need something more flexible and stronger than before. Using silicon as a base, I think I can achieve this."
 	],

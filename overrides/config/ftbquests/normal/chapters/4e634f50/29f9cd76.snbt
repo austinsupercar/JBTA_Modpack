@@ -2,7 +2,7 @@
 	title: "The Moon",
 	x: 49.0d,
 	y: -2.0d,
-	shape: "rsquare",
+	shape: "factory",
 	description: "You need a guidance computer and a planet ID chip in the rocket to go to the moon.",
 	text: [
 		"Well it is time for me to go to the moon, perhaps I should also go to the second moon and look for the author of those anciant texts I have been finding.",

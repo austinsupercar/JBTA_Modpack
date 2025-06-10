@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: -1.0d,
-	shape: "rsquare",
+	shape: "factory",
 	text: [
 		"Time for me to put my circuit fabricator to good use, I got the feeling that I will also use the crystal matrix reactor soon."
 	],

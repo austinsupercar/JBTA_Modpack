@@ -1,7 +1,7 @@
 {
 	x: -1.0d,
 	y: 0.0d,
-	shape: "rsquare",
+	shape: "factory",
 	description: "This machine works without a server block despite what the manual says. (Left-click to scroll through possible molds.)",
 	text: [
 		"If I want to make more advanced machine I need to start by making a machine that can build better parts."

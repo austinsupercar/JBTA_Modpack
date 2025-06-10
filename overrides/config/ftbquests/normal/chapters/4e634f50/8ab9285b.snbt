@@ -1,7 +1,7 @@
 {
 	x: 52.5d,
 	y: -2.0d,
-	shape: "rsquare",
+	shape: "factory",
 	description: "Hint: Place the aether portal frame near the spawn platform, this is where you will find the next dungeon structure (it’s close to the location the exit portal will appear if placed near the spawn platform).",
 	text: [
 		""

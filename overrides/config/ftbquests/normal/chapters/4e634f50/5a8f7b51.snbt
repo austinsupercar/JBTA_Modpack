@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: 1.0d,
-	shape: "rsquare",
+	shape: "factory",
 	text: [
 		"While this does nothing alone, it is the brain of the larger machines I plan to create!",
 		"I should get started by making a circuit fabricator and a crystal matrix reactor with my crystal matrix blocks."

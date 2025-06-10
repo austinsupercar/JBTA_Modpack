@@ -1,6 +1,48 @@
+[6ab37096]
+background: mainmenu:screenshot1.png
+
+[637d9c7a]
+background: mainmenu:screenshot2.png
+
+[c4aac961]
+background: mainmenu:screenshot3.png
+
+[6d677254]
+background: mainmenu:screenshot4.png
+
+[899ca0ab]
+background: mainmenu:screenshot5.png
+
+[9041e633]
+background: mainmenu:screenshot6.png
+
+[4e634f50]
+background: mainmenu:screenshot7.png
+
+[99b4ba75]
+background: mainmenu:screenshot8.png
+
+[011af502]
+background: mainmenu:screenshot9.png
+
+[56f088e3]
+background: mainmenu:screenshot10.png
+
+[22bfddf3]
+background: mainmenu:screenshot11.png
+
+[fcb3e172]
+background: mainmenu:screenshot12.png
+
+[9a7b3788]
+background: mainmenu:screenshot13.png
+
+[5a8d18e0]
+background: mainmenu:screenshot14.png
+
 [*]
 background:          ftblib:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
+extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, factory
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0

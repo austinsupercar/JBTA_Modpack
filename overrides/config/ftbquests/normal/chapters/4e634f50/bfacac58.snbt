@@ -1,7 +1,7 @@
 {
 	x: 12.0d,
 	y: 1.0d,
-	shape: "rsquare",
+	shape: "factory",
 	text: [
 		"That took a while but now I have what I need to process uninspected minirals."
 	],
