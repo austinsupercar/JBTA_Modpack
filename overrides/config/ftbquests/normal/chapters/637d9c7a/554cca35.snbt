@@ -1,7 +1,7 @@
 {
 	x: 0.5d,
 	y: 1.0d,
-	shape: "circle",
+	shape: "wood",
 	text: [
 		"Looking through gravel, I have found various kinds of rocks; combining similar types yields a new stone altogether."
 	],
