@@ -1,7 +1,7 @@
 {
 	x: 5.5d,
 	y: -1.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"If I’m going to make a raft to reach my offshore destination, I need a bigger workspace and some sort of hammer-like tool."
 	],

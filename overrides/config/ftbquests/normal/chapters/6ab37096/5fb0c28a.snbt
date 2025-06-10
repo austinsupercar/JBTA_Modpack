@@ -1,7 +1,7 @@
 {
 	x: 7.5d,
 	y: 1.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"This saw dust I’m producing as I’m chopping wood might be useful. I should probably keep some."
 	],

@@ -1,7 +1,7 @@
 {
 	x: 6.5d,
 	y: 0.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"Now that I have a bigger workspace it is time to make my self a raft and head toward the trench where I can get started on my research platform. Let’s hope there are enough salvageable resources on the boat to make the platform. ",
 		"Some of my fellow castaways are as interested in studying the trench as I am. I decided to allow them to use my platform if they agree to make their own raft and inform me of anything they discover."

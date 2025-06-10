@@ -1,7 +1,7 @@
 {
 	x: 5.5d,
 	y: 0.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"This crude fire starter doesn’t seem to last long but it gets the job done."
 	],

@@ -1,7 +1,7 @@
 {
 	x: -1.0d,
 	y: 0.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"Now that I figured out how to dry these wet fibers maybe I can use them to make myself some rope."
 	],

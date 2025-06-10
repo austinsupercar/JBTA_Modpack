@@ -1,7 +1,7 @@
 {
 	x: 6.5d,
 	y: 1.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"This half-stump should be good enough to chop wood into planks with my new axe."
 	],

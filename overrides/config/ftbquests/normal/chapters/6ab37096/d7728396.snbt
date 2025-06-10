@@ -1,7 +1,7 @@
 {
 	x: 7.5d,
 	y: 0.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"The ash coming from my campfire could make for a good way to smooth out the wood on a stump to make myself a worktable."
 	],

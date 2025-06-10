@@ -1,7 +1,7 @@
 {
 	x: 1.0d,
 	y: 0.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"I need to set up a campfire before it gets dark otherwise, I’ll probably freeze to death."
 	],

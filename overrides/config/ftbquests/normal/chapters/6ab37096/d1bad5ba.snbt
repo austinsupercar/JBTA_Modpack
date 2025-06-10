@@ -1,7 +1,7 @@
 {
 	x: 7.5d,
 	y: -1.0d,
-	shape: "square",
+	shape: "wood_square",
 	description: "YOU NEED TO CRAFT THE FLINT AND TINDER TO CONTINUE!",
 	dependencies: [
 		"6777315c"

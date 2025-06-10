@@ -1,7 +1,7 @@
 {
 	x: -4.0d,
 	y: 1.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"The fibers of vines and sea grass seem like they could make for a useful binding component. If only I had a way to dry them out."
 	],

@@ -1,7 +1,7 @@
 {
 	x: 2.0d,
 	y: 0.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"This tinder should be good enough to start a fire. All I need now is some wood and something to light it with.",
 		"[Note: Campfires can be used to cook raw meat.]"

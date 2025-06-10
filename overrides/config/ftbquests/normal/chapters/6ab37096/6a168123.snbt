@@ -1,7 +1,7 @@
 {
 	x: 0.0d,
 	y: 0.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"Sticks are too fragile to be used for tools perhaps I can get around this problem if I tie 2 sticks together."
 	],

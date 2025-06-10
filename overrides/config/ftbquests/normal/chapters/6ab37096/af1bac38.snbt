@@ -1,7 +1,7 @@
 {
 	x: -4.0d,
 	y: -1.0d,
-	shape: "square",
+	shape: "wood_square",
 	text: [
 		"It seems like this sea grass stuff drops acorns maybe I could use these to start a tree farm.",
 		"[Note: To craft the drying rack simply shift click a log with another log in your inventory]",
