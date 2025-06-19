@@ -1,7 +1,7 @@
 {
 	x: -5.5d,
 	y: 0.0d,
-	shape: "wood_square",
+	shape: "wood_b_square",
 	tasks: [{
 		uid: "15cf1e3a",
 		type: "gamestage",

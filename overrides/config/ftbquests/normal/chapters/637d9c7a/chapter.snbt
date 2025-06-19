@@ -8,5 +8,5 @@
 	},
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: "wood"
+	default_quest_shape: "wood_b"
 }
