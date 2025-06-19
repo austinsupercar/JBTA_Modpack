@@ -12,30 +12,39 @@ background: mainmenu:screenshot4.png
 
 [899ca0ab]
 background: mainmenu:screenshot5.png
+dependency_line_texture: chisel:textures/blocks/factory/hazard.png
 
 [9041e633]
 background: mainmenu:screenshot6.png
+dependency_line_texture: chisel:textures/blocks/factory/hazard.png
 
 [4e634f50]
 background: mainmenu:screenshot7.png
+dependency_line_texture: chisel:textures/blocks/factory/hazard.png
 
 [99b4ba75]
 background: mainmenu:screenshot8.png
+dependency_line_texture: chisel:textures/blocks/factory/hazardorange.png
 
 [011af502]
 background: mainmenu:screenshot9.png
+dependency_line_texture: chisel:textures/blocks/factory/hazardorange.png
 
 [56f088e3]
 background: mainmenu:screenshot10.png
+dependency_line_texture: chisel:textures/blocks/factory/hazardorange.png
 
 [22bfddf3]
 background: mainmenu:screenshot11.png
+dependency_line_texture: chisel:textures/blocks/voidstone/runes/brown.png
 
 [fcb3e172]
 background: mainmenu:screenshot12.png
+dependency_line_texture: chisel:textures/blocks/voidstone/runes/black.png
 
 [9a7b3788]
 background: mainmenu:screenshot13.png
+dependency_line_texture: chisel:textures/blocks/voidstone/runes/purple.png
 
 [5a8d18e0]
 background: mainmenu:screenshot14.png
