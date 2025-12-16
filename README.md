@@ -1,6 +1,16 @@
 # JBTA_Modpack
 A semi-hardcore modpack focused on immersion!
 
+==================================================================
+Rules for commiting:
+
+1: All changes should not alter the overall feel of the pack, should be comparable to GTNH in difficulty but enjoyable to casual players while maintaining the immersion.
+
+2: All commits should be checked for crafttweaker errors before submission, craft tweeker errors stop whole scripts from running due to poor design on crafttweaker's end.
+Note that due to my use of full crafting recipe removal one script not working makes many items uncraftable.
+
+Please address any crafttweker errors due to missing item id's in your commit if they occure due to a mod update removing/changing mod id's.
+
 ================================================================== 
 
 Welcome to your doo- er, I mean, Journey Beyond the Abyss!
