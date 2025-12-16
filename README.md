@@ -2,6 +2,7 @@
 A semi-hardcore modpack focused on immersion!
 
 ==================================================================
+
 Rules for commiting:
 
 1: All changes should not alter the overall feel of the pack, should be comparable to GTNH in difficulty but enjoyable to casual players while maintaining the immersion.
@@ -9,7 +10,9 @@ Rules for commiting:
 2: All commits should be checked for crafttweaker errors before submission, craft tweeker errors stop whole scripts from running due to poor design on crafttweaker's end.
 Note that due to my use of full crafting recipe removal one script not working makes many items uncraftable.
 
-Please address any crafttweker errors due to missing item id's in your commit if they occure due to a mod update removing/changing mod id's.
+3: Please address any crafttweker errors due to missing item id's in your commit if they occure due to a mod update removing/changing mod id's and note what item was replaced and what it was replaced with in the script, removing a recipe outright might softlock the pack for some poor soul trying to complete an official run.
+
+4: Please test any commits for any other errors that could effect the progression/gameplay.
 
 ================================================================== 
 
@@ -32,8 +35,11 @@ After reading all that, you might think that this pack was made for experienced 
 ================================================================== 
 
 Goals of the pack:
+
 1: To provide an immersive, hard, enjoyable, and never before seen Ocean survival modpack.
+
 2: To give players an understanding of what a “hard” modpack is
+
 3: To build a community around creating mod, packs, and having fun playing them!
 
 ==================================================================
