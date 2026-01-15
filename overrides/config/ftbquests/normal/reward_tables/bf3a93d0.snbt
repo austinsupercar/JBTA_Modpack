@@ -44,18 +44,6 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minecraft:potion",
-			tag: {
-				Potion: "minecraft:water"
-			}
-		},
-		weight: 4
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
 			id: "pyrotech:material",
 			Damage: 10s
 		},
