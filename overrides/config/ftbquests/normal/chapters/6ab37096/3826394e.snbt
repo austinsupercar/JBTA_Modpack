@@ -27,19 +27,6 @@
 		ftb_money: 10L
 	},
 	{
-		uid: "333d519c",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "minecraft:potion",
-			tag: {
-				Potion: "minecraft:water"
-			}
-		}
-	},
-	{
 		uid: "66649d96",
 		type: "item",
 		item: {
