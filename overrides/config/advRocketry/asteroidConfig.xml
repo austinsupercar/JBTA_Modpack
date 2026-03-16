@@ -1,15 +1,37 @@
 <Asteroids>
-	<asteroid name="Iron Nickel Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
-		<ore itemStack="minecraft:iron_ore" chance="15" />
+	<asteroid name="Iron Nickel Asteroid" distance="10" mass="1000" massVariability="0.5" minLevel="0" probability="10" richness="0.5" richnessVariability="0.5">
+		<ore itemStack="contenttweaker:deepest_ore" chance="5" />
 		<ore itemStack="immersiveengineering:ore 4" chance="15" />
-		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="contenttweaker:compressed_iron" chance="15" />
 	</asteroid>
-	<asteroid name="Stone Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.01" richnessVariability="0.5">
-		<ore itemStack="minecraft:iron_ore" chance="15" />
-		<ore itemStack="immersiveengineering:ore 4" chance="2" />
-		<ore itemStack="minecraft:redstone_ore" chance="2" />
+	<asteroid name="Stone Asteroid" distance="10" mass="1000" massVariability="0.5" minLevel="0" probability="10" richness="0.5" richnessVariability="0.1">
+		<ore itemStack="contenttweaker:blue_obsidian" chance="15" />
+		<ore itemStack="contenttweaker:red_obsidian" chance="15" />
+		<ore itemStack="contenttweaker:broken_bedrock" chance="2" />
+		<ore itemStack="contenttweaker:mos_ore" chance="2" />
+		<ore itemStack="contenttweaker:deepest_ore" chance="1" />
 	</asteroid>
-	<asteroid name="Ore Rich Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability=".25" richness="0.5" richnessVariability="0.5">
+	<asteroid name="Deep Asteroid" distance="100" mass="1000" massVariability="0.5" minLevel="0" probability="5" richness="0.9" richnessVariability="0.1">
+		<ore itemStack="contenttweaker:deepest_ore" chance="20" />
+		<ore itemStack="contenttweaker:mos_ore" chance="10" />
+		<ore itemStack="contenttweaker:green_ore" chance="5" />
+		<ore itemStack="contenttweaker:deep_cobalt" chance="5" />
+		<ore itemStack="contenttweaker:deep_diamond" chance="5" />
+		<ore itemStack="contenttweaker:unobtainium_ore" chance="2" />
+	</asteroid>
+	<asteroid name="Compressed Ore Asteroid" distance="10" mass="1000" massVariability="0.5" minLevel="0" probability="1" richness="0.5" richnessVariability="0.5">
+		<ore itemStack="contenttweaker:compressed_copper" chance="20" />
+		<ore itemStack="contenttweaker:compressed_tin" chance="20" />
+		<ore itemStack="contenttweaker:compressed_iron" chance="20" />
+		<ore itemStack="contenttweaker:compressed_coal" chance="20" />
+		<ore itemStack="contenttweaker:compressed_lapis" chance="20" />
+		<ore itemStack="contenttweaker:compressed_gold" chance="15" />
+		<ore itemStack="contenttweaker:compressed_diamond" chance="10" />
+		<ore itemStack="contenttweaker:compressed_emerald" chance="5" />
+		<ore itemStack="contenttweaker:compressed_redstone" chance="15" />
+		<ore itemStack="contenttweaker:compressed_cobalt" chance="5" />
+	</asteroid>
+	<asteroid name="Ore Rich Asteroid" distance="10" mass="1000" massVariability="0.5" minLevel="0" probability=".25" richness="0.5" richnessVariability="0.5">
 		<ore itemStack="geolosys:ore" chance="20" />
 		<ore itemStack="geolosys:ore 1" chance="20" />
 		<ore itemStack="geolosys:ore 2" chance="20" />
@@ -30,12 +52,12 @@
 		<ore itemStack="geolosys:ore_vanilla 6" chance="20" />
 		<ore itemStack="libvulpes:ore0" chance="20" />
 	</asteroid>
-	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
-		<ore itemStack="minecraft:iron_ore" chance="25" />
+	<asteroid name="Iridium Enriched asteroid" distance="100" mass="1000" massVariability="0.5" minLevel="0" probability="0.75" richness="0.9" richnessVariability="0.1">
+		<ore itemStack="contenttweaker:deepest_ore" chance="25" />
 		<ore itemStack="libvulpes:ore0 10" chance="5" />
 	</asteroid>
-	<asteroid name="Comet" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.25" richness="0.9" richnessVariability="0.3">
-		<ore itemStack="minecraft:iron_ore" chance="25" />
+	<asteroid name="Comet" distance="100" mass="1000" massVariability="0.5" minLevel="0" probability="0.25" richness="0.9" richnessVariability="0.3">
+		<ore itemStack="contenttweaker:deepest_ore" chance="25" />
 		<ore itemStack="minecraft:snow" chance="75" />
 		<ore itemStack="minecraft:ice" chance="75" />
 		<ore itemStack="minecraft:packed_ice" chance="75" />
