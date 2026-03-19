@@ -229,7 +229,7 @@
 			<itemStack>advancedrocketry:geode;40</itemStack>
 		</input>
 		<output>
-			<itemStack>appliedenergistics2:sky_stone_block</itemStack>
+			<itemStack>appliedenergistics2:sky_stone_block;8</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="100" power ="10">
