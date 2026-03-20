@@ -3551,7 +3551,7 @@
                 <biomeIds>advancedrocketry:marsh</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="583" name="Sol-583">
+        <planet DIMID="583" name="PolarGuana">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -3574,7 +3574,7 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
         </planet>
-        <planet DIMID="584" name="Sol-584">
+        <planet DIMID="584" name="Nathan">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <GasGiant>true</GasGiant>
@@ -3712,7 +3712,7 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        <planet DIMID="603" name="Sol-603">
+        <planet DIMID="603" name="thegamermig">
             <isKnown>false</isKnown>
             <hasOxygen>false</hasOxygen>
             <fogColor>1.0,1.0,1.0</fogColor>
