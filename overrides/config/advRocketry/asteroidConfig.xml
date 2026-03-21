@@ -74,5 +74,6 @@
 		<ore itemStack="advancedrocketry:crystal 3" chance="50" />
 		<ore itemStack="advancedrocketry:crystal 2" chance="50" />
 		<ore itemStack="advancedrocketry:crystal 1" chance="50" />
+		<ore itemStack="advancedrocketry:crystal" chance="50" />
 	</asteroid>
 </Asteroids>
