@@ -63,7 +63,7 @@
 		<ore itemStack="minecraft:packed_ice" chance="75" />
 		<ore itemStack="libvulpes:ore0 10" chance="15" />
 	</asteroid>
-	<asteroid name="Crystal Comet" distance="100" mass="1000" massVariability="0.5" minLevel="0" probability="0.25" richness="0.9" richnessVariability="0.3">
+	<asteroid name="Crystal Comet" distance="100" mass="1000" massVariability="0.5" minLevel="0" probability="5" richness="0.9" richnessVariability="0.3">
 		<ore itemStack="contenttweaker:deepest_ore" chance="10" />
 		<ore itemStack="minecraft:snow" chance="10" />
 		<ore itemStack="minecraft:ice" chance="10" />
