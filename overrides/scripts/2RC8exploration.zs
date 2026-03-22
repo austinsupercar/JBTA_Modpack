@@ -288,7 +288,7 @@ mods.alchemistry.Combiner.addRecipe(<contenttweaker:unobtainium>, [<alchemistry:
 mods.alchemistry.Combiner.addRecipe(<appliedenergistics2:material:9>, [<minecraft:ender_pearl>, <appliedenergistics2:material:8> * 8, <appliedenergistics2:material:12> * 12, <aether_legacy:ambrosium_shard> * 10, <alchemistry:element:29> * 55]);
 mods.alchemistry.Combiner.addRecipe(<appliedenergistics2:material:5>, [<rockhounding_chemistry:alloy_items_tech:27> * 16, <libvulpes:productingot:3>, <alchemistry:element:29> * 54]);
 mods.alchemistry.Combiner.addRecipe(<bedrockminer:bedrock_infused_obsidian>, [<bedrockminer:bedrock_chunk> * 4, <minecraft:obsidian> * 5, <alchemistry:element:29> * 53]);
-mods.alchemistry.Combiner.addRecipe(<bedrockminer:bedrock_chunk>, [<alchemistry:element:999>, <contenttweaker:unobtainium> * 4, <aether_legacy:ambrosium_shard> * 28, <contenttweaker:mos_ingot> * 44, <alchemistry:element:29> * 52]);
+mods.alchemistry.Combiner.addRecipe(<bedrockminer:bedrock_chunk>, [<alchemistry:element:999>, <contenttweaker:unobtainium> * 4, <aether_legacy:ambrosium_shard> * 4, <contenttweaker:mos_ingot> * 44, <alchemistry:element:29> * 52]);
 
 //Chemical dissolver
 

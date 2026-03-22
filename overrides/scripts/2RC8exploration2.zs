@@ -13,7 +13,7 @@ siglanaherobrineaa.addItemOutput(<contenttweaker:sign_d>);
 siglanaherobrineaa.addFluidInput(<liquid:ydsisiliconehfchime> * 10000);
 siglanaherobrineaa.addItemInput(<contenttweaker:oil_ingot>);
 siglanaherobrineaa.addItemInput(<contenttweaker:mos_ingot> * 20);
-siglanaherobrineaa.addItemInput(<aether_legacy:ambrosium_shard> * 24);
+siglanaherobrineaa.addItemInput(<aether_legacy:ambrosium_shard> * 4);
 siglanaherobrineaa.addItemInput(<bedrockminer:bedrock_chunk> * 24);
 siglanaherobrineaa.addItemInput(<contenttweaker:broken_down_organic_matter> * 40);
 siglanaherobrineaa.build();
