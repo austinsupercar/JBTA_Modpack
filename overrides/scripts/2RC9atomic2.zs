@@ -166,7 +166,7 @@ mods.alchemistry.Combiner.addRecipe(<industrialforegoing:dryrubber>, [<industria
 mods.alchemistry.Combiner.addRecipe(<nuclearcraft:fuel_thorium>, [<nuclearcraft:thorium:4> * 9, <alchemistry:element:164> * 61]);
 mods.alchemistry.Combiner.addRecipe(<nuclearcraft:fuel_mixed_oxide>, [<nuclearcraft:uranium:8> * 8, <nuclearcraft:plutonium:4>, <alchemistry:element:164> * 60]);
 mods.alchemistry.Combiner.addRecipe(<nuclearcraft:fuel_mixed_oxide:1>, [<nuclearcraft:uranium:8> * 8, <nuclearcraft:plutonium:8>, <alchemistry:element:164> * 59]);
-mods.alchemistry.Combiner.addRecipe(<contenttweaker:sign_f>, [<contenttweaker:red_compound_ingot> * 4, <alchemistry:ingot:92> * 40, <extendedcrafting:material:24> * 10, <alchemistry:element:164> * 58]);
+mods.alchemistry.Combiner.addRecipe(<contenttweaker:sign_f>, [<contenttweaker:red_compound_ingot> * 56, <alchemistry:ingot:92> * 40, <extendedcrafting:material:24> * 10, <alchemistry:element:164> * 58]);
 mods.alchemistry.Combiner.addRecipe(<nuclearcraft:alloy:14>, [<alchemistry:ingot:98> * 56, <industrialforegoing:pink_slime_ingot> * 40, <contenttweaker:sign_f> * 28, <thermalfoundation:material:1025> * 8, <thermalfoundation:material:1024> * 8, <thermalfoundation:material:1026> * 8, <thermalfoundation:material:1027> * 8, <alchemistry:element:164> * 57]);
 mods.alchemistry.Combiner.addRecipe(<nuclearcraft:compound:8>, [<nuclearcraft:gem_dust:3> * 4, <nuclearcraft:gem_dust:11>, <alchemistry:element:164> * 56]);
 mods.alchemistry.Combiner.addRecipe(<nuclearcraft:compound:2>, [<minecraft:redstone>, <minecraft:glowstone_dust>, <alchemistry:element:164> * 55]);
