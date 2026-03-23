@@ -9,6 +9,8 @@ print("Initializing 'zzzzprimitivecrafting'...");
 
 <ftbquests:book>.addTooltip(format.green("By an unknown author"));
 <ftbquests:book>.displayName = "Strange Journal";
+<alchemistry:ingot:92>.displayName = "Refined Uranium Ingot";
+<alchemistry:ingot:77>.displayName = "Refined Iridium Ingot";
 <pyrotech:chopping_block>.addTooltip(format.white("Click on me with an axe to use"));
 <minecraft:stick>.addTooltip(format.white("Can be obtained from planting an acorn and"));
 <minecraft:stick>.addTooltip(format.white("chopping down the resaulting tree after it grows for a little bit"));
