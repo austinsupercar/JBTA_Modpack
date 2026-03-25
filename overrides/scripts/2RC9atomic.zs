@@ -277,9 +277,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <nuclearcraft:part:9>, [
 mods.extendedcrafting.TableCrafting.addShaped(0, <nuclearcraft:part:8>, [
 	[null, null, null, null, null, null, null], 
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <thermalfoundation:material:515>, null], 
-	[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotSteel>, <ore:ingotIron>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <ore:blockMotor>, <ore:ingotIron>], 
-	[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+	[<ore:ingotIron>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <nuclearcraft:part:4>, <ore:blockMotor>, <ore:ingotIron>], 
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <thermalfoundation:material:513>, null], 
 	[null, null, null, null, null, null, null]
 ]);
