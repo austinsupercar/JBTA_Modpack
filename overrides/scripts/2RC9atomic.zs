@@ -307,9 +307,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <nuclearcraft:part:5>, [
 mods.extendedcrafting.TableCrafting.addShaped(0, <nuclearcraft:part:4>, [
 	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
 	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
-	[<thermalfoundation:material:515>, <thermalfoundation:material:514>, <thermalfoundation:material:513>, <ore:ingotIron>, <thermalfoundation:material:515>, <thermalfoundation:material:514>, <thermalfoundation:material:513>], 
-	[<thermalfoundation:material:514>, <thermalfoundation:material:515>, <thermalfoundation:material:514>, <thermalfoundation:material:512>, <thermalfoundation:material:514>, <thermalfoundation:material:513>, <thermalfoundation:material:514>], 
-	[<thermalfoundation:material:513>, <thermalfoundation:material:514>, <thermalfoundation:material:515>, <ore:ingotIron>, <thermalfoundation:material:513>, <thermalfoundation:material:514>, <thermalfoundation:material:515>], 
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+	[<ore:ingotIron>, <thermalfoundation:material:515>, <ore:ingotIron>, <thermalfoundation:material:512>, <ore:ingotIron>, <thermalfoundation:material:513>, <ore:ingotIron>], 
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
 	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
 	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]
 ]);
@@ -556,11 +556,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:material:513
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:material:514>, [
 	[null, null, null, null, null, <contenttweaker:sign_f>, <ore:alloyBasic>], 
-	[null, null, null, null, <thermalfoundation:material:513>, <advancedrocketry:ic:2>, <contenttweaker:sign_f>], 
-	[null, null, null, <thermalfoundation:material:513>, <ore:ingotSilver>, <thermalfoundation:material:513>, null], 
-	[null, null, <thermalfoundation:material:513>, <ore:ingotSilver>, <thermalfoundation:material:513>, null, null], 
-	[null, <thermalfoundation:material:513>, <ore:ingotSilver>, <thermalfoundation:material:513>, null, null, null], 
-	[<contenttweaker:sign_f>, <advancedrocketry:ic:2>, <thermalfoundation:material:513>, null, null, null, null], 
+	[null, null, null, null, <contenttweaker:red_compound_ingot>, <advancedrocketry:ic:2>, <contenttweaker:sign_f>], 
+	[null, null, null, <contenttweaker:red_compound_ingot>, <ore:ingotSilver>, <contenttweaker:red_compound_ingot>, null], 
+	[null, null, <contenttweaker:red_compound_ingot>, <ore:ingotSilver>, <contenttweaker:red_compound_ingot>, null, null], 
+	[null, <contenttweaker:red_compound_ingot>, <ore:ingotSilver>, <contenttweaker:red_compound_ingot>, null, null, null], 
+	[<contenttweaker:sign_f>, <advancedrocketry:ic:2>, <contenttweaker:red_compound_ingot>, null, null, null, null], 
 	[<ore:alloyBasic>, <contenttweaker:sign_f>, null, null, null, null, null]
 ]);
 
