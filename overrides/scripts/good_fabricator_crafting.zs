@@ -421,7 +421,7 @@ crystal_matrix_reactor.build();
 val crystal_matrix_reactora = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_matrix_reactora", "crystal_matrix_reactor", 20, 1);
 crystal_matrix_reactora.addEnergyPerTickInput(100);
 crystal_matrix_reactora.addItemInput(<ore:dustSulfur>);
-crystal_matrix_reactora.addFluidInput(<liquid:ydiamondoil> * 100);
+crystal_matrix_reactora.addFluidInput(<liquid:oil> * 100);
 crystal_matrix_reactora.addItemOutput(<rockhounding_chemistry:chemical_items:2>);
 crystal_matrix_reactora.build();
 
