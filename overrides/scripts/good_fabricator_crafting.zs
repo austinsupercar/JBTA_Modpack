@@ -436,14 +436,14 @@ crystal_matrix_reactorb.build();
 val crystal_matrix_reactorc = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_matrix_reactorc", "crystal_matrix_reactor", 20, 1);
 crystal_matrix_reactorc.addEnergyPerTickInput(100);
 crystal_matrix_reactorc.addItemInput(<ore:dustSilicon>);
-crystal_matrix_reactorc.addFluidInput(<liquid:ydiamondoil> * 100);
+crystal_matrix_reactorc.addFluidInput(<liquid:oil> * 100);
 crystal_matrix_reactorc.addItemOutput(<rockhounding_chemistry:chemical_items:11>);
 crystal_matrix_reactorc.build();
 
 val crystal_matrix_reactord = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_matrix_reactord", "crystal_matrix_reactor", 20, 1);
 crystal_matrix_reactord.addEnergyPerTickInput(100);
 crystal_matrix_reactord.addItemInput(<ore:dustLead>);
-crystal_matrix_reactord.addFluidInput(<liquid:ydiamondoil> * 100);
+crystal_matrix_reactord.addFluidInput(<liquid:oil> * 100);
 crystal_matrix_reactord.addItemOutput(<rockhounding_chemistry:chemical_items:23>);
 crystal_matrix_reactord.build();
 
@@ -470,7 +470,7 @@ crystal_matrix_reactorf.build();
 val crystal_matrix_reactorg = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_matrix_reactorg", "crystal_matrix_reactor", 20, 1);
 crystal_matrix_reactorg.addEnergyPerTickInput(100);
 crystal_matrix_reactorg.addItemInput(<ore:dustSalt>);
-crystal_matrix_reactorg.addFluidInput(<liquid:ydiamondoil> * 100);
+crystal_matrix_reactorg.addFluidInput(<liquid:oil> * 100);
 crystal_matrix_reactorg.addItemOutput(<rockhounding_chemistry:chemical_items:6>);
 crystal_matrix_reactorg.build();
 
