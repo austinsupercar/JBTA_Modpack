@@ -51,7 +51,7 @@ background: mainmenu:screenshot14.png
 
 [*]
 background:          ftblib:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, factory, factory_round, wood, wood_square, wood_b, wood_b_square, wood_c
+extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, factory, factory_round, wood, wood_square, wood_b, wood_b_square, wood_c, holystone, holystone_round
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0

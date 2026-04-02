@@ -1,7 +1,7 @@
 {
 	x: 27.5d,
 	y: 2.5d,
-	shape: "square",
+	shape: "holystone",
 	dependencies: [
 		"71c6ec14"
 	],
