@@ -69,7 +69,7 @@ coderatomicad.addFluidInput(<liquid:cryotheum> * 500);
 coderatomicad.addItemInput(<thermalfoundation:material:1028> * 64);
 coderatomicad.addItemInput(<thermalfoundation:material:136> * 38);
 coderatomicad.addItemInput(<contenttweaker:gem_b> * 24);
-coderatomicad.addItemInput(<nuclearcraft:block_depleted_californium> * 4);
+coderatomicad.addItemInput(<nuclearcraft:block_depleted_californium>);
 coderatomicad.build();
 
 val coderatomicaf = mods.modularmachinery.RecipeBuilder.newBuilder("coderatomicaf", "coder", 100, 1);

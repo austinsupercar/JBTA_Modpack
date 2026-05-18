@@ -202,7 +202,7 @@ mods.alchemistry.Combiner.addRecipe(<thermalfoundation:material:1026>, [<extende
 mods.alchemistry.Combiner.addRecipe(<thermalfoundation:material:1027>, [<extendedcrafting:singularity:3>, <thermalfoundation:material:2053> * 8, <minecraft:obsidian> * 4, <alchemistry:element:164> * 25]);
 mods.alchemistry.Combiner.addRecipe(<thermalfoundation:material:1028>, [<thermalfoundation:material:1024> * 4, <thermalfoundation:material:1025> * 4, <thermalfoundation:material:1027> * 4, <thermalfoundation:material:1026> * 4, <thermalfoundation:material:136> * 16, <alchemistry:element:164> * 24]);
 mods.alchemistry.Combiner.addRecipe(<thermalfoundation:fertilizer>, [<thermalfoundation:material:800> * 2, <thermalfoundation:material:864>, <thermalfoundation:material:772>, <alchemistry:element:164> * 23]);
-mods.alchemistry.Combiner.addRecipe(<contenttweaker:gem_j>, [<contenttweaker:unobtainium> * 64, <nuclearcraft:block_depleted_californium> * 24, <alchemistry:element:164> * 16, <alchemistry:element:172> * 16, <alchemistry:element:173> * 16, <alchemistry:element:126> * 16, <contenttweaker:gem_i>, <alchemistry:element:164> * 22]);
+mods.alchemistry.Combiner.addRecipe(<contenttweaker:gem_j>, [<contenttweaker:unobtainium> * 64, <nuclearcraft:block_depleted_californium>, <alchemistry:element:164> * 16, <alchemistry:element:172> * 16, <alchemistry:element:173> * 16, <alchemistry:element:126> * 16, <contenttweaker:gem_i>, <alchemistry:element:164> * 22]);
 mods.alchemistry.Combiner.addRecipe(<thermalfoundation:glass:8>, [<thermalfoundation:glass_alloy:7>, <thermalfoundation:material:136>, <alchemistry:element:164> * 21]);
 
 //Carpenter
