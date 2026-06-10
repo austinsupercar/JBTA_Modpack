@@ -9,6 +9,7 @@ mods.alchemistry.Util.createElement(126, "suivyxium", "sui", 1, 1, 1);
 mods.alchemistry.Util.createElement(164, "vibranium", "vrb", 1, 1, 1);
 mods.alchemistry.Util.createElement(172, "dawsonium", "daw", 1, 1, 1);
 mods.alchemistry.Util.createElement(173, "austinium", "aus", 1, 1, 1);
+mods.alchemistry.Util.createElement(199, "sourcecodeium", "sor", 1, 1, 1);
 mods.alchemistry.Util.createElement(300, "asourcecodeium", "sor", 1, 1, 1);
 mods.alchemistry.Util.createElement(310, "bsourcecodeium", "sor", 1, 1, 1);
 mods.alchemistry.Util.createElement(320, "csourcecodeium", "sor", 1, 1, 1);
