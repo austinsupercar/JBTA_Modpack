@@ -33,6 +33,19 @@
     ]
   },
   {
+    "item" : "advancedrocketry:geode",
+    "color" : 2,
+    "rarity" : [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 20,
+        "depth_max": 63,
+        "weight": 20
+      }
+    ]
+  },
+  {
     "item" : "advancedrocketry:crystal:5",
     "color" : 9,
     "rarity" : [
@@ -112,7 +125,7 @@
   },
   {
     "item" : "advancedrocketry:geode",
-    "color" : 2,
+    "color" : 10,
     "rarity" : [
       {
         "whitelist": "",
