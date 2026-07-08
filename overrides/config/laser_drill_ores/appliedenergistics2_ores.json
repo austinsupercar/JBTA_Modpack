@@ -34,7 +34,7 @@
   },
   {
     "item" : "advancedrocketry:crystal:5",
-    "color" : 1,
+    "color" : 9,
     "rarity" : [
       {
         "whitelist": "",
@@ -47,7 +47,7 @@
   },
   {
     "item" : "advancedrocketry:crystal:4",
-    "color" : 1,
+    "color" : 9,
     "rarity" : [
       {
         "whitelist": "",
@@ -60,7 +60,7 @@
   },
   {
     "item" : "advancedrocketry:crystal:3",
-    "color" : 1,
+    "color" : 9,
     "rarity" : [
       {
         "whitelist": "",
@@ -73,7 +73,7 @@
   },
   {
     "item" : "advancedrocketry:crystal:2",
-    "color" : 1,
+    "color" : 9,
     "rarity" : [
       {
         "whitelist": "",
@@ -86,7 +86,7 @@
   },
   {
     "item" : "advancedrocketry:crystal:1",
-    "color" : 1,
+    "color" : 9,
     "rarity" : [
       {
         "whitelist": "",
@@ -98,8 +98,21 @@
     ]
   },
   {
-    "item" : "advancedrocketry:crystal",
-    "color" : 1,
+    "item" : "advancedrocketry:crystal:0",
+    "color" : 9,
+    "rarity" : [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 20,
+        "depth_max": 63,
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "item" : "advancedrocketry:geode",
+    "color" : 2,
     "rarity" : [
       {
         "whitelist": "",
