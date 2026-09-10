@@ -82,3 +82,4 @@ mods.forestry.ThermionicFabricator.addCast(<contenttweaker:sign_f> * 5, [[<conte
 mods.alchemistry.Combiner.addRecipe(<projectred-core:resource_item:301> * 4, [<minecraft:sandstone>, <minecraft:coal>]);
 
 mods.thermalexpansion.Crucible.addRecipe(<liquid:yoildeshfluid> * 144, <contenttweaker:red_compound_ingot>, 10);
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:wood_tar> * 500, <ore:logWood>, 100, <minecraft:coal:1> % 25);
