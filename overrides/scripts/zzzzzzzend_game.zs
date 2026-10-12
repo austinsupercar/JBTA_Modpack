@@ -83,3 +83,12 @@ mods.alchemistry.Combiner.addRecipe(<projectred-core:resource_item:301> * 4, [<m
 
 mods.thermalexpansion.Crucible.addRecipe(<liquid:yoildeshfluid> * 144, <contenttweaker:red_compound_ingot>, 10);
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:wood_tar> * 500, <ore:logWood>, 100, <minecraft:coal:1> % 25);
+
+val coderatomicacadillithiumacaeiouabc = mods.modularmachinery.RecipeBuilder.newBuilder("coderatomicacadillithiumacaeiouabc", "coder", 10, 1);
+coderatomicacadillithiumacaeiouabc.addEnergyPerTickInput(100000);
+coderatomicacadillithiumacaeiouabc.addItemOutput(<libvulpes:productgem> * 64);
+coderatomicacadillithiumacaeiouabc.addItemOutput(<draconicevolution:draconic_core>);
+coderatomicacadillithiumacaeiouabc.addFluidInput(<liquid:neutron> * 20);
+coderatomicacadillithiumacaeiouabc.addItemInput(<draconicevolution:draconic_core>);
+coderatomicacadillithiumacaeiouabc.addItemInput(<advancedrocketry:geode> * 8);
+coderatomicacadillithiumacaeiouabc.build();

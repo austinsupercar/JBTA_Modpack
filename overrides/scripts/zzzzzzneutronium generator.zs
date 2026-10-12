@@ -115,7 +115,7 @@ coderatomicacadillithiumacaeiou.addEnergyPerTickInput(100000);
 coderatomicacadillithiumacaeiou.addItemOutput(<draconicevolution:draconic_ingot> * 16);
 coderatomicacadillithiumacaeiou.addItemOutput(<draconicevolution:draconium_ingot> * 16);
 coderatomicacadillithiumacaeiou.addItemOutput(<draconicevolution:chaos_shard> * 8);
-coderatomicacadillithiumacaeiou.addItemOutput(<libvulpes:productgem> * 8);
+coderatomicacadillithiumacaeiou.addItemOutput(<libvulpes:productgem> * 64);
 coderatomicacadillithiumacaeiou.addItemOutput(<draconicevolution:awakened_core> * 8);
 coderatomicacadillithiumacaeiou.addItemOutput(<draconicevolution:wyvern_core> * 8);
 coderatomicacadillithiumacaeiou.addItemOutput(<draconicevolution:draconic_core> * 8);
