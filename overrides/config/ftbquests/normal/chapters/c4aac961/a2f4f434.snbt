@@ -3,7 +3,7 @@
 	y: -0.5d,
 	text: [
 		"Metal working requires lots of skill maybe I should start by making something simple like a rod for an iron bloomery so that I can finally smelt iron ore. I think I should also make a pit with cobblestone on all sides except the top and fill it with",
-		"charcoal to heat the metal to a workable temperature."
+		"charcoal to heat the metal to a workable temperature, working temperature for copper is Yellow White**** ignore the guide book values."
 	],
 	dependencies: [
 		"ce471482"
