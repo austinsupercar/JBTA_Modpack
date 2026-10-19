@@ -57,4 +57,4 @@ mods.nuclearcraft.dissolver.addRecipe(<contenttweaker:strong_iridium_infused_ura
 
 //Fluid Mixer
 
-mods.foundry.AlloyMixer.addRecipe(<liquid:yliquidmosneutronium> * 2000, [<liquid:yiridiumuranium> * 2000, <liquid:yliquidoganesson> * 2000, <liquid:ypinkiridiumuranium> * 2000, <liquid:yliquidmos> * 2000]);
+mods.foundry.AlloyMixer.addRecipe(<liquid:yliquidmosneutronium> * 500, [<liquid:yiridiumuranium> * 500, <liquid:yliquidoganesson> * 500, <liquid:ypinkiridiumuranium> * 500, <liquid:yliquidmos> * 500]);
