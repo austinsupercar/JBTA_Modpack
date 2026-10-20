@@ -63,7 +63,7 @@ mods.nuclearcraft.infuser.addRecipe(<auxiliumequivalence:fuel>, <liquid:yoildesh
 mods.thermalexpansion.InductionSmelter.addRecipe(<auxiliumequivalence:fuel:2>, <industrialforegoing:pink_slime_ingot>, <auxiliumequivalence:fuel:1>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:2>, 1500);
 mods.mekanism.infuser.addRecipe("REDSTONE", 20, <auxiliumequivalence:fuel:3>, <auxiliumequivalence:fuel:4>);
-mods.mekanism.reaction.addRecipe(<auxiliumequivalence:fuel:4>, <liquid:yliquidoganesson> * 100, <gas:tritium> * 100, <auxiliumequivalence:fuel:5>, <gas:tritium> * 10, 50000, 100);
+mods.mekanism.reaction.addRecipe(<auxiliumequivalence:fuel:4>, <liquid:yliquidoganesson> * 100, <gas:tritium> * 100, <auxiliumequivalence:fuel:5>, <gas:tritium> * 10, 50000, 10);
 mods.mekanism.compressor.addRecipe(<auxiliumequivalence:fuel:5>, <gas:liquidosmium> * 100, <auxiliumequivalence:fuel:6>);
 mods.mekanism.sawmill.addRecipe(<auxiliumequivalence:fuel:6>, <auxiliumequivalence:fuel:7>);
 mods.mekanism.purification.addRecipe(<auxiliumequivalence:fuel:7>, <gas:hydrogenchloride> * 100, <auxiliumequivalence:fuel:8>);
