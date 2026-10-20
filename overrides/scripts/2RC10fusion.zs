@@ -61,5 +61,5 @@ mods.foundry.AlloyMixer.addRecipe(<liquid:yliquidmos_a> * 500, [<liquid:yiridium
 mods.foundry.AlloyMixer.addRecipe(<liquid:yliquidmos_b> * 500, [<liquid:ypinkiridiumuranium> * 500, <liquid:yliquidmos> * 500]);
 mods.foundry.AlloyMixer.addRecipe(<liquid:yliquidmosneutronium> * 500, [<liquid:yliquidmos_a> * 500, <liquid:yliquidmos_b> * 500]);
 mods.tconstruct.Alloy.addRecipe(<liquid:yliquidmos_a> * 100, [<liquid:yiridiumuranium> * 100, <liquid:yliquidoganesson> * 100]);
-mods.tconstruct.Alloy.addRecipe(<liquid:yliquidmos_b> * 200, [<liquid:ypinkiridiumuranium> * 100, <liquid:yliquidmos> * 100]);
-mods.tconstruct.Alloy.addRecipe(<liquid:yliquidmosneutronium> * 200, [<liquid:yliquidmos_a> * 100, <liquid:yliquidmos_b> * 100]);
+mods.tconstruct.Alloy.addRecipe(<liquid:yliquidmos_b> * 100, [<liquid:ypinkiridiumuranium> * 100, <liquid:yliquidmos> * 100]);
+mods.tconstruct.Alloy.addRecipe(<liquid:yliquidmosneutronium> * 100, [<liquid:yliquidmos_a> * 100, <liquid:yliquidmos_b> * 100]);
