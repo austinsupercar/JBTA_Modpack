@@ -140,3 +140,13 @@ var ltadiher = VanillaFactory.createFluid("ydhherobrineiumhfchime", Color.fromHe
 ltadiher.vaporize = true;
 ltadiher.viscosity = 3000;
 ltadiher.register();
+
+var ltg = VanillaFactory.createFluid("yliquidmos_a", Color.fromHex("ea3680"));
+ltg.vaporize = true;
+ltg.viscosity = 3000;
+ltg.register();
+
+var ltg = VanillaFactory.createFluid("yliquidmos_b", Color.fromHex("39107b"));
+ltg.vaporize = true;
+ltg.viscosity = 3000;
+ltg.register();

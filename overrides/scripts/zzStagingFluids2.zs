@@ -179,6 +179,8 @@ mods.ItemStages.stageLiquid("iron", <liquid:zinc>);
 mods.ItemStages.stageLiquid("iron", <liquid:ydiamondoil>);
 mods.ItemStages.stageLiquid("iron", <liquid:yinfinity>);
 mods.ItemStages.stageLiquid("iron", <liquid:yiridiumuranium>);
+mods.ItemStages.stageLiquid("iron", <liquid:yliquidmos_a>);
+mods.ItemStages.stageLiquid("iron", <liquid:yliquidmos_b>);
 mods.ItemStages.stageLiquid("iron", <liquid:yliquidmos>);
 mods.ItemStages.stageLiquid("iron", <liquid:yliquidmosneutronium>);
 mods.ItemStages.stageLiquid("iron", <liquid:yliquidneutronium>);
