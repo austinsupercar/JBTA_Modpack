@@ -141,12 +141,12 @@ ltadiher.vaporize = true;
 ltadiher.viscosity = 3000;
 ltadiher.register();
 
-var ltg = VanillaFactory.createFluid("yliquidmos_a", Color.fromHex("ea3680"));
-ltg.vaporize = true;
-ltg.viscosity = 3000;
-ltg.register();
+var ltg_yliquidmos_a = VanillaFactory.createFluid("yliquidmos_a", Color.fromHex("ea3680"));
+ltg_yliquidmos_a.vaporize = true;
+ltg_yliquidmos_a.viscosity = 3000;
+ltg_yliquidmos_a.register();
 
-var ltg = VanillaFactory.createFluid("yliquidmos_b", Color.fromHex("39107b"));
-ltg.vaporize = true;
-ltg.viscosity = 3000;
-ltg.register();
+var ltg_yliquidmos_b = VanillaFactory.createFluid("yliquidmos_b", Color.fromHex("39107b"));
+ltg_yliquidmos_b.vaporize = true;
+ltg_yliquidmos_b.viscosity = 3000;
+ltg_yliquidmos_b.register();
