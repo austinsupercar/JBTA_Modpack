@@ -92,3 +92,5 @@ coderatomicacadillithiumacaeiouabc.addFluidInput(<liquid:neutron> * 20);
 coderatomicacadillithiumacaeiouabc.addItemInput(<draconicevolution:draconic_core>);
 coderatomicacadillithiumacaeiouabc.addItemInput(<advancedrocketry:geode> * 8);
 coderatomicacadillithiumacaeiouabc.build();
+
+mods.forestry.Carpenter.addRecipe(<contenttweaker:solid_silicone> * 4, [[<ore:slimeball>, <ore:slimeball>], [<ore:slimeball>, <ore:slimeball>]], 5, <liquid:silicone> * 1000);
