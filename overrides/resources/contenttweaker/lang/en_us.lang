@@ -141,6 +141,7 @@ item.contenttweaker.lump_of_chime_e.name=Lump of Chime
 item.contenttweaker.lump_of_chime_f.name=Lump of Chime
 item.contenttweaker.lump_of_chime_d.name=Lump of Chime
 item.contenttweaker.broken_down_organic_matter.name=Usable Digested Organic Matter
+item.contenttweaker.solid_silicone.name=Solid Silicone
 fluid.ydiamondoil=Enriched Petroleum
 fluid.yinfinity=Infinity Fluid
 fluid.yiridiumuranium=Liquid Iridium Infused Uranium
