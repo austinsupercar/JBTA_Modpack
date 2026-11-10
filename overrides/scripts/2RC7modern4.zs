@@ -248,6 +248,7 @@ mods.chisel.Carving.addVariation("inputoutputpoweraez", <millenaire:stained_glas
 //Thermonic Fabricator
 
 mods.forestry.ThermionicFabricator.addSmelting(<liquid:silicone> * 100, <rockhounding_chemistry:silicone_cartridge>, 500);
+mods.forestry.ThermionicFabricator.addSmelting(<liquid:silicone> * 250, <contenttweaker:solid_silicone>, 500);
 mods.forestry.ThermionicFabricator.addCast(<teslacorelib:base_addon>, [[<ore:paper>, <opencomputers:material:4>, <ore:paper>],[<ore:paper>, <opencomputers:material:9>, <ore:paper>],[<ore:paper>, <opencomputers:material:4>, <ore:paper>]], <liquid:silicone> * 50);
 mods.forestry.ThermionicFabricator.addCast(<teslacorelib:energy_tier1>, [[null, <ore:gearGold>, null],[<minecraft:redstone>, <teslacorelib:base_addon>, <minecraft:redstone>],[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]], <liquid:silicone> * 50);
 mods.forestry.ThermionicFabricator.addCast(<teslacorelib:energy_tier2>, [[null, <ore:gearDiamond>, null],[<minecraft:redstone>, <teslacorelib:base_addon>, <minecraft:redstone>],[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]], <liquid:silicone> * 50);
