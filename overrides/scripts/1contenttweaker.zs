@@ -1035,3 +1035,7 @@ organicl.register();
 var organicm = VanillaFactory.createItem("lump_of_chime_d");
 organicm.maxStackSize = 64;
 organicm.register();
+
+var silicone_automation = VanillaFactory.createItem("solid_silicone");
+silicone_automation.maxStackSize = 64;
+silicone_automation.register();
